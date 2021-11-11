@@ -28,8 +28,6 @@ A collection of awesome keyboards and things. Forked from https://github.com/Ben
   * [Keyboard Controller](#keyboard-controller)
   * [Games](#games)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ---
 
 # Keyboards
