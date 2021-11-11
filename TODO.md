@@ -1,1 +1,2 @@
 * RGBKB > Keyboards
+* Switches
