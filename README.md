@@ -6,7 +6,29 @@ A collection of awesome keyboards and things. Forked from https://github.com/Ben
 
 ---
 
-[TOC]
+# Table of Contents
+- [Awesome-Keebs](#awesome-keebs)
+- [Keyboards](#keyboards)
+  * [Ortholinear Keyboards](#ortholinear-keyboards)
+  * [Split Keyboards](#split-keyboards)
+  * [Drop-in replacement PCB](#drop-in-replacement-pcb)
+  * [Microcontrollers](#microcontrollers)
+  * [Handwired](#handwired)
+  * [Numpad/Macropad](#numpad-macropad)
+  * [Case](#case)
+- [Firmware](#firmware)
+  * [QMK](#qmk)
+  * [TMK](#tmk)
+- [Tools](#tools)
+- [Tutorials](#tutorials)
+  * [Build-Guide Videos](#build-guide-videos)
+- [Miscellaneous](#miscellaneous)
+  * [3D Print](#3d-print)
+  * [Keycap 3D Models](#keycap-3d-models)
+  * [Keyboard Controller](#keyboard-controller)
+  * [Games](#games)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ---
 
