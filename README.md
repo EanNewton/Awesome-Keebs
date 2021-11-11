@@ -2,7 +2,9 @@
 
 ---
 
-A collection of awesome keyboards and things. Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include more boards and projects, including closed source / retail products at my random, personal choosing.
+A collection of awesome keyboards and things. 
+
+Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include more boards and projects, including some open sourced and some closed source / retail products at my random, personal choosing.
 
 ---
 
@@ -13,15 +15,17 @@ A collection of awesome keyboards and things. Forked from https://github.com/Ben
 - [Keyboards](#keyboards)
   * [Ortholinear Keyboards](#ortholinear-keyboards)
   * [Split Keyboards](#split-keyboards)
-  * [Drop-in replacement PCB](#drop-in-replacement-pcb)
-  * [Microcontrollers](#microcontrollers)
+  * [Drop-in replacement PCB & Microcontrollers](#drop-in-replacement-pcb---microcontrollers)
+  * [Sample Table](#sample-table)
   * [Handwired](#handwired)
   * [Numpad/Macropad](#numpad-macropad)
   * [Case](#case)
+- [Switches](#switches)
 - [Firmware](#firmware)
   * [QMK](#qmk)
   * [TMK](#tmk)
 - [Tools](#tools)
+- [Components](#components)
 - [Tutorials](#tutorials)
   * [Build-Guide Videos](#build-guide-videos)
 - [Miscellaneous](#miscellaneous)
@@ -29,8 +33,6 @@ A collection of awesome keyboards and things. Forked from https://github.com/Ben
   * [Keycap 3D Models](#keycap-3d-models)
   * [Keyboard Controller](#keyboard-controller)
   * [Games](#games)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ---
 
@@ -95,6 +97,7 @@ A collection of awesome keyboards and things. Forked from https://github.com/Ben
 | [Melody65](https://kbdfans.com/collections/pcb/products/melody65-pcb) |                 |             |                                                              |                            65%                            |                                                              |
 | ~~Mullet~~                                                   | pcb, case       |      ✔️      |                                                              |       staggered, smd, usb-c, underglow, atmega32u4        | <img src="https://camo.githubusercontent.com/2dac93377903e99500664ec9f6908cd68746fd63/68747470733a2f2f692e696d6775722e636f6d2f45424f4d6268482e6a7067" width="200px" /> |
 | [Mysterium](https://github.com/coseyfannitutti/mysterium)    | pcb, case       |      ✔️      |                                                              |                   tkl, ATMEGA32A, usb-c                   | <img src="https://github.com/coseyfannitutti/mysterium/blob/master/doc/images/mysterium.jpg?raw=true" width="200px" /> |
+| [Pain27](https://github.com/uuupah/pain27)                   | pcb, plate, qmk |      ✔️      |                                                              |             27%, qmk, rgb, arduino pro micro              | ![27 keys](https://github.com/uuupah/pain27/raw/master/titlecard.jpg?raw=true) |
 | [Pheromone](https://github.com/luantty2/pheromone_keyboard)  | pcb, case       |      ✔️      |                                                              |        atmega32U4,midi encoder, midi slider, oled         | <img src="https://i.imgur.com/Tf8zDl9.jpg" width="200px" />  |
 | [Plain60-c](https://github.com/Maartenwut/plain60-c)         | pcb             |      ✔️      |                                                              |                  60%, usb-c, atmega32U4                   | <img src="https://camo.githubusercontent.com/85b21ccd9dfe95a86407fda6b1ee7ba14ec57bf4/68747470733a2f2f692e696d6775722e636f6d2f4f774f503956622e706e67" width="200px" /> |
 | [Pteron](https://github.com/FSund/pteron-keyboard)           | case            |      ✔️      |                                                              |           3x5, 3x6, 4x6, handwiring, pro micro            | <img src="https://camo.githubusercontent.com/9f0a06184893760528f1c5db991c5463d403b528/68747470733a2f2f692e696d6775722e636f6d2f395168506c56442e6a7067" width="200px" /> |
@@ -156,6 +159,7 @@ A collection of awesome keyboards and things. Forked from https://github.com/Ben
 | [Crkbd](https://github.com/foostan/crkbd)                    | pcb, case                                         |      ✔️      | split, oled, 3x6, vertically staggered, thumb keys, kailh choc | <img src="https://user-images.githubusercontent.com/736191/40575636-6fba63a4-6123-11e8-9ca0-3f990f1f9f4c.jpg" width="200px" /> |
 | [Crkbd x jian](https://github.com/kluelesskk/crkbd)          | pcb, case                                         |      ✔️      | split, oled, 3x6, vertically staggered, thumb keys, kailh choc | <img src="https://i.imgur.com/QqnAWvG.jpg" width="200px" />  |
 | [Dactyl](https://github.com/adereth/dactyl-keyboard)         | pcb, case                                         |      ✔️      |            split, thumb keys, 5x6, 60%, 3d print             | <img src="https://raw.githubusercontent.com/adereth/dactyl-cave/master/resources/glamourshot.png" width="200px" /> |
+| [Dactyl Chimera](https://github.com/WolfIcefang/dactyl-chimera-keyboard) | case                                              |      ✔️      | This project aims to provide a "test bench" for various column curvatures in mechanical keyboards. |                                                              |
 | [Dactyl-ManuForm](https://github.com/tshort/dactyl-keyboard) | pcb, case                                         |      ✔️      |       split, thumb keys, 4x5, 5x6, 40%, 60%, 3d print        | <img src="https://camo.githubusercontent.com/a8dc88b0a973913a28a2373a7f3a9a3031af2672/687474703a2f2f692e696d6775722e636f6d2f4c646a456872522e6a7067" width="200px" /> |
 | [Djinn](https://github.com/tzarc/djinn)                      | pcb, case                                         |      ✔️      |            4x7, split, rotary encoder, underglow             | <img src="https://camo.githubusercontent.com/662433910ee7010207ec21f736a1d2841608ebab/68747470733a2f2f692e696d6775722e636f6d2f695a6d454732652e6a7067" width="200px" /> |
 | [DMOTE](https://github.com/veikman/dactyl-keyboard)          | case                                              |      ✔️      |             concave, thumb keys, split, alps, mx             | <img src="https://camo.githubusercontent.com/85b0066d64467a10e0d0bcbdde26e6726eb95fde/687474703a2f2f76696b746f722e65696b6d616e2e73652f696d6167652f646d6f74652d322d746f702d646f776e2d766965772f646973706c6179" width="200px" /> |
@@ -206,55 +210,61 @@ A collection of awesome keyboards and things. Forked from https://github.com/Ben
 | [YAEMK Keyboard](https://karlk90.github.io/yaemk-split-kb/)  | pcb, case                                         |      ✔️      | split, 5x8, vertically staggered, hotswap, thumb keys, oled, rgb led, arm, risc-v, usb-c | <img src="https://raw.githubusercontent.com/KarlK90/yaemk-split-kb/main/docs/images/1_yaemk_wide.jpg" width="200px" /> |
 | [Zen (RGBKB)](https://github.com/RGBKB/Keyboard-files/tree/master/Zen) [Build Guide](https://legonut.gitbooks.io/zen-keyboard/content/) | pcb, case                                         |      ✔️      |           split, ergo, ortho, thumb keys, rgb led            | <img src="https://camo.githubusercontent.com/6bf0257847f1e1972cfd6b9f289a6e8180163ff8/68747470733a2f2f692e696d6775722e636f6d2f7a337630416b732e6a7067" width="200px" /> |
 
-## Drop-in replacement PCB
+## Drop-in replacement PCB & Microcontrollers
 
-| Name                                                       | Available Files | Open Source |                      Tags                      | Image |
-| ---------------------------------------------------------- | --------------- | :---------: | :--------------------------------------------: | :---: |
-| [AEK II USB](https://github.com/kb-elmo/aek2_usb)          |                 |      ✔️      |  Apple Extended Keyboard II (QMK compatible)   |       |
-| [E80-1800](https://github.com/ebastler/E80-1800)           |                 |      ✔️      |        Cherry G80-1800 (QMK compatible)        |       |
-| [GH80 Series](https://github.com/evyd13/gh80-series)       |                 |      ✔️      |        GH80-1800, GH80-3003, GH80-3700         |       |
-| [M0110a USB](https://github.com/kb-elmo/m0110a_usb)        |                 |      ✔️      |         Apple M0110a (QMK compatible)          |       |
-| [M0116 USB](https://github.com/kb-elmo/m0116_usb)          |                 |      ✔️      |     Apple M0116 (QMK compatible, Mini-USB)     |       |
-| [Model M Type C](https://github.com/ashpil/Model-M-Type-C) |                 |      ✔️      |              IBM Model M keyboard              |       |
-| [MX-5160](https://github.com/evyd13/mx-5160)               |                 |      ✔️      |                 Chicony 5160c                  |       |
-| [NT-Series](https://github.com/evyd13/nt-series)           |                 |      ✔️      |       Leopold FC660m, FC750r and FC980m        |       |
-| [WY-60 USB](https://github.com/kb-elmo/wy60_usb)           |                 |      ✔️      | Wyse ASCII WY-60QMK (QMK compatible, Mini-USB) |       |
+| Name                                                         | Available Files | Open Source |                             Tags                             |                            Image                             |
+| ------------------------------------------------------------ | --------------- | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| [AEK II USB](https://github.com/kb-elmo/aek2_usb)            |                 |      ✔️      |         Apple Extended Keyboard II (QMK compatible)          |                                                              |
+| [ATmega32A](https://www.microchip.com/en-us/product/ATMEGA32A) |                 |             |  low-power, high-performance Microchip 8-bit AVR RISC-based  | ![ATmega32A](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/pdip/40-lead-s2x/ATmega32A-S2X-Regular.jpg) |
+| [ATmega32U4](https://www.microchip.com/en-us/product/ATmega32U4) |                 |             |           low-power Microchip 8-bit AVR RISC-based           | ![](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/vqfn/44-lead-swb/ATmega32U4-SWB-Regular.jpg) |
+| [E80-1800](https://github.com/ebastler/E80-1800)             |                 |      ✔️      |               Cherry G80-1800 (QMK compatible)               |                                                              |
+| [Elite-C v4](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4) |                 |             |                      ATmega32u4, USB-C                       | ![built elite-c](https://cdn.shopify.com/s/files/1/1851/5125/products/image_27a7a45e-0844-42ac-a54c-269afc9e162f_860x.jpg?v=1593119167) |
+| [GH80 Series](https://github.com/evyd13/gh80-series)         |                 |      ✔️      |               GH80-1800, GH80-3003, GH80-3700                |                                                              |
+| [M0110a USB](https://github.com/kb-elmo/m0110a_usb)          |                 |      ✔️      |                Apple M0110a (QMK compatible)                 |                                                              |
+| [M0116 USB](https://github.com/kb-elmo/m0116_usb)            |                 |      ✔️      |            Apple M0116 (QMK compatible, Mini-USB)            |                                                              |
+| [Model M Type C](https://github.com/ashpil/Model-M-Type-C)   |                 |      ✔️      |                     IBM Model M keyboard                     |                                                              |
+| [MX-5160](https://github.com/evyd13/mx-5160)                 |                 |      ✔️      |                        Chicony 5160c                         |                                                              |
+| [nice!nano](https://nicekeyboards.com/nice-nano/)            |                 |             |                Pro Micro drop-in replacement                 |                                                              |
+| [NT-Series](https://github.com/evyd13/nt-series)             |                 |      ✔️      |              Leopold FC660m, FC750r and FC980m               |                                                              |
+| [Proton C](https://qmk.fm/proton-c/)                         |                 |             | The Proton C is an Arm STM32F303xC based drop-in replacement for the Pro Micro. |     ![qmk arm drop in](https://i.imgur.com/GdsN1Rd.jpg)      |
+| [WY-60 USB](https://github.com/kb-elmo/wy60_usb)             |                 |      ✔️      |        Wyse ASCII WY-60QMK (QMK compatible, Mini-USB)        |                                                              |
 
-## Microcontrollers
+## Sample Table
 
 | Name                                              | Available Files | Open Source |                    Tags                     | Image |
 | ------------------------------------------------- | --------------- | :---------: | :-----------------------------------------: | :---: |
 | [AEK II USB](https://github.com/kb-elmo/aek2_usb) |                 |      ✔️      | Apple Extended Keyboard II (QMK compatible) |       |
+| [Proton C](https://qmk.fm/proton-c/)              |                 |             |                                             |       |
 
 ## Handwired
 
-| Name                                                         | Available Files | Open Source |                             Tags                             |                            Image                             |
-| ------------------------------------------------------------ | --------------- | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| [52Te](https://github.com/culturalsnow/52Te)                 | case            |      ✔️      |                       pro micro, split                       | <img src="https://raw.githubusercontent.com/culturalsnow/52Te/master/img/52Te_Left.jpg" width="200px" /> |
-| [60% Fixed Split Mechanical Keyboard](https://www.thingiverse.com/thing:3647216) | case            |      ✔️      |                       3d print, split                        | <img src="https://cdn.thingiverse.com/renders/38/b8/e5/18/98/e6a29d3218baab572c7461f4e953d584_preview_featured.jpg" width="200px"> |
-| [Arke](https://www.thingiverse.com/thing:2879329)            | case            |      ✔️      |                  3d print, split, pro micro                  | <img src="https://cdn.thingiverse.com/renders/42/c6/fc/55/83/38d59e181f2a3c892fe3f8365d00076e_preview_featured.jpg" width="200px" /> |
-| [Atreis](https://github.com/dekonnection/atreis)             | case            |      ✔️      |                          handwiring                          | <img src="https://github.com/dekonnection/atreis/raw/master/pictures/GPI0El4.jpg" width="200px" /> |
-| [Atreus Split Keyboard](https://www.thingiverse.com/thing:1646718) | case            |      ✔️      |                  3d print, split, pro micro                  | <img src="https://cdn.thingiverse.com/renders/2a/35/f6/bd/51/ee77cfa99ac6c721974f6eb92a52cce9_preview_featured.jpg" width="200px" /> |
-| [Bloid40](https://github.com/hanhanhan-kim/bloid40)          | case            |      ✔️      |            3d print, bluefruit-32u4-le, bluetooth            | <img src="https://github.com/hanhanhan-kim/bloid40/blob/master/docs/bloid40.jpg?raw=true" width="200px" /> |
-| [Ergo-Warped](https://github.com/pseudoku/ErgoWarp)          | case            |      ✔️      |                    3d print, split, ergo                     | <img src="https://raw.githubusercontent.com/pseudoku/Warped-keyboard/master/Photo/Proto6.jpg" width="200px" /> |
-| [fAuxLICE](https://github.com/ramonimbao/Alice-like_Handwired) | case            |      ✔️      |              3d print, handwiring, stm32, ergo               | <img src="https://raw.githubusercontent.com/ramonimbao/Alice-like_Handwired/master/images/outside.jpg" width="200px"> |
-| [Freoduo](https://www.thingiverse.com/thing:4565609)         | case            |      ✔️      |                    3d print, split, ergo                     | <img src="https://i.imgur.com/Fvgm3Y5.jpg" width="200px" />  |
-| [Keyberon](https://github.com/TeXitoi/keyberon)              | case, firmware  |      ✔️      |         3d print, handwiring, blue pill, ortholinear         | <img src="https://raw.githubusercontent.com/TeXitoi/keyberon/master/images/keyberon.jpg" width="200px" /> |
-| [Keyberon-f4](https://github.com/TeXitoi/keyberon-f4)        | case            |      ✔️      |            stm32f401, usb-c, handwiring, 3d print            | <img src="https://github.com/TeXitoi/keyberon-f4/blob/master/images/keyberon-56.jpg?raw=true" width="200px" /> |
-| [MECH - TKL](https://www.thingiverse.com/thing:4225961)      | case            |      ✔️      |              3d print, handwiring, teensy, tkl               | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/TKL.JPG" width="200px" /> |
-| [METATRON](https://www.thingiverse.com/thing:4228314)        | case            |      ✔️      |           3d print, handwiring, teensy, 65 percent           | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/metatron.JPG" width="200px" /> |
-| [MHKB](https://www.thingiverse.com/thing:4220301)            | case            |      ✔️      | 3d print, handwiring, teensy, HHKB Style, Happy Hacking Keyboard | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/MHKB.JPG" width="200px" /> |
-| [Mech-104](https://www.thingiverse.com/thing:4205065)        | case            |      ✔️      |       3d print, handwiring, teensy, full size, 104 key       | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/Mech-104.JPG" width="200px" /> |
-| [Mech-60](https://www.thingiverse.com/thing:4215193)         | case            |      ✔️      |           3d print, handwiring, teensy, 60 percent           | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/Mech-60.JPG" width="200px" /> |
-| [Mechagodzilla](https://www.thingiverse.com/thing:4210984)   | case            |      ✔️      | 3d print, handwiring, teensy, no number pad, no function row | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/mechagodzilla.JPG" width="200px" /> |
-| [Mechanical Gamepad](https://www.thingiverse.com/thing:2593692) | case            |      ✔️      |         3d print, handwiring, pro micro, ortholinear         | <img src="https://cdn.thingiverse.com/renders/61/74/20/bf/6f/387305d39edce0ec7409172e37eee126_preview_featured.jpg" width="200px" /> |
-| [Mechanical Keypad](https://www.thingiverse.com/thing:3810124) | case            |      ✔️      |                     3d print, handwiring                     | <img src="https://cdn.thingiverse.com/renders/60/68/36/7a/e0/4b1c59c7728e2b1cb65f6cb20aaf5cf9_preview_featured.jpg" width="200px" /> |
-| [Monolith](https://www.thingiverse.com/thing:4228304)        | case            |      ✔️      |           3d print, handwiring, teensy, 65 percent           | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/monolith.JPG" width="200px" /> |
-| [Redox Manuform](https://www.thingiverse.com/thing:3503380)  | case            |      ✔️      |            3d print, split, pro micro, underglow             | <img src="https://cdn.thingiverse.com/renders/f5/89/b2/6b/a1/8d89de5ce484ac624324fb657f01e06e_preview_featured.jpg" width="200px" /> |
-| [SiCK-68](https://www.thingiverse.com/thing:3478494)         | case            |      ✔️      |         staggered, tkl, 3d print, handwiring, teensy         | <img src="https://cdn.thingiverse.com/renders/b3/55/75/9b/d4/f20d6cca0ecda40347ad1802a63e518c_preview_featured.JPG" width="200px" /> |
-| [Steno keyboard](https://www.thingiverse.com/thing:4073814)  | case            |      ✔️      |                     3d print, handwiring                     | <img src="https://cdn.thingiverse.com/assets/fc/79/06/8b/9c/featured_preview_20191229_134223.jpg" width="200px" /> |
-| [Tada68](https://www.thingiverse.com/thing:3372910)          | case            |      ✔️      |         3d print, handwiring, teensy, tkl, staggered         | <img src="https://cdn.thingiverse.com/renders/46/14/9d/aa/0e/8b1db0b24fc25d806e61f7b51671bd08_preview_featured.JPG" width="200px" /> |
-| []()                                                         |                 |             |                                                              |                 <img src="" width="200px" />                 |
+| Name                                                         | Available Files     | Open Source  |                             Tags                             |                            Image                             |
+| ------------------------------------------------------------ | ------------------- | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| [52Te](https://github.com/culturalsnow/52Te)                 | case                |      ✔️       |                       pro micro, split                       | <img src="https://raw.githubusercontent.com/culturalsnow/52Te/master/img/52Te_Left.jpg" width="200px" /> |
+| [60% Fixed Split Mechanical Keyboard](https://www.thingiverse.com/thing:3647216) | case                |      ✔️       |                       3d print, split                        | <img src="https://cdn.thingiverse.com/renders/38/b8/e5/18/98/e6a29d3218baab572c7461f4e953d584_preview_featured.jpg" width="200px"> |
+| [Arke](https://www.thingiverse.com/thing:2879329)            | case                |      ✔️       |                  3d print, split, pro micro                  | <img src="https://cdn.thingiverse.com/renders/42/c6/fc/55/83/38d59e181f2a3c892fe3f8365d00076e_preview_featured.jpg" width="200px" /> |
+| [Atreis](https://github.com/dekonnection/atreis)             | case                |      ✔️       |                          handwiring                          | <img src="https://github.com/dekonnection/atreis/raw/master/pictures/GPI0El4.jpg" width="200px" /> |
+| [Atreus Split Keyboard](https://www.thingiverse.com/thing:1646718) | case                |      ✔️       |                  3d print, split, pro micro                  | <img src="https://cdn.thingiverse.com/renders/2a/35/f6/bd/51/ee77cfa99ac6c721974f6eb92a52cce9_preview_featured.jpg" width="200px" /> |
+| [Bloid40](https://github.com/hanhanhan-kim/bloid40)          | case                |      ✔️       |            3d print, bluefruit-32u4-le, bluetooth            | <img src="https://github.com/hanhanhan-kim/bloid40/blob/master/docs/bloid40.jpg?raw=true" width="200px" /> |
+| [Ergo-Warped](https://github.com/pseudoku/ErgoWarp)          | case                |      ✔️       |                    3d print, split, ergo                     | <img src="https://raw.githubusercontent.com/pseudoku/Warped-keyboard/master/Photo/Proto6.jpg" width="200px" /> |
+| [fAuxLICE](https://github.com/ramonimbao/Alice-like_Handwired) | case                |      ✔️       |              3d print, handwiring, stm32, ergo               | <img src="https://raw.githubusercontent.com/ramonimbao/Alice-like_Handwired/master/images/outside.jpg" width="200px"> |
+| [Freoduo](https://www.thingiverse.com/thing:4565609)         | case                |      ✔️       |                    3d print, split, ergo                     | <img src="https://i.imgur.com/Fvgm3Y5.jpg" width="200px" />  |
+| [Keyberon](https://github.com/TeXitoi/keyberon)              | case, firmware      |      ✔️       |         3d print, handwiring, blue pill, ortholinear         | <img src="https://raw.githubusercontent.com/TeXitoi/keyberon/master/images/keyberon.jpg" width="200px" /> |
+| [Keyberon-f4](https://github.com/TeXitoi/keyberon-f4)        | case                |      ✔️       |            stm32f401, usb-c, handwiring, 3d print            | <img src="https://github.com/TeXitoi/keyberon-f4/blob/master/images/keyberon-56.jpg?raw=true" width="200px" /> |
+| [MECH - TKL](https://www.thingiverse.com/thing:4225961)      | case                |      ✔️       |              3d print, handwiring, teensy, tkl               | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/TKL.JPG" width="200px" /> |
+| [METATRON](https://www.thingiverse.com/thing:4228314)        | case                |      ✔️       |           3d print, handwiring, teensy, 65 percent           | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/metatron.JPG" width="200px" /> |
+| [MHKB](https://www.thingiverse.com/thing:4220301)            | case                |      ✔️       | 3d print, handwiring, teensy, HHKB Style, Happy Hacking Keyboard | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/MHKB.JPG" width="200px" /> |
+| [Mech-104](https://www.thingiverse.com/thing:4205065)        | case                |      ✔️       |       3d print, handwiring, teensy, full size, 104 key       | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/Mech-104.JPG" width="200px" /> |
+| [Mech-60](https://www.thingiverse.com/thing:4215193)         | case                |      ✔️       |           3d print, handwiring, teensy, 60 percent           | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/Mech-60.JPG" width="200px" /> |
+| [Mechagodzilla](https://www.thingiverse.com/thing:4210984)   | case                |      ✔️       | 3d print, handwiring, teensy, no number pad, no function row | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/mechagodzilla.JPG" width="200px" /> |
+| [Mechanical Gamepad](https://www.thingiverse.com/thing:2593692) | case                |      ✔️       |         3d print, handwiring, pro micro, ortholinear         | <img src="https://cdn.thingiverse.com/renders/61/74/20/bf/6f/387305d39edce0ec7409172e37eee126_preview_featured.jpg" width="200px" /> |
+| [Mechanical Keypad](https://www.thingiverse.com/thing:3810124) | case                |      ✔️       |                     3d print, handwiring                     | <img src="https://cdn.thingiverse.com/renders/60/68/36/7a/e0/4b1c59c7728e2b1cb65f6cb20aaf5cf9_preview_featured.jpg" width="200px" /> |
+| [Monolith](https://www.thingiverse.com/thing:4228304)        | case                |      ✔️       |    Awesome-Keebs3d print, handwiring, teensy, 65 percent     | <img src="https://raw.githubusercontent.com/joeyvigil/MechanicalKeys/master/img/misc/monolith.JPG" width="200px" /> |
+| Name[Redox Manuform](https://www.thingiverse.com/thing:3503380) | Available Filescase | Open Source✔️ |          Mods 3d print, split, pro micro, underglow          | Tags<img src="https://cdn.thingiverse.com/renders/f5/89/b2/6b/a1/8d89de5ce484ac624324fb657f01e06e_preview_featured.jpg" width="200px" /> |
+| [_33-Keyboard](https://github.com/tominabox1/_33-Keyboard)[SiCK-68](https://www.thingiverse.com/thing:3478494) | pcb, casecase       |      ✔️✔️      | A collection of awesome keyboards and things. Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include more boards and projects, including closed source / retail products at my random, personal choosing.staggered, tkl, 3d print, handwiring, teensy | gerber-only, stl<img src="https://cdn.thingiverse.com/renders/b3/55/75/9b/d4/f20d6cca0ecda40347ad1802a63e518c_preview_featured.JPG" width="200px" /> |
+| [00Key](https://github.com/jefjef/00Key)[Steno keyboard](https://www.thingiverse.com/thing:4073814) | pcb, casecase       |      ✔️✔️      |                     3d print, handwiring                     | 75%, teensy, ssd1306, oled, backlight, through hole<img src="https://cdn.thingiverse.com/assets/fc/79/06/8b/9c/featured_preview_20191229_134223.jpg" width="200px" /> |
+| [ANHEDRAL](https://github.com/eswai/anhedral)[Tada68](https://www.thingiverse.com/thing:3372910) | pcb, casecase       |      ✔️✔️      | Table of Contents3d print, handwiring, teensy, tkl, staggered | pro micro<img src="https://cdn.thingiverse.com/renders/46/14/9d/aa/0e/8b1db0b24fc25d806e61f7b51671bd08_preview_featured.JPG" width="200px" /> |
+| ~~Akihabara~~[]()                                            | pcb, case           |              | [Awesome-Keebs](#awesome-keebs) [Table of Contents](#table-of-contents) [Keyboards](#keyboards)  [Ortholinear Keyboards](#ortholinear-keyboards) [Split Keyboards](#split-keyboards) [Drop-in replacement PCB](#drop-in-replacement-pcb) [Microcontrollers](#microcontrollers) [Handwired](#handwired) [Numpad/Macropad](#numpad-macropad) [Case](#case) [Firmware](#firmware)  [QMK](#qmk) [TMK](#tmk) [Tools](#tools) [Tutorials](#tutorials)  [Build-Guide Videos](#build-guide-videos) [Miscellaneous](#miscellaneous)  [3D Print](#3d-print) [Keycap 3D Models](#keycap-3d-models) [Keyboard Controller](#keyboard-controller) [Games](#games) |          40%, 3d print<img src="" width="200px" />           |
 
 ## Numpad/Macropad
 
@@ -262,9 +272,13 @@ A collection of awesome keyboards and things. Forked from https://github.com/Ben
 | ------------------------------------------------------------ | --------------- | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | [2% Milk](https://github.com/Rionlion100/Spaceboards/tree/master/Keyboards/2%25%20Milk) | pcb, case       |      ✔️      |                        1x2, pro micro                        | <img src="https://camo.githubusercontent.com/04ba54fa2fb06710bc98e8ee23baa0c8ee9962ca/68747470733a2f2f692e696d6775722e636f6d2f5564393675586e2e706e67" width="200px" /> |
 | [4x5-wireless-keypad-pcb](https://github.com/ogatatsu/4x5-wireless-keypad-pcb) | pcb             |      ✔️      |                        4x5, bluetooth                        | <img src="https://github.com/ogatatsu/4x5-wireless-keypad-pcb/blob/master/images/1.png?raw=true" width="200px" /> |
+| [Aball](https://github.com/brickbots/aball)                  | pcb, case       |      ✔️      |                    trackball, no buttons                     | ![buttonless trackball for all](https://github.com/brickbots/aball/raw/master/photos/finished_single.jpeg) |
 | [Amoeba Single-Switch PCB](https://github.com/mtl/keyboard-pcbs) | pcb             |      ✔️      |                  single-switch, handwiring                   | <img src="https://deskthority.net/resources/image/25215" width="200px" /> |
 | [ANAVI Macro Pad 8](https://github.com/AnaviTechnology/anavi-macro-pad-8) | pcb, case       |      ✔️      |            pcb, stl, atmega32u4, openscad, kicad             | <img src="https://github.com/AnaviTechnology/anavi-macro-pad-8/blob/master/anavi-macro-pad-8.jpg?raw=true" width="200px" /> |
+| [Arcade Button Control Box](https://www.thingiverse.com/thing:2408094) |                 |             |                             2x2                              |                                                              |
 | [Ardu Keyboard](https://www.hackster.io/palsayantan/ardu-keyboard-ef4d46) | pcb             |      ✔️      |                       3x3, ATmega328P                        | <img src="https://hackster.imgix.net/uploads/attachments/1077918/_3zAOyxufXh.blob?auto=compress%2Cformat&w=900&h=675&fit=min" width="200px" /> |
+| [Bento](https://github.com/Dwin17/bento)                     | pcb             |      ✔️      |                    5 key, 2x2 + 1, rotary                    | ![bento macropad](https://camo.githubusercontent.com/d3dab8e65d304ce8a59952d7d18a45c10bffddac182295dfbe4d59c4595c5f96/68747470733a2f2f692e696d6775722e636f6d2f727a67766b634e2e6a7067) |
+| [Cherry Macro Fighter](https://github.com/mbajobue/cherry_macro_fighter) | pcb, case       |      ✔️      | 3x3, arcade buttons, qmk, 3d print, arduino pro micro, thin profile | ![arcade button box](https://camo.githubusercontent.com/05b6c2b54d21ce2fd9b6c7899b36d957265c10a2c496de50568c7c03e064d0b6/68747470733a2f2f6d616e75656c62616a6f2e636f6d2f66696c65732f696d616765732f6368657272795f6d6163726f5f666967687465722e6a7067) |
 | [Cherry-Mx-Bitboard-Re](https://github.com/ogatatsu/Cherry-Mx-Bitboard-Re) | pcb             |      ✔️      |              single-switch, handwiring, hotswap              | <img src="https://github.com/ogatatsu/Cherry-Mx-Bitboard-Re/raw/master/Images/a.jpeg" width="200px" /> |
 | [Cherry MX Keypad](http://syncchannel.blogspot.com/2016/06/cherry-mx-keypad.html?m=1) | pcb             |      ✔️      |                           1x4, led                           | <img src="https://1.bp.blogspot.com/-Mur6fIsKDwU/V1NmGd7T4QI/AAAAAAAAAyU/Fh40F8Zl41YVosa03zkJl2WPSQ7sGS_AwCLcB/s280/CherryMXkeypad1.jpg" width="200px" /> |
 | [CHOCO](https://github.com/hsgw/choco)                       | pcb, case       |      ✔️      |             4x7, choc, usb-c, STM32F072C8T6, smd             | <img src="https://camo.githubusercontent.com/0f5e76c4bb7ab1fb4afcdd0db4985aaa1d235843/68747470733a2f2f692e696d6775722e636f6d2f6e32553952484f2e6a7067" width="200px" /> |
@@ -331,6 +345,12 @@ A collection of awesome keyboards and things. Forked from https://github.com/Ben
 | [Redox-Case](https://github.com/Lenbok/scad-redox-case)      |      ✔️      |    split, thumb keys, opensCad, 3d print     | <img src="https://github.com/Lenbok/scad-redox-case/raw/master/images/redox-exploded.png" width="200px" /> |
 | [Sofle v2 5 degree high profile](https://www.thingiverse.com/thing:4822438) |      ✔️      |       split, thumb keys, stl, 3d print       | <img src="https://i.imgur.com/JOBm0cm.jpg" width="200px" />  |
 
+# Switches
+
+| Name | Style | RGB Friendly | Tags | Image |
+| ---- | ----- | :----------: | :--: | :---: |
+|      |       |      ✔️       |      |       |
+
 # Firmware
 
 - [AVR Keyboard](https://github.com/BathroomEpiphanies/AVR-Keyboard) - For ATmega32u4-based controllers.
@@ -383,6 +403,13 @@ A collection of awesome keyboards and things. Forked from https://github.com/Ben
 - [Hakko FR-301 Desoldering Iron](https://www.amazon.com/Hakko-FR-301-Desoldering-Tool/dp/B07BKSLLG9) - Pricey but if you need to do repetitive desoldering it is very nice to have.
 - [Online GitHub ToC Generator](https://ecotrust-canada.github.io/markdown-toc/) - Used by this repo!
 
+# Components
+
+* [McMaster-Carr](https://www.mcmaster.com/) - Nuts and bolts, etc.
+* [Harbor Freight](https://www.harborfreight.com/) - Cheap tools and misc.
+* [Culture Hustle](https://www.culturehustleusa.com/) - The paintiest paints.
+* [JLC PCB](https://jlcpcb.com/) - Custom PCB's, minimum order of 5
+
 # Tutorials
 
 - [A modern handwiring guide](https://geekhack.org/index.php?topic=87689.0)
@@ -415,7 +442,10 @@ A collection of awesome keyboards and things. Forked from https://github.com/Ben
 - [MiniUSB2C](https://github.com/ktec-hq/MiniUSB2C) - pcb to convert Mini-USB pcb's to USB-C.
 - QMK Proton C symbol/footprint for [KiCad](https://github.com/qmk/qmk_hardware/tree/master/kicad/proton_c), [Eagle](https://github.com/qmk/qmk_hardware/tree/master/eagle)
 - [RGBKB Keyboard-files](https://github.com/RGBKB/Keyboard-files) - Open sourced files for RGBKB's boards.
+- [SKUF - Silicone Keyboard Universalised Feet](https://github.com/Zambumon/SKUF) - An attempt to standardize the rubber feet used for custom mechanical keyboard projects.
 - [Unified Daughterboard Project](https://github.com/Gondolindrim/Unified-Daughterboard) - A compact daughterboard for converting USB-C to internal-facing JST-SR connection.
+
+* 
 
 ## 3D Print
 
