@@ -94,6 +94,7 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 | [IBM Unsaver](https://deskthority.net/wiki/IBM_Model_F#IBM_104-key_Model_F_Keyboards) |                 |             |                                                              |                                                           |                                                              |
 | [Isometria75](https://github.com/ebastler/isometria-75)      | pcb, case       |      ✔️      |                                                              |   75%, iso, sk6812-mini, rotary-encoder, stm32f072cbt6    | <img src="https://camo.githubusercontent.com/ba20d0e50fa859956382800780cadcf3bd9a7d2b2f69852b7a40aff89d78442f/68747470733a2f2f6d7077722e78797a2f70726f6a656374732f69736f6d657472696137352f66756c6c2f70726f746f5f76315f342e4a5047" width="200px" /> |
 | [KBD67 REV2](https://kbdfans.com/collections/pcb/products/kbd65-65-custom-mechanical-keyboard-pcb) |                 |             |                                                              |                         67%, 65%                          |                                                              |
+| [Katana60](http://xahlee.info/kbd/katana60_keyboard.html)    |                 |             |                                                              |                             60%                              | ![katana 60](http://xahlee.info/kbd/i4/katana60_keyboard_ytjb5-s1122x722.jpg) |
 | [KBD67 MKII V3](https://kbdfans.com/collections/pcb/products/kbd67-mkii-pcb) |                 |             |                                                              |                         67%, 65%                          |                                                              |
 | [KBD75 REV2](https://kbdfans.com/collections/pcb/products/kbdfans-75-pcb-75) |                 |             |                                                              |                            75%                            |                                                              |
 | [KBD8X MKII](https://kbdfans.com/collections/pcb/products/gb-kbd8x-mkii-pcb) |                 |             |                                                              |                            80%                            |                                                              |
@@ -315,6 +316,7 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 | [Remnant](https://github.com/hsgw/Remnant)                   | pcb, case       |      ✔️      |                 2x4, through hole, attiny85                  | <img src="https://github.com/hsgw/Remnant/raw/master/doc/img/remnant.jpg" width="200px" /> |
 | [SAMD21 Bridge Module Cherry Board](https://www.pcbway.com/project/shareproject/DIY_RGB_Cherry_MX_Hotkey_Board.html) | pcb, case       |      ✔️      |                            plate                             | <img src="https://file.pcbway.com/websponsor/18/07/26/195654072.jpg" width="200px" /> |
 | [SAN](https://github.com/hsgw/san)                           | pcb, case       |      ✔️      |                 1x3, STM32F042F6P6, hotswap                  | <img src="https://github.com/hsgw/san/raw/master/san.JPG" width="200px" /> |
+| [Twiddler 3](https://twiddler.tekgear.com/)                  |                 |             |            chording, multi device, multi language            | ![Twiddler 3](https://tgimages.s3.amazonaws.com/twiddler/tw3site/images/tw_hand.png) |
 | [Yampad](https://github.com/mattdibi/yampad)                 | pcb, case       |      ✔️      |     numpad, pro micro, oled, hotswap, underglow, ws2812      | <img src="https://github.com/mattdibi/yampad/blob/master/img/yampad2.jpg?raw=true" width="200px" /> |
 | [Zesty 25](https://github.com/Gtrx0/zesty25)                 | pcb, case       |      ✔️      |          5x5, pro micro, plate, underglow, ws2812b           | <img src="https://raw.githubusercontent.com/Gtrx0/zesty25/master/Renders/Backside_Unpopulated.png" width="200px" /> |
 | []()                                                         |                 |             |                                                              |                 <img src="" width="200px" />                 |
@@ -478,6 +480,9 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 | [CRKBD Bento Case](https://www.thingiverse.com/thing:4229965) | <img src='https://cdn.thingiverse.com/assets/07/cb/0c/94/8a/featured_preview_P3184847.JPG' width='200px' /> |
 | [EC11 Rotary Encoder to MX Switchplate Adapter](https://www.thingiverse.com/thing:3770166) adapter that allows a rotary encoder to be easily placed into a Cherry MX-compatible switch plate | <img src='https://cdn.thingiverse.com/renders/73/87/6b/65/d1/0ebd974a8e4b77d30a2c390a1b191e7f_preview_featured.jpg' width='200px' /> |
 | [Encoder Knob](https://www.thingiverse.com/thing:4206617/comments) | <img src='https://cdn.thingiverse.com/assets/5c/71/81/86/97/featured_preview_IMG_20200307_101029.jpg' width='200px' /> |
+| [FreeDeck Case](https://www.thingiverse.com/thing:4849163) | |
+| [FreeDeck Case for PCB](https://www.thingiverse.com/thing:4832414) | |
+| [FreeDeck Through Hole 3x2 Case](https://www.thingiverse.com/thing:4511644) | |
 | [Kailh Choc Opener](https://www.thingiverse.com/thing:4251428) | <img src='https://cdn.thingiverse.com/assets/19/78/ed/e5/a2/featured_preview_Kailh_Choc-opener.jpg' width='200px' /> |
 | [Kailh Choc Switch Opener](https://www.thingiverse.com/thing:3097933) | <img src='https://cdn.thingiverse.com/renders/3b/1d/89/ce/64/ebd40108444afa0b011d3edcf2f3ee70_preview_featured.jpg' width='200px' /> |
 | [Kailh Choc to MX converter](https://www.thingiverse.com/thing:3412249) | <img src='https://cdn.thingiverse.com/renders/b9/f3/73/62/2a/8d8d0dcb1d069b1bb0e159cab77922ce_preview_featured.jpg' width='200px' /> |
@@ -485,13 +490,11 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 | [Lalboard](https://github.com/JesusFreke/lalboard) - a 3D-printed keyboard inspired by the DataHand. | <img src="https://raw.githubusercontent.com/JesusFreke/lalboard/master/docs/lalboard.jpg" width='200px' /> |
 | [MX-Fidger](https://www.thingiverse.com/thing:2466068)       | <img src='https://cdn.thingiverse.com/renders/74/46/5a/59/d0/2c062987277a769d7885392add908739_preview_featured.jpg' width='200px' /> |
 | [Nav Switch to MX Adapter](https://www.thingiverse.com/thing:3958026) - adapter that allows an inexpensive 5-way nav switch to be easily placed into a Cherry MX-compatible switch plate. | <img src='https://cdn.thingiverse.com/assets/e1/9f/42/19/a2/featured_preview_IMG_20191105_105145.jpg' width='200px' /> |
-| [Rhombicuboctahedron Mechanical Keyboard Switch Tester](https://www.thingiverse.com/thing:3090229) | <img src='https://cdn.thingiverse.com/renders/2e/af/9f/a7/52/6d0a1a56853bf66ed6b5bb52424feeff_preview_featured.jpg' width='200px' /> |
 | [OpenSCAD Mechanical Keyboard Cases](https://github.com/Lenbok/scad-keyboard-cases) - is a OpenSCAD script to make 3D-printable split keyboard cases. | <img src='https://github.com/Lenbok/scad-keyboard-cases/raw/master/images/corne-exploded.png' width='200px' /> |
-| [Z-Butt-1U: Artisan Keycap creation platform](https://www.thingiverse.com/thing:3146222) | <img src='https://cdn.thingiverse.com/renders/bf/89/94/7e/d6/16c33dea760a31d7371a4a9bacbfdcc2_preview_featured.jpg' width='200px' /> |
-| [FreeDeck Case](https://www.thingiverse.com/thing:4849163) | |
-| [FreeDeck Case for PCB](https://www.thingiverse.com/thing:4832414) | |
-| [FreeDeck Through Hole 3x2 Case](https://www.thingiverse.com/thing:4511644) | |
+| [Pointer Nub Thing](https://www.thingiverse.com/thing:766637) - A replacement cap for your [TrackPoint ™ style pointing device](https://xkcd.com/243/). | ![nipple mouse replacement](https://cdn.thingiverse.com/renders/9b/c4/29/e2/3f/Prosthetic_Nip_preview_featured.jpg) |
+| [Rhombicuboctahedron Mechanical Keyboard Switch Tester](https://www.thingiverse.com/thing:3090229) | <img src='https://cdn.thingiverse.com/renders/2e/af/9f/a7/52/6d0a1a56853bf66ed6b5bb52424feeff_preview_featured.jpg' width='200px' /> |
 | [Simple FreeDeck Case](https://www.thingiverse.com/thing:4950655) | |
+| [Z-Butt-1U: Artisan Keycap creation platform](https://www.thingiverse.com/thing:3146222) | <img src='https://cdn.thingiverse.com/renders/bf/89/94/7e/d6/16c33dea760a31d7371a4a9bacbfdcc2_preview_featured.jpg' width='200px' /> |
 
 
 ## Keycap 3D Models
