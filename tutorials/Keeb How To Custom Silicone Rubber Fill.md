@@ -53,3 +53,7 @@ I've tested a lot of methods -- not all of them, but a number -- and I feel the 
 8) Pour your silicone. Holding the case flat on the surface give it a little jiggle to make sure the silicone gets into all the crevices and is evenly distributed. Leave it to cure per the directions.
 
 9) Pull your new custom rubber fill free from the case, go slow and be gentle. Use an X-Acto knife to clean it up. Remove the tape / glue. Assemble your board.
+
+---
+
+![unpigmented fill](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/IMG_2947.jpg)
