@@ -4,6 +4,10 @@ I'm going to leak a couple of my secrets here, because I love the community and 
 
 I've tested a lot of methods -- not all of them, but a number -- and I feel the best approach really depends on the individual build; consider that my disclaimer, I'm happy to help with anyone's individual builds, the following method is my current, preferred, generalized method for this mod and changes as I try new things (that sometimes work, sometimes don't). 
 
+---
+
+![unpigmented fill](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/IMG_2947.jpg)
+
 ----
 
 ## Parts:
@@ -56,4 +60,3 @@ I've tested a lot of methods -- not all of them, but a number -- and I feel the 
 
 ---
 
-![unpigmented fill](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/IMG_2947.jpg)
