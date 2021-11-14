@@ -432,6 +432,7 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 - Blog post about ["search of the best custom keyboard layout"](https://josef-adamcik.cz/electronics/in-search-of-the-best-custom-keyboard-layout.html).
 - [Hand wiring a let's split](https://johannes-jansson.github.io/projects/2018/07/23/hand-wiring-lets-split.html) (pro micro)
 - [How to integrate a trackpoint in a mechanical keyboard (TMK, Teensy)](https://github.com/alonswartz/trackpoint)
+- [Keeb How To: Custom Silicone Rubber Fill](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Keeb%20How%20To%20Custom%20Silicone%20Rubber%20Fill.md)
 - [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide/blob/master/README.md)
 - [lets-split-guide](https://github.com/nicinabox/lets-split-guide) - This guide covers building a Let's Split v2.
 - [Need a USB cable? Build one!](https://josef-adamcik.cz/electronics/need-a-usb-cable-build-on.html) - How to build a custom USB cable with aviation connectors and coils.
