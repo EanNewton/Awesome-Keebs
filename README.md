@@ -488,6 +488,10 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 | [Rhombicuboctahedron Mechanical Keyboard Switch Tester](https://www.thingiverse.com/thing:3090229) | <img src='https://cdn.thingiverse.com/renders/2e/af/9f/a7/52/6d0a1a56853bf66ed6b5bb52424feeff_preview_featured.jpg' width='200px' /> |
 | [OpenSCAD Mechanical Keyboard Cases](https://github.com/Lenbok/scad-keyboard-cases) - is a OpenSCAD script to make 3D-printable split keyboard cases. | <img src='https://github.com/Lenbok/scad-keyboard-cases/raw/master/images/corne-exploded.png' width='200px' /> |
 | [Z-Butt-1U: Artisan Keycap creation platform](https://www.thingiverse.com/thing:3146222) | <img src='https://cdn.thingiverse.com/renders/bf/89/94/7e/d6/16c33dea760a31d7371a4a9bacbfdcc2_preview_featured.jpg' width='200px' /> |
+| [FreeDeck Case](https://www.thingiverse.com/thing:4849163) | |
+| [FreeDeck Case for PCB](https://www.thingiverse.com/thing:4832414) | |
+| [FreeDeck Through Hole 3x2 Case](https://www.thingiverse.com/thing:4511644) | |
+| [Simple FreeDeck Case](https://www.thingiverse.com/thing:4950655) | |
 
 
 ## Keycap 3D Models
