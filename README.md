@@ -417,6 +417,7 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 - [KSGER T12 Soldering Station](https://www.aliexpress.com/item/32945257770.html) - Sub $50 USD fully capable soldering iron.
 - [Hakko FR-301 Desoldering Iron](https://www.amazon.com/Hakko-FR-301-Desoldering-Tool/dp/B07BKSLLG9) - Pricey but if you need to do repetitive desoldering it is very nice to have.
 - [Online GitHub ToC Generator](https://ecotrust-canada.github.io/markdown-toc/) - Used by this repo!
+- [QMK Heatmap Generator](https://precondition.github.io/qmk-heatmap)
 
 # Components
 
