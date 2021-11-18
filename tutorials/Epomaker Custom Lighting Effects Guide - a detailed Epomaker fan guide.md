@@ -2,7 +2,7 @@
 
 | Version | Author |        Date |
 | ------- | :----: | ----------: |
-| 2.3     |        |             |
+| 2.3     | Ean Newton | 18 Nov 2021 |
 | 2.2     | lofreq | 10 Jun 2021 |
 
 *V2.2 guide by lofreq*
