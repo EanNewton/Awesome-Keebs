@@ -14,7 +14,7 @@
 
 ---
 
-<u>**TABLE OF CONTENTS:**</u>
+## <u>**TABLE OF CONTENTS:**</u>
 
 [1 The basics of lighting effects](https://docs.google.com/document/d/15SERWHasTL0rPvghC4Gte4jC8Xo5ccL86lMgqN3AhRo/edit#heading=h.c3l9dcqwip1f)
 
