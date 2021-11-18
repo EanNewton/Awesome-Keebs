@@ -503,6 +503,7 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 
 - [A modern handwiring guide](https://geekhack.org/index.php?topic=87689.0)
 - [ai03 PCB Designer Guide](https://wiki.ai03.me/books/pcb-design) - Learn how to make mech keyboard PCBs.
+- [Epomaker Custom Lighting Effects](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Epomaker%20Custom%20Lighting%20Effects%20Guide%20-%20a%20detailed%20Epomaker%20fan%20guide.md) - A detailed Epomaker fan guide
 - Blog post about ["search of the best custom keyboard layout"](https://josef-adamcik.cz/electronics/in-search-of-the-best-custom-keyboard-layout.html).
 - [Hand wiring a let's split](https://johannes-jansson.github.io/projects/2018/07/23/hand-wiring-lets-split.html) (pro micro)
 - [How to integrate a trackpoint in a mechanical keyboard (TMK, Teensy)](https://github.com/alonswartz/trackpoint)
