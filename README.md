@@ -2,7 +2,7 @@
 
 ---
 
-A collection of awesome keyboards and things. 
+A collection of awesome keyboards and things.
 
 Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include more boards and projects, including some open sourced and some closed source / retail products at my random, personal choosing.
 
@@ -10,35 +10,61 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 
 # Table of Contents
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
 - [Awesome-Keebs](#awesome-keebs)
 - [Table of Contents](#table-of-contents)
+- [BUY ME A COFFEE](#buy-me-a-coffee)
 - [Keyboards](#keyboards)
-  * [Ortholinear Keyboards](#ortholinear-keyboards)
-  * [Split Keyboards](#split-keyboards)
-  * [Drop-in replacement PCB & Microcontrollers](#drop-in-replacement-pcb---microcontrollers)
-  * [Sample Table](#sample-table)
-  * [Handwired](#handwired)
-  * [Numpad/Macropad](#numpad-macropad)
-  * [Arcade](#arcade)
-  * [Chorded / Steno](#chorded---steno)
-  * [Case](#case)
-- [Switches](#switches)
+	- [Ortholinear Keyboards](#ortholinear-keyboards)
+	- [Split Keyboards](#split-keyboards)
+	- [Drop-in replacement PCB & Microcontrollers](#drop-in-replacement-pcb-microcontrollers)
+	- [Sample Table](#sample-table)
+	- [Handwired](#handwired)
+	- [Numpad/Macropad](#numpadmacropad)
+	- [Arcade](#arcade)
+	- [Chorded / Steno](#chorded-steno)
+	- [Case](#case)
+- [Parts](#parts)
+	- [Breakout / PCB](#breakout-pcb)
+	- [Encoders](#encoders)
+	- [Hardware](#hardware)
+	- [Lubricants](#lubricants)
+	- [Film](#film)
+	- [Switches](#switches)
+	- [Stabilizers](#stabilizers)
 - [Firmware](#firmware)
-  * [QMK](#qmk)
-  * [TMK](#tmk)
+	- [QMK](#qmk)
+	- [TMK](#tmk)
 - [Software Tools](#software-tools)
 - [Hardware Tools](#hardware-tools)
 - [Suppliers](#suppliers)
 - [Keyboard Vendor Lists](#keyboard-vendor-lists)
 - [Tutorials](#tutorials)
-  * [Build-Guide Videos](#build-guide-videos)
+	- [Build-Guide Videos](#build-guide-videos)
 - [Miscellaneous](#miscellaneous)
-  * [3D Print](#3d-print)
-  * [Keycap 3D Models](#keycap-3d-models)
-  * [Keyboard Controller](#keyboard-controller)
-  * [Games](#games)
+	- [3D Print](#3d-print)
+	- [Keycap 3D Models](#keycap-3d-models)
+	- [Keyboard Controller](#keyboard-controller)
+	- [Games](#games)
+
+<!-- /TOC -->
 
 ---
+
+# BUY ME A COFFEE
+
+---
+
+I love teaching others and seeing the community grow. Time is limited but donations will allow me to to help the community more. How useful was this to you? If it was I would be humbly grateful for your donation.🙏
+
+[paypal.me/keebweeb](https://paypal.me/keebweeb) - to help me help you better.
+
+Thank you! May you be rich as Crassus and happy as Buddha! :)
+
+----
+
+
 
 # Keyboards
 
@@ -235,22 +261,27 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 
 ## Drop-in replacement PCB & Microcontrollers
 
-| Name                                                         | Available Files | Open Source |                             Tags                             |                            Image                             |
-| ------------------------------------------------------------ | --------------- | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| [AEK II USB](https://github.com/kb-elmo/aek2_usb)            |                 |      ✔️      |         Apple Extended Keyboard II (QMK compatible)          |                                                              |
-| [ATmega32A](https://www.microchip.com/en-us/product/ATMEGA32A) |                 |             |  low-power, high-performance Microchip 8-bit AVR RISC-based  | ![ATmega32A](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/pdip/40-lead-s2x/ATmega32A-S2X-Regular.jpg) |
-| [ATmega32U4](https://www.microchip.com/en-us/product/ATmega32U4) |                 |             |           low-power Microchip 8-bit AVR RISC-based           | ![](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/vqfn/44-lead-swb/ATmega32U4-SWB-Regular.jpg) |
-| [E80-1800](https://github.com/ebastler/E80-1800)             |                 |      ✔️      |               Cherry G80-1800 (QMK compatible)               |                                                              |
-| [Elite-C v4](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4) |                 |             |                      ATmega32u4, USB-C                       | ![built elite-c](https://cdn.shopify.com/s/files/1/1851/5125/products/image_27a7a45e-0844-42ac-a54c-269afc9e162f_860x.jpg?v=1593119167) |
-| [GH80 Series](https://github.com/evyd13/gh80-series)         |                 |      ✔️      |               GH80-1800, GH80-3003, GH80-3700                |                                                              |
-| [M0110a USB](https://github.com/kb-elmo/m0110a_usb)          |                 |      ✔️      |                Apple M0110a (QMK compatible)                 |                                                              |
-| [M0116 USB](https://github.com/kb-elmo/m0116_usb)            |                 |      ✔️      |            Apple M0116 (QMK compatible, Mini-USB)            |                                                              |
-| [Model M Type C](https://github.com/ashpil/Model-M-Type-C)   |                 |      ✔️      |                     IBM Model M keyboard                     |                                                              |
-| [MX-5160](https://github.com/evyd13/mx-5160)                 |                 |      ✔️      |                        Chicony 5160c                         |                                                              |
-| [nice!nano](https://nicekeyboards.com/nice-nano/)            |                 |             |                Pro Micro drop-in replacement                 |                                                              |
-| [NT-Series](https://github.com/evyd13/nt-series)             |                 |      ✔️      |              Leopold FC660m, FC750r and FC980m               |                                                              |
-| [Proton C](https://qmk.fm/proton-c/)                         |                 |             | The Proton C is an Arm STM32F303xC based drop-in replacement for the Pro Micro. |     ![qmk arm drop in](https://i.imgur.com/GdsN1Rd.jpg)      |
-| [WY-60 USB](https://github.com/kb-elmo/wy60_usb)             |                 |      ✔️      |        Wyse ASCII WY-60QMK (QMK compatible, Mini-USB)        |                                                              |
+| Name                                                         | Open Source |                             Tags                             |                            Image                             |
+| ------------------------------------------------------------ | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| [AEK II USB](https://github.com/kb-elmo/aek2_usb)            |      ✔️      |         Apple Extended Keyboard II (QMK compatible)          |                                                              |
+| [ATmega32A](https://www.microchip.com/en-us/product/ATMEGA32A) |             |  low-power, high-performance Microchip 8-bit AVR RISC-based  | ![ATmega32A](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/pdip/40-lead-s2x/ATmega32A-S2X-Regular.jpg) |
+| [ATmega32U4](https://www.microchip.com/en-us/product/ATmega32U4) |             |           low-power Microchip 8-bit AVR RISC-based           | ![](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/vqfn/44-lead-swb/ATmega32U4-SWB-Regular.jpg) |
+| [E80-1800](https://github.com/ebastler/E80-1800)             |      ✔️      |               Cherry G80-1800 (QMK compatible)               |                                                              |
+| [Elite-C v4](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4) |             |                      ATmega32u4, USB-C                       | ![built elite-c](https://cdn.shopify.com/s/files/1/1851/5125/products/image_27a7a45e-0844-42ac-a54c-269afc9e162f_860x.jpg?v=1593119167) |
+| [GH80 Series](https://github.com/evyd13/gh80-series)         |      ✔️      |               GH80-1800, GH80-3003, GH80-3700                |                                                              |
+| [M0110a USB](https://github.com/kb-elmo/m0110a_usb)          |      ✔️      |                Apple M0110a (QMK compatible)                 |                                                              |
+| [M0116 USB](https://github.com/kb-elmo/m0116_usb)            |      ✔️      |            Apple M0116 (QMK compatible, Mini-USB)            |                                                              |
+| [Model M Type C](https://github.com/ashpil/Model-M-Type-C)   |      ✔️      |                     IBM Model M keyboard                     |                                                              |
+| [MX-5160](https://github.com/evyd13/mx-5160)                 |      ✔️      |                        Chicony 5160c                         |                                                              |
+| [nice!nano](https://nicekeyboards.com/nice-nano/)            |             |                Pro Micro drop-in replacement                 |                                                              |
+| [NT-Series](https://github.com/evyd13/nt-series)             |      ✔️      |              Leopold FC660m, FC750r and FC980m               |                                                              |
+| [Proton C](https://qmk.fm/proton-c/)                         |             | The Proton C is an Arm STM32F303xC based drop-in replacement for the Pro Micro. |     ![qmk arm drop in](https://i.imgur.com/GdsN1Rd.jpg)      |
+| [Pro Micro](https://www.sparkfun.com/products/12640)         |             |                                                              | ![Pro Micro - 5V/16MHz](https://cdn.sparkfun.com//assets/parts/9/3/2/6/12640-01a.jpg) |
+| [QF XT Ghost Squit](https://1upkeyboards.com/shop/controllers/qf-xt-ghost-squid-controller-2/) |             |                    CM Storm QuickFire XT                     | ![QF XT Ghost Squid Controller-0](https://1upkeyboards.com/wp-content/uploads/2016/12/dsc_0388.jpeg) |
+| [Rosewill Black Petal](https://1upkeyboards.com/shop/controllers/rosewill-black-petal-controller/) |             |                       Rosewill RK-9000                       | ![Rosewill Black Petal Controller-0](https://1upkeyboards.com/wp-content/uploads/2016/12/dsc_0393.jpeg) |
+| [Teensy](https://www.pjrc.com/teensy/index.html)             |             |                                                              |       ![img](https://www.pjrc.com/teensy/teensy40.jpg)       |
+| [The Unloved Bastard Controller](https://1upkeyboards.com/shop/controllers/unloved-bastard-controller/) |             |                       CM Masterkeys S                        | ![The Unloved Bastard Controller](https://1upkeyboards.com/wp-content/uploads/2017/12/controller-unloved-bastard-front.jpg) |
+| [WY-60 USB](https://github.com/kb-elmo/wy60_usb)             |      ✔️      |        Wyse ASCII WY-60QMK (QMK compatible, Mini-USB)        |                                                              |
 
 ## Sample Table
 
@@ -338,10 +369,10 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 | [Pedal Pi](https://www.electrosmash.com/pedal-pi)            |                     |      ✔️      |                                                              | ![diagram of parts](https://www.electrosmash.com/images/tech/pedal-pi/pedal-pi-intro-small.png) |
 | [Plaid Pad](https://github.com/Keycapsss/Plaid-Pad)          | pcb, case           |      ✔️      |             4x4, 4 rotary, oled, QMK, VIAL, VIA              | ![four rotary](https://camo.githubusercontent.com/a76d4a0b95860bd6d34ed52e759944d665fe9658cbad729ff15cb14b32d9abda/68747470733a2f2f692e696d6775722e636f6d2f4b4850496433472e6a7067) |
 | [Pix](https://github.com/sendz/pix)                          | pcb, case           |      ✔️      | pro micro, 1x4, rotary encoder, oled, desk mounted, monitor mounted | <img src="https://i.imgur.com/ZcuDN6z.jpg" width="200px" />  |
-|                                                              |                     |             |                                                              |                                                              |
 | [Remnant](https://github.com/hsgw/Remnant)                   | pcb, case           |      ✔️      |                 2x4, through hole, attiny85                  | <img src="https://github.com/hsgw/Remnant/raw/master/doc/img/remnant.jpg" width="200px" /> |
 | [SAMD21 Bridge Module Cherry Board](https://www.pcbway.com/project/shareproject/DIY_RGB_Cherry_MX_Hotkey_Board.html) | pcb, case           |      ✔️      |                            plate                             | <img src="https://file.pcbway.com/websponsor/18/07/26/195654072.jpg" width="200px" /> |
 | [SAN](https://github.com/hsgw/san)                           | pcb, case           |      ✔️      |                 1x3, STM32F042F6P6, hotswap                  | <img src="https://github.com/hsgw/san/raw/master/san.JPG" width="200px" /> |
+| [Sweet 16](https://1upkeyboards.com/shop/keyboard-kits/macro-pads/sweet16-macro-pad-white/) |                     |             |                         4x4, diy kit                         | ![Sweet 16 Keycaps](https://1upkeyboards.com/wp-content/uploads/2017/12/sweet16_keycaps_1.jpg) |
 | [The Big Switch](https://novelkeys.com/products/the-big-switch-series) |                     |             |                         a big switch                         | ![](https://cdn.shopify.com/s/files/1/3099/8088/products/BigSwitch_DarkYellow_1512x.jpg?v=1630456634) |
 | [The Big Switch PCB](https://keeb.io/products/big-switch-pcb) |                     |             |        1x1, 2 pcb's, pro micro / elite-c not included        | ![](https://cdn.shopify.com/s/files/1/1851/5125/products/image_5fce8006-2aa5-4c97-a535-4027c95127f9_860x.jpg?v=1633575677) |
 | [The Enabler](https://techkeys.us/collections/accessories/products/the-enabler) |                     |             |                   1x1, comes in various u                    | ![1u](https://cdn.shopify.com/s/files/1/0218/4886/products/1x1_1024x1024.jpg?v=1421952248) |
@@ -421,11 +452,66 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 | [Redox-Case](https://github.com/Lenbok/scad-redox-case)      |      ✔️      |    split, thumb keys, opensCad, 3d print     | <img src="https://github.com/Lenbok/scad-redox-case/raw/master/images/redox-exploded.png" width="200px" /> |
 | [Sofle v2 5 degree high profile](https://www.thingiverse.com/thing:4822438) |      ✔️      |       split, thumb keys, stl, 3d print       | <img src="https://i.imgur.com/JOBm0cm.jpg" width="200px" />  |
 
-# Switches
+
+# Parts
+
+---
+
+## Breakout / PCB
+
+| Name                                                         | Tags | Image |
+| ------------------------------------------------------------ | :--: | :---: |
+| [SparkFun Rotary Encoder Breakout](https://www.sparkfun.com/products/11722) |      |       |
+
+## Encoders
+
+| Name                                                         | Style        | Part Number | Linked Parts                                                 |         Tags         | Image |
+| ------------------------------------------------------------ | ------------ | ----------- | ------------------------------------------------------------ | :------------------: | :---: |
+| [Grayhill Touch Encoder](https://www.sparkfun.com/products/15965) | Smart Rotary | COM-15965   |                                                              | touch screen, rotary |       |
+| [Sparkfun High Detent Force EC-11](https://www.sparkfun.com/products/16879) | Rotary       | COM-16879   | [SparkFun Rotary Encoder Breakout](https://www.sparkfun.com/products/11722) |        ec-11         |       |
+| [Sparkfun LED Tactile Button](https://www.sparkfun.com/products/10443) | Button       | COM-10443   |                                                              |         rgb          |       |
+| [Sparkfun RG EC-11](https://www.sparkfun.com/products/15140) | Rotary       | COM-15140   | [SparkFun Rotary Encoder Breakout](https://www.sparkfun.com/products/11722) |      ec-11, rgb      |       |
+| [Sparkfun RGB EC-11](https://www.sparkfun.com/products/15141) | Rotary       | COM-15141   | [SparkFun Rotary Encoder Breakout](https://www.sparkfun.com/products/11722) |      ec-11, rgb      |       |
+
+## Hardware
+
+| Name                                                         | Style | Part Number |    Tags    | Image |
+| ------------------------------------------------------------ | ----- | :---------: | :--------: | :---: |
+| [Clear Plastic Knob](https://www.sparkfun.com/products/10597) | Knob  |  COM-10597  | ec-11, rgb |       |
+
+## Lubricants
+
+| Name                                                         | Tags | Image |
+| ------------------------------------------------------------ | :--: | :---: |
+| [Krytox GPL 105](https://smile.amazon.com/Chemours-Krytox-GPL105-Needle-Bottle/dp/B00WE0DEKW) |      |       |
+| [Krytox GPL 205g0](https://smile.amazon.com/Krytox-Grease-Pure-PFPE-PTFE/dp/B00MWLDALQ) |      |       |
+| [Permatex 22058 Dielectric Grease](https://smile.amazon.com/Permatex-22058-Dielectric-Tune-Up-Grease/dp/B000AL8VD2) |      |       |
+
+## Film
+
+| Name                                                         | Style | Material | Thickness | Tags | Image |
+| ------------------------------------------------------------ | ----- | -------- | --------- | :--: | :---: |
+| [Durock MX](https://smile.amazon.com/DUROCK-Compatible-Mechanical-Keyboard-Switches/dp/B08RBYDP6G) | MX    | HTV + PC | 0.15 mm   |      |       |
+
+## Switches
 
 | Name | Style | RGB Friendly | Tags | Image |
 | ---- | ----- | :----------: | :--: | :---: |
 |      |       |      ✔️       |      |       |
+
+## Stabilizers
+
+| Name                                                         | Style       | Material | Tags | Image |
+| ------------------------------------------------------------ | ----------- | -------- | :--: | :---: |
+| [Cherry Plate Mount](https://www.amazon.com/Genuine-Cherry-Plate-Mounted-Stabilizers/dp/B082X4V9VC) | Plate Mount |          |      |       |
+| [Costar Plate Mount](https://www.amazon.com/Plate-Mounted-Stabilizers-Balancing-Mechanical-Keyboard/dp/B07K8HP6KC) | Plate Mount |          |      |       |
+| [CuXiu Plate Mount](https://www.amazon.com/CuXiu-Stabilizer-Mechanical-Customized-Stabilizers/dp/B094CL3HLG) | Plate Mount |          |      |       |
+| [Durock v2](https://www.amazon.com/DUROCK-Stabilizers-Translucent-Mechanical-Keyboard/dp/B08MWDGBJ8) | PCB Mount   |          |      |       |
+| [GMK Cherry](https://www.amazon.com/Genuine-Cherry-GMK-Screw-Stabilizers/dp/B082Z5P769) | Screw In    |          |      |       |
+| [N/C Panda](https://www.amazon.com/Black-Orange-Yellow-Mounted-Stabilizers/dp/B097BT1DH3) | Plate Mount |          |      |       |
+| [NFK Snap-in](https://www.amazon.com/Stabilizers-Mechanical-Customized-Stabilizer-Lemoncolor/dp/B0978PWJG9) | Plate Mount | POM      |      |       |
+| [Zeal Plate Mount Stabilizers](https://zealpc.net/collections/all/products/zeal-plate-mount-stabilizers?variant=39337538650176) | Plate Mount |          |      |       |
+| [Zeal Transparent Gold Pated Screw-in Stabilizers v2](https://zealpc.net/collections/all/products/zealstabilizers?variant=27196398790) | Screw In    |          |      |       |
 
 # Firmware
 
@@ -480,6 +566,8 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 - [splitKbCompare](https://jhelvy.shinyapps.io/splitkbcompare/) - an interactive tool for comparing layouts of different split mechanical keyboards [Github page](https://github.com/jhelvy/splitKbCompare).
 - [Svg2Shenzhen](https://github.com/badgeek/svg2shenzhen) - Inkscape extension for exporting drawing into Kicad PCB.
 
+
+
 # Hardware Tools
 
 - [KSGER T12 Soldering Station](https://www.aliexpress.com/item/32945257770.html) - Sub $50 USD fully capable soldering iron.
@@ -491,6 +579,7 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 * [Harbor Freight](https://www.harborfreight.com/) - Cheap tools and misc.
 * [Culture Hustle](https://www.culturehustleusa.com/) - The paintiest paints.
 * [JLC PCB](https://jlcpcb.com/) - Custom PCB's, minimum order of 5
+* [YMDK](https://ymdkey.com/) - Assorted keyboard parts.
 
 # Keyboard Vendor Lists
 
@@ -537,7 +626,7 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 - [SKUF - Silicone Keyboard Universalised Feet](https://github.com/Zambumon/SKUF) - An attempt to standardize the rubber feet used for custom mechanical keyboard projects.
 - [Unified Daughterboard Project](https://github.com/Gondolindrim/Unified-Daughterboard) - A compact daughterboard for converting USB-C to internal-facing JST-SR connection.
 
-* 
+*
 
 ## 3D Print
 
@@ -590,4 +679,4 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 
 - [Typing Game](https://hsgw.github.io/typing_game/) - for keyboard exhibition. ranking and dictionary data is stored in local pc. you can use offline. [Github](https://github.com/hsgw/typing_game)
 - [Typings](https://typings.gg/) - is a sleek and modern typing test website. it supports many custom themes. [Github](https://github.com/briano1905/typings)
-- [Typefast.io](https://typefast.io) - minimalistic type-test sites with 16 different languages and custom word list. [(Github)](https://github.com/CasperVerswijvelt/TypeFast)  
+- [Typefast.io](https://typefast.io) - minimalistic type-test sites with 16 different languages and custom word list. [(Github)](https://github.com/CasperVerswijvelt/TypeFast)
