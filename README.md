@@ -4,8 +4,6 @@
 
 A collection of awesome mechanical keyboards, doo-dads, and thingy-mcbobbers.[^origin]
 
-Want to see something added or changed with the list? See [entry_guidelines.md](https://github.com/EanNewton/Awesome-Keebs/blob/main/entry_guidelines.md) and then create a pull request, or simply message me.
-
 ---
 
 # Table of Contents
@@ -586,7 +584,6 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 - [joy2chord](https://github.com/wirelessdreamer/joy2chord) - Turn a gamepad into a linux chorded keyboard.
 - [Kalerator](https://kalerator.clueboard.co) - Pcb generator for keyboard-layout-editor generated layouts. [GitHub Site](https://github.com/skullydazed/kalerator), [Eagle Parts Library](https://github.com/skullydazed/clueboard_eagle)
 - [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements) - Karabiner-Elements is a powerful utility for keyboard customization on macOS Sierra (10.12) or later.
-- [KBCompare](https://kbcompare.com/) - Upload multiple sound clips and get a blind comparison test to see if there is _actually_ a difference.
 - [kbpcb](http://kbpcb.mrkeebs.com/) - Create KiCad PCB files from [KLE](http://www.keyboard-layout-editor.com) json files [Github page](https://github.com/fcoury/kbpcb)
 - [keyboard-layout-editor](http://www.keyboard-layout-editor.com/) - Is a web application that enables the editing of keyboard-layouts, i.e., the position and appearance of each physical key. [GitHub Site](https://github.com/ijprest/keyboard-layout-editor)
 - [Keyboard Layout 3D Viewer](https://github.com/eswai/KL3V) - 3D render keyboard-layout-editor.com layouts
@@ -737,6 +734,7 @@ To be listed here a store must accept and fulfill orders on an ongoing basis.
 - [Lubing: How to Lube without Desoldering in 5 Easy Steps](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/How%20to%20Lube%20Stabilizers%20Without%20Desoldering%20in%205%20Easy%20Steps.md)
 - [Lubing Switches: Where to Lube](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Lubing%20Switches%20Where%20to%20Lube.md)
 - [Mill-Max Hotswap Switch Compatibility (0305 and 7305)](https://docs.google.com/spreadsheets/d/1NhrXy6k88eY9bBqVuPWTAGW2q3GzszJ1JH-zuuGQ-iU/edit#gid=0)
+- [Mill-Max Socket Guide](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Mill-Max%20Socket%20Guide.md)
 - [Need a USB cable? Build one!](https://josef-adamcik.cz/electronics/need-a-usb-cable-build-on.html) - How to build a custom USB cable with aviation connectors and coils.
 - [Northfacing Interference Based on Manufacturer](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Interference%20Based%20on%20Manufacturer.md)
 - [PCB Troubleshooting](https://docs.cannonkeys.com/troubleshooting/)
