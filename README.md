@@ -4,6 +4,8 @@
 
 A collection of awesome mechanical keyboards, doo-dads, and thingy-mcbobbers.[^origin]
 
+Want to see something added or changed with the list? See [entry_guidelines.md](https://github.com/EanNewton/Awesome-Keebs/blob/main/entry_guidelines.md) and then create a pull request, or simply message me.
+
 ---
 
 # Table of Contents
