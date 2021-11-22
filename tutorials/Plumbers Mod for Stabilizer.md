@@ -19,7 +19,7 @@ Using PTFE tape also known as thread seal tape, Teflon tape, plumbers tape, adds
 
 I use dielectric grease, you can use it dry, or with other lube and let me know if anything is incompatible. I will update if any is found or reported.
 
-![plumbers mod](D:\Documents\_Keyboard\Awesome-Keebs\images\plumbers_mod.png)
+![plumbers mod](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/plumbers_mod.png)
 
 Specs of PTFE tape that I've tried:
 
