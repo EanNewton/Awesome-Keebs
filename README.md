@@ -584,6 +584,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 - [joy2chord](https://github.com/wirelessdreamer/joy2chord) - Turn a gamepad into a linux chorded keyboard.
 - [Kalerator](https://kalerator.clueboard.co) - Pcb generator for keyboard-layout-editor generated layouts. [GitHub Site](https://github.com/skullydazed/kalerator), [Eagle Parts Library](https://github.com/skullydazed/clueboard_eagle)
 - [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements) - Karabiner-Elements is a powerful utility for keyboard customization on macOS Sierra (10.12) or later.
+- [KBCompare](https://kbcompare.com/) - Upload multiple sound clips and get a blind comparison test to see if there is _actually_ a difference.
 - [kbpcb](http://kbpcb.mrkeebs.com/) - Create KiCad PCB files from [KLE](http://www.keyboard-layout-editor.com) json files [Github page](https://github.com/fcoury/kbpcb)
 - [keyboard-layout-editor](http://www.keyboard-layout-editor.com/) - Is a web application that enables the editing of keyboard-layouts, i.e., the position and appearance of each physical key. [GitHub Site](https://github.com/ijprest/keyboard-layout-editor)
 - [Keyboard Layout 3D Viewer](https://github.com/eswai/KL3V) - 3D render keyboard-layout-editor.com layouts
