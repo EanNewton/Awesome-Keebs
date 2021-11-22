@@ -21,7 +21,7 @@ I use dielectric grease, you can use it dry, or with other lube and let me know 
 
 ![plumbers mod](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/plumbers_mod.png)
 
-Specs of PTFE tape that I've tried:
+## Specs of PTFE tape that I've tried:
 
 ```
 12mm, 12.7mm
