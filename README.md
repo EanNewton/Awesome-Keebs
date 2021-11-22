@@ -8,8 +8,6 @@ A collection of awesome keyboards and things.[^origin]
 
 # Table of Contents
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
 - [Awesome-Keebs](#awesome-keebs)
 - [Table of Contents](#table-of-contents)
 - [BUY ME A COFFEE](#buy-me-a-coffee)
@@ -17,7 +15,6 @@ A collection of awesome keyboards and things.[^origin]
   * [Ortholinear Keyboards](#ortholinear-keyboards)
   * [Split Keyboards](#split-keyboards)
   * [Drop-in replacement PCB & Microcontrollers](#drop-in-replacement-pcb---microcontrollers)
-  * [Sample Table](#sample-table)
   * [Handwired](#handwired)
   * [Numpad/Macropad](#numpad-macropad)
   * [Arcade](#arcade)
@@ -51,8 +48,6 @@ A collection of awesome keyboards and things.[^origin]
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-<!-- /TOC -->
-
 ---
 
 # BUY ME A COFFEE
@@ -70,6 +65,10 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 
 # Keyboards
+
+[Low profile keyboard database](https://docs.google.com/spreadsheets/d/1Y62AuStZCQQXOMM5keUN2KYDh1IoifZkrnJV-tLFKH4/htmlview)
+
+
 
 | Name                                                         | Available Files | Open Source | Mods                                                         |                             Tags                             |                            Image                             |
 | ------------------------------------------------------------ | --------------- | :---------: | :----------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -286,13 +285,6 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 | [The Unloved Bastard Controller](https://1upkeyboards.com/shop/controllers/unloved-bastard-controller/) |             |                       CM Masterkeys S                        | ![The Unloved Bastard Controller](https://1upkeyboards.com/wp-content/uploads/2017/12/controller-unloved-bastard-front.jpg) |
 | [WY-60 USB](https://github.com/kb-elmo/wy60_usb)             |      ✔️      |        Wyse ASCII WY-60QMK (QMK compatible, Mini-USB)        |                                                              |
 
-## Sample Table
-
-| Name                                              | Available Files | Open Source |                    Tags                     | Image |
-| ------------------------------------------------- | --------------- | :---------: | :-----------------------------------------: | :---: |
-| [AEK II USB](https://github.com/kb-elmo/aek2_usb) |                 |      ✔️      | Apple Extended Keyboard II (QMK compatible) |       |
-| [Proton C](https://qmk.fm/proton-c/)              |                 |             |                                             |       |
-
 ## Handwired
 
 | Name                                                         | Available Files | Open Source |                             Tags                             |                            Image                             |
@@ -300,7 +292,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 | [52Te](https://github.com/culturalsnow/52Te)                 | case            |      ✔️      |                       pro micro, split                       | <img src="https://raw.githubusercontent.com/culturalsnow/52Te/master/img/52Te_Left.jpg" width="200px" /> |
 | [60% Fixed Split Mechanical Keyboard](https://www.thingiverse.com/thing:3647216) | case            |      ✔️      |                       3d print, split                        | <img src="https://cdn.thingiverse.com/renders/38/b8/e5/18/98/e6a29d3218baab572c7461f4e953d584_preview_featured.jpg" width="200px"> |
 | [Arke](https://www.thingiverse.com/thing:2879329)            | case            |      ✔️      |                  3d print, split, pro micro                  | <img src="https://cdn.thingiverse.com/assets/fc/79/06/8b/9c/featured_preview_20191229_134223.jpg" width="200px" /> |
-| [~~Akihabara~~](https://www.thingiverse.com/thing:2879329)   | pcb, case       |      ✔️      |                                                              | 40%, 3d print<img src="" width="200px" /><img src="https://cdn.thingiverse.com/renders/42/c6/fc/55/83/38d59e181f2a3c892fe3f8365d00076e_preview_featured.jpg" width="200px" /> |
+| [~~Akihabara~~](https://www.thingiverse.com/thing:2879329)   | pcb, case       |      ✔️      |                        40%, 3d print                         | <img src="" width="200px" /><img src="https://cdn.thingiverse.com/renders/42/c6/fc/55/83/38d59e181f2a3c892fe3f8365d00076e_preview_featured.jpg" width="200px" /> |
 | [ANHEDRAL](https://github.com/eswai/anhedral)                | pcb, casecase   |      ✔️      |                             40%                              | ![](https://raw.githubusercontent.com/eswai/anhedral/master/anhedral1-1.jpeg) |
 | [Atreis](https://github.com/dekonnection/atreis)             | case            |      ✔️      |                          handwiring                          | <img src="https://github.com/dekonnection/atreis/raw/master/pictures/GPI0El4.jpg" width="200px" /> |
 | [Atreus Split Keyboard](https://www.thingiverse.com/thing:1646718) | case            |      ✔️      |                  3d print, split, pro micro                  | <img src="https://cdn.thingiverse.com/renders/2a/35/f6/bd/51/ee77cfa99ac6c721974f6eb92a52cce9_preview_featured.jpg" width="200px" /> |
@@ -498,6 +490,8 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 ## Switches
 
+[Switch Database](https://docs.google.com/spreadsheets/d/1TJAIiWmwYkhnI_w5xcOl_RRXZvgYcJoAfOxHFholcFE/edit#gid=1735254964) - Collated by Epsilon Keyboards
+
 [Switch Stem Leg Comparison Database](https://docs.google.com/spreadsheets/d/1uE7yEliE1t5mYYeFJa14iVhLe5udmA9-NgZuRxzZLe8/edit?usp=sharing) - Please leave comments in cell if you have more info on the stem, such as material, or any info  I have missed or any mistakes I made. Thank you for you time and contributions. **Note:** filter button is on the lower right corner of the 1st row cell, very small, pay attention.
 
 | Name | Style | RGB Friendly | Tags | Image |
@@ -594,6 +588,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 # Keyboard Vendor Lists
 
 * [Alex's Vendor List](https://www.alexotos.com/keyboard-vendor-list/)
+* [AliExpress Store Recommendations](https://docs.google.com/spreadsheets/d/14C4A-t8rszaENO6elhA9pIrgtSqodaqpdyRbWrGG83I/edit#gid=0)
 * [KBD News Vendors](https://kbd.news/vendors)
 * [Keebfol.io](https://keebfolio.netlify.app/) - The list this list is built upon.
 * [KeyCaplendar](https://keycaplendar.firebaseapp.com/) - Keep track of what keycap group buys are happening when.
@@ -606,9 +601,13 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 - [A modern handwiring guide](https://geekhack.org/index.php?topic=87689.0)
 
-- [Anatomy of a Mechanical Keyboard](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Anatomy%20of%20a%20Mechanical%20Keyboard.md) - YouTube video is linked in the title.
+- [ABS vs PBT Comparison](https://youtu.be/IiIvbTeZfUM)
 
 - [ai03 PCB Designer Guide](https://wiki.ai03.me/books/pcb-design) - Learn how to make mech keyboard PCBs.
+
+- [Anatomy of a Mechanical Keyboard](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Anatomy%20of%20a%20Mechanical%20Keyboard.md) - YouTube video is linked in the title.
+
+- [Are GMK Keycaps Really Worth the Price?](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Are%20GMK%20Keycaps%20Really%20Worth%20the%20Price.md)
 
 - [Basic Soldering Lesson 1 - "Solder & Flux"](https://www.youtube.com/watch?v=vIT4ra6Mo0s)
 
@@ -636,6 +635,10 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 - [Lubing: Bag Lubing Springs](https://www.youtube.com/watch?v=lkMxroMs32Y) - If bag lubing does not work to get rid of spring crunch, consider hand lubing with a thicker grease. *Note: bag lube springs only with oils. Do not use grease as it is wasteful*    
 
+- [Lubing: Good lubing vs Over lubing](https://youtu.be/K6C981gJK8c) [^overlubing]
+
+- [Lubing: How to Lube without Desoldering in 5 Easy Steps](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/How%20to%20Lube%20Stabilizers%20Without%20Desoldering%20in%205%20Easy%20Steps.md)
+
 - [Lubing Switches: Where to Lube](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Lubing%20Switches%20Where%20to%20Lube.md)
 
 - [Mill-Max Hotswap Switch Compatibility (0305 and 7305)](https://docs.google.com/spreadsheets/d/1NhrXy6k88eY9bBqVuPWTAGW2q3GzszJ1JH-zuuGQ-iU/edit#gid=0)
@@ -645,6 +648,8 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 - [Northfacing Interference Based on Manufacturer](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Interference%20Based%20on%20Manufacturer.md)
 
 - [PCB Troubleshooting](https://docs.cannonkeys.com/troubleshooting/)
+
+- [Plate Material Comparison](https://www.youtube.com/watch?v=ZoaqGhaU-RE)
 
 - [Plumber's Mod for Stabilizers](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Plumbers%20Mod%20for%20Stabilizer.md)
 
@@ -658,6 +663,8 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 - [Stabilizer Assembly, Installation, and Common Mistakes](https://youtu.be/6Yz-UzTY8_I) - Includes: Stabilizer's insert installed in the wrong orientation. PCB mounted stabilizer's hook not in correctly. PCB clip in screw in stabilizers installation to PCB. Plate mounted stabilizers installation to plate. Band aid or electrical tape on plate to squeeze plate mounted stabilizer's housing tight and wiggle free, and where to put it, cons of each location as I see it. Razer and Anne Pro's plate mounted stabilizers with open bottom insert, and how to press them back in (just press hard). Good luck, and have fun.
 
+- [Stabilizer Guide](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Stabilizer%20Guide.md)
+
 - [Switch Bridge Tutorial](https://www.youtube.com/watch?v=N5IivDkrp6U) \- Please make sure you don't have any bent pins on the switch that isn't working & that the "broken" key isn't one like a layer change key that **wouldn't** show up in a key tester.
 
 - [Tailor's Stabilizer Mod: Long Tran's Original Video](https://youtu.be/2S61CynOwOc) - Using nylon thread to tighten stabilizer tolerances.
@@ -670,29 +677,49 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 - [The Keyboard Matrix 2](https://www.dribin.org/dave/keyboard/one_html/) - Another explanation how a keyboard matrix work and why it needs diodes.
 
+- [Will it Fit? How to Find Keycaps That Fit](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Will%20it%20Fit%20How%20to%20Find%20Keycaps%20That%20Fit.md)
+
 - [Windows UWP](https://github.com/MicrosoftDocs/windows-uwp/blob/docs/windows-apps-src/gaming/arcade-stick.md) - How to program Xbox One arcade sticks.
 
 - [Wire Jumping How to, Bridging Lifted Pads, MX Repair](https://www.youtube.com/watch?v=F5ihjaRzvPU)
 
 - Diode Icon Explanations and Positioning:
-  ![Diode Icon Explanations and Positioning](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/schematic-diode-polarity.png?raw=true)
+   ![Diode Icon Explanations and Positioning](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/schematic-diode-polarity.png?raw=true)
 
 - How to Holee Mod:
-  ![holee mod gif](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/how%20to%20holee%20mod.gif?raw=true)
+   ![holee mod gif](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/how%20to%20holee%20mod.gif?raw=true)
 
 - Mounting Styles:
-  ![mounting styles quick guide](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/mounting-styles.png?raw=true)
+   ![mounting styles quick guide](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/mounting-styles.png?raw=true)
 
 - North Facing vs South Facing Switches:
-  Most north facing switches have interference with cherry-profile keycaps, which can cause a bad sound and feel. Most cheap keyboards have north facing switches, but its always good to look for south-facing switches if you ever plan to use cherry-profile keycaps like GMK or HK gaming. Backlit keycaps work better with north facing switches.
+   Most north facing switches have interference with cherry-profile keycaps, which can cause a bad sound and feel. Most cheap keyboards have north facing switches, but its always good to look for south-facing switches if you ever plan to use cherry-profile keycaps like GMK or HK gaming. Backlit keycaps work better with north facing switches.
 
-  ![north vs south facing switches](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/north-vs-south-facing.png?raw=true)
-
+   ![north vs south facing switches](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/north-vs-south-facing.png?raw=true)
+   
 - Soldering Quick Guide:
 
   ![Perfect Soldering Steps](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/Solderingguide.png?raw=true)
 
+- Three Pin vs Five Pin Switches [^3v5]
   
+  **Which one do I use?** 
+  
+  If your pcb does not support 5 pin switches, and you have a plate in your keyboard build, use 3 pin switches. If you are doing a build without a plate, use 5 pin switches on a pcb that does support them. This is because without the two extra pins on the 5 pin switch, it will be very hard to align the switches straight. 
+  
+  **What if my PCB does not support 5 Pin switches?** 
+  
+  It is possible to cut off the extra two pins on the switch in order for it to fit inside a pcb that only supports 3 pin switches. You can use anything from nail clippers to flush cutters to clip these legs off. Just keep in mind that this may depreciate the value of your switches if you ever wish to resell them.
+  
+  ![3 v 5 leg switches](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/3v5-leg-switches.png?raw=true)
+  
+- Spring Curve Visual [^scurve]
+
+   ![spring curve visual](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/spring-curve-visual.png?raw=true)
+
+- Anatomy of a Stem:
+
+   ![stem anatomy](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/anatomy-of-a-stem.png?raw=true)
 
 ## Lube Volume Guide
 
@@ -838,6 +865,8 @@ Soldering switches means that you have a stronger bond from your switch to your 
 
 # Footnotes
 
-[^origin]: Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include more boards and projects, including some open sourced and some closed source / retail products at my random, personal choosing.
-[^FAQ]: Shoutout to @Bassett for doing the original FAQ, edited by EanNewton on Nov 21, 2021
-
+[^origin]:Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include more boards and projects, including some open sourced and some closed source / retail products at my random, personal choosing.
+[^FAQ]:Shoutout to @Bassett for doing the original FAQ, edited by EanNewton on Nov 21, 2021.
+[^ 3v5]: Credit to KanyeGrande#7566 on Dec 03, 2020 on MechKeys Discord.
+[^ overlubing]: Credit to Powwu#0001 on Oct 25, 2020 on MechKeys Discord.
+[^ scurve]: Credit to logo4poop#0788 on Oct 09, 2020 on MechKeys Discord.
