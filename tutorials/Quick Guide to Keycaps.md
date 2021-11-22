@@ -25,8 +25,8 @@
 - Keycap profiles also usually come in sculpted and uniform. Uniform keycaps are the same profile for each row whilst sculpted keycaps have a different height based on the rows. 
 - To see how different some keycap profiles are you can visit https://www.keycaps.info/
 
-![](D:\Documents\_Keyboard\Awesome-Keebs\images\keycap-profiles.png)
+![](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/keycap-profiles.png)
 
-![](D:\Documents\_Keyboard\Resources\keycap profiles 1.png)
+![](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/keycap%20profiles%201.png)
 
-![keycap profiles](D:\Documents\_Keyboard\Resources\keycap profiles.jpg)
+![keycap profiles](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/keycap%20profiles.jpg)
