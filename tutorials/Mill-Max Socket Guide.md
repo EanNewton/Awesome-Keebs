@@ -2,7 +2,7 @@
 
 ## Authored by u/pxlnght on Jul 11, 2019 on Reddit
 
-## Edited by EanNewton on Nov 22, 2021
+### Edited by EanNewton on Nov 22, 2021
 
 Hi, I use mill-max sockets a lot, and recently I've had a few people ask me questions about 'em. Here's what I know.
 
