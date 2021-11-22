@@ -12,6 +12,7 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+- [Awesome-Keebs](#awesome-keebs)
 - [Table of Contents](#table-of-contents)
 - [BUY ME A COFFEE](#buy-me-a-coffee)
 - [Keyboards](#keyboards)
@@ -47,7 +48,7 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
   * [Keycap 3D Models](#keycap-3d-models)
   * [Keyboard Controller](#keyboard-controller)
   * [Games](#games)
-- [FAQ[^FAQ]](#faq--faq-)
+- [FAQ](#faq)
 - [Footnotes](#footnotes)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -783,7 +784,9 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 - [Typings](https://typings.gg/) - is a sleek and modern typing test website. it supports many custom themes. [Github](https://github.com/briano1905/typings)
 - [Typefast.io](https://typefast.io) - minimalistic type-test sites with 16 different languages and custom word list. [(Github)](https://github.com/CasperVerswijvelt/TypeFast)
 
-# FAQ[^FAQ]
+# FAQ
+
+Credit: [^FAQ]
 
 **Q: What keyboard should I get?** 
 
