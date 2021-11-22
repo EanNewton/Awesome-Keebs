@@ -18,3 +18,10 @@ Tutorials
 * tape / bandaid mod - comparing materials
 * other case fills - foams, shelf liner, rubbers (neoprene, sorbothane, silicone), etc
 * lubing + filming
+
+Imports
+---
+* https://keyboard.university/
+* https://docs.google.com/spreadsheets/d/1TJAIiWmwYkhnI_w5xcOl_RRXZvgYcJoAfOxHFholcFE/edit#gid=1735254964
+* https://docs.google.com/spreadsheets/d/14C4A-t8rszaENO6elhA9pIrgtSqodaqpdyRbWrGG83I/edit#gid=0
+* https://docs.google.com/spreadsheets/d/1Y62AuStZCQQXOMM5keUN2KYDh1IoifZkrnJV-tLFKH4/htmlview
