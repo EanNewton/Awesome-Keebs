@@ -1,4 +1,4 @@
-# Awesome-Keebs
+Awesome-Keebs
 
 ---
 
@@ -12,41 +12,45 @@ Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include mor
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Awesome-Keebs](#awesome-keebs)
 - [Table of Contents](#table-of-contents)
 - [BUY ME A COFFEE](#buy-me-a-coffee)
 - [Keyboards](#keyboards)
-	- [Ortholinear Keyboards](#ortholinear-keyboards)
-	- [Split Keyboards](#split-keyboards)
-	- [Drop-in replacement PCB & Microcontrollers](#drop-in-replacement-pcb-microcontrollers)
-	- [Sample Table](#sample-table)
-	- [Handwired](#handwired)
-	- [Numpad/Macropad](#numpadmacropad)
-	- [Arcade](#arcade)
-	- [Chorded / Steno](#chorded-steno)
-	- [Case](#case)
+  * [Ortholinear Keyboards](#ortholinear-keyboards)
+  * [Split Keyboards](#split-keyboards)
+  * [Drop-in replacement PCB & Microcontrollers](#drop-in-replacement-pcb---microcontrollers)
+  * [Sample Table](#sample-table)
+  * [Handwired](#handwired)
+  * [Numpad/Macropad](#numpad-macropad)
+  * [Arcade](#arcade)
+  * [Chorded / Steno](#chorded---steno)
+  * [Case](#case)
 - [Parts](#parts)
-	- [Breakout / PCB](#breakout-pcb)
-	- [Encoders](#encoders)
-	- [Hardware](#hardware)
-	- [Lubricants](#lubricants)
-	- [Film](#film)
-	- [Switches](#switches)
-	- [Stabilizers](#stabilizers)
+  * [Breakout / PCB](#breakout---pcb)
+  * [Encoders](#encoders)
+  * [Hardware](#hardware)
+  * [Lubricants](#lubricants)
+  * [Film](#film)
+  * [Switches](#switches)
+  * [Stabilizers](#stabilizers)
 - [Firmware](#firmware)
-	- [QMK](#qmk)
-	- [TMK](#tmk)
+  * [QMK](#qmk)
+  * [TMK](#tmk)
 - [Software Tools](#software-tools)
 - [Hardware Tools](#hardware-tools)
 - [Suppliers](#suppliers)
 - [Keyboard Vendor Lists](#keyboard-vendor-lists)
 - [Tutorials](#tutorials)
-	- [Build-Guide Videos](#build-guide-videos)
+  * [Lube Volume Guide](#lube-volume-guide)
+  * [Build-Guide Videos](#build-guide-videos)
 - [Miscellaneous](#miscellaneous)
-	- [3D Print](#3d-print)
-	- [Keycap 3D Models](#keycap-3d-models)
-	- [Keyboard Controller](#keyboard-controller)
-	- [Games](#games)
+  * [3D Print](#3d-print)
+  * [Keycap 3D Models](#keycap-3d-models)
+  * [Keyboard Controller](#keyboard-controller)
+  * [Games](#games)
+- [FAQ[^FAQ]](#faq--faq-)
+- [Footnotes](#footnotes)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 <!-- /TOC -->
 
@@ -495,6 +499,8 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 ## Switches
 
+[Switch Stem Leg Comparison Database](https://docs.google.com/spreadsheets/d/1uE7yEliE1t5mYYeFJa14iVhLe5udmA9-NgZuRxzZLe8/edit?usp=sharing) - Please leave comments in cell if you have more info on the stem, such as material, or any info  I have missed or any mistakes I made. Thank you for you time and contributions. **Note:** filter button is on the lower right corner of the 1st row cell, very small, pay attention.
+
 | Name | Style | RGB Friendly | Tags | Image |
 | ---- | ----- | :----------: | :--: | :---: |
 |      |       |      ✔️       |      |       |
@@ -549,24 +555,28 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 - [ai03 Plate Generator](https://kbplate.ai03.me) - An advanced plate generator which doesn't result in 13.99999mm cutouts. [Github Repo](https://github.com/ai03-2725/another-keyboard-builder)
 - [ASETNIOP](https://asetniop.com/) - 10 fingers, 10 keys.
+- [Can I Use VIA?](https://caniusevia.com/)
 - [Chorded Gamepad](https://github.com/zack-bitcoin/chorded_gamepad) - Turn a gamepad into a linux chorded keyboard.
+- [Drop Configurator](https://drop.com/mechanical-keyboards/configurator) - For reprogramming Drop boards.
+- [EK Switch Hitter](https://m.majorgeeks.com/files/details/switch_hitter.html) - Test if button presses actually register and what as.
+- [EK-Layouts](https://github.com/HunterKing/EK-Layouts) - Personalized layouts for EK Switch Hitter software.
 - [joy2chord](https://github.com/wirelessdreamer/joy2chord) - Turn a gamepad into a linux chorded keyboard.
 - [Kalerator](https://kalerator.clueboard.co) - Pcb generator for keyboard-layout-editor generated layouts. [GitHub Site](https://github.com/skullydazed/kalerator), [Eagle Parts Library](https://github.com/skullydazed/clueboard_eagle)
 - [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements) - Karabiner-Elements is a powerful utility for keyboard customization on macOS Sierra (10.12) or later.
 - [kbpcb](http://kbpcb.mrkeebs.com/) - Create KiCad PCB files from [KLE](http://www.keyboard-layout-editor.com) json files [Github page](https://github.com/fcoury/kbpcb)
 - [keyboard-layout-editor](http://www.keyboard-layout-editor.com/) - Is a web application that enables the editing of keyboard-layouts, i.e., the position and appearance of each physical key. [GitHub Site](https://github.com/ijprest/keyboard-layout-editor)
 - [Keyboard Layout 3D Viewer](https://github.com/eswai/KL3V) - 3D render keyboard-layout-editor.com layouts
+- [KiCad](https://kicad.org/) - A Cross Platform and Open Source Electronics Design Automation Suite
 - [kle_render](https://github.com/CQCumbers/kle_render) - Get prettier images of Keyboard Layout Editor designs
 - [Macro Deck](https://github.com/SuchByte/Macro-Deck) - Turn any phone, tablet, or other device with a browser into a remote macro pad.
 - [Online GitHub ToC Generator](https://ecotrust-canada.github.io/markdown-toc/) - Used by this repo!
 - [Parametric Mechanical Keycap Library](https://github.com/rsheldiii/KeyV2) - Is a keycap and keyset construction library for mechanical keyboards, written in openSCAD.
 - [Plate & Case Builder](http://builder.swillkb.com) - Keyboard top plate CAD files generator, for keyboard-layout-editor generated layouts
+- [QMK Configurator](https://config.qmk.fm/#/test)
 - [QMK Heatmap Generator](https://precondition.github.io/qmk-heatmap)
 - [qmkJsonConverter](https://github.com/jhelvy/qmkJsonConverter) - converts the .json file exported from the [QMK configurator](https://config.qmk.fm/) into the code for the keymap.c file in your QMK settings.
 - [splitKbCompare](https://jhelvy.shinyapps.io/splitkbcompare/) - an interactive tool for comparing layouts of different split mechanical keyboards [Github page](https://github.com/jhelvy/splitKbCompare).
 - [Svg2Shenzhen](https://github.com/badgeek/svg2shenzhen) - Inkscape extension for exporting drawing into Kicad PCB.
-
-
 
 # Hardware Tools
 
@@ -575,6 +585,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 # Suppliers
 
+* [Green Door Geeks](https://greendoorgeeks.com/) - Custom laser cut foam and POM plates.
 * [McMaster-Carr](https://www.mcmaster.com/) - Nuts and bolts, etc.
 * [Harbor Freight](https://www.harborfreight.com/) - Cheap tools and misc.
 * [Culture Hustle](https://www.culturehustleusa.com/) - The paintiest paints.
@@ -584,25 +595,118 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 # Keyboard Vendor Lists
 
 * [Alex's Vendor List](https://www.alexotos.com/keyboard-vendor-list/)
+* [KBD News Vendors](https://kbd.news/vendors)
 * [Keebfol.io](https://keebfolio.netlify.app/) - The list this list is built upon.
 * [KeyCaplendar](https://keycaplendar.firebaseapp.com/) - Keep track of what keycap group buys are happening when.
+* [Keycap Sets](https://keycapsets.com/)
+* [Mech Groupbus](https://mechgroupbuys.com/)
 * [MechMap](https://www.mechmap.tech/) - The reddit r/mk vendor list.
+* [ThocStock](https://thocstock.com/)
 
 # Tutorials
 
 - [A modern handwiring guide](https://geekhack.org/index.php?topic=87689.0)
+
+- [Anatomy of a Mechanical Keyboard](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Anatomy%20of%20a%20Mechanical%20Keyboard.md) - YouTube video is linked in the title.
+
 - [ai03 PCB Designer Guide](https://wiki.ai03.me/books/pcb-design) - Learn how to make mech keyboard PCBs.
-- [Epomaker Custom Lighting Effects](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Epomaker%20Custom%20Lighting%20Effects%20Guide%20-%20a%20detailed%20Epomaker%20fan%20guide.md) - A detailed Epomaker fan guide
+
+- [Basic Soldering Lesson 1 - "Solder & Flux"](https://www.youtube.com/watch?v=vIT4ra6Mo0s)
+
 - Blog post about ["search of the best custom keyboard layout"](https://josef-adamcik.cz/electronics/in-search-of-the-best-custom-keyboard-layout.html).
+
+- [Epomaker Custom Lighting Effects](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Epomaker%20Custom%20Lighting%20Effects%20Guide%20-%20a%20detailed%20Epomaker%20fan%20guide.md) - A detailed Epomaker fan guide
+
+- [Fixing Hotswap Sockets](https://youtu.be/S3wuA8uEVhM) - 20 second long troubleshooting video by KBDFans
+
+- [Fixing North Facing Cherry Profile Interference](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Fixing%20North%20Facing%20Cherry%20Profile%20Interference.md)
+
+- [Generating Gerber Files](https://www.youtube.com/watch?v=ENmDnoKs2hM)
+
+- [Guide to Lubricants](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Guide%20to%20Lubricants.md)
+
 - [Hand wiring a let's split](https://johannes-jansson.github.io/projects/2018/07/23/hand-wiring-lets-split.html) (pro micro)
+
 - [How to integrate a trackpoint in a mechanical keyboard (TMK, Teensy)](https://github.com/alonswartz/trackpoint)
+
 - [Keeb How To: Custom Silicone Rubber Fill](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Keeb%20How%20To%20Custom%20Silicone%20Rubber%20Fill.md)
+
 - [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide/blob/master/README.md)
+
 - [lets-split-guide](https://github.com/nicinabox/lets-split-guide) - This guide covers building a Let's Split v2.
+
+- [Lubing: Bag Lubing Springs](https://www.youtube.com/watch?v=lkMxroMs32Y) - If bag lubing does not work to get rid of spring crunch, consider hand lubing with a thicker grease. *Note: bag lube springs only with oils. Do not use grease as it is wasteful*    
+
+- [Lubing Switches: Where to Lube](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Lubing%20Switches%20Where%20to%20Lube.md)
+
+- [Mill-Max Hotswap Switch Compatibility (0305 and 7305)](https://docs.google.com/spreadsheets/d/1NhrXy6k88eY9bBqVuPWTAGW2q3GzszJ1JH-zuuGQ-iU/edit#gid=0)
+
 - [Need a USB cable? Build one!](https://josef-adamcik.cz/electronics/need-a-usb-cable-build-on.html) - How to build a custom USB cable with aviation connectors and coils.
+
+- [Northfacing Interference Based on Manufacturer](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Interference%20Based%20on%20Manufacturer.md)
+
+- [PCB Troubleshooting](https://docs.cannonkeys.com/troubleshooting/)
+
+- [Plumber's Mod for Stabilizers](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Plumbers%20Mod%20for%20Stabilizer.md)
+
+- [Repairing Broken Traces on a Circuit Board](https://www.youtube.com/watch?v=ref9JHUf-uw)
+
+- [RGB Troubleshooting Tips](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/RGB%20Troubleshooting%20Tips.md)
+
+- [Soldering Tools Guide](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Soldering%20Tools%20Guide.md)
+
+- [Some Hand Wiring Guides and Information](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Some%20Hand%20Wiring%20Guides%20and%20Information.md)
+
+- [Stabilizer Assembly, Installation, and Common Mistakes](https://youtu.be/6Yz-UzTY8_I) - Includes: Stabilizer's insert installed in the wrong orientation. PCB mounted stabilizer's hook not in correctly. PCB clip in screw in stabilizers installation to PCB. Plate mounted stabilizers installation to plate. Band aid or electrical tape on plate to squeeze plate mounted stabilizer's housing tight and wiggle free, and where to put it, cons of each location as I see it. Razer and Anne Pro's plate mounted stabilizers with open bottom insert, and how to press them back in (just press hard). Good luck, and have fun.
+
+- [Switch Bridge Tutorial](https://www.youtube.com/watch?v=N5IivDkrp6U) \- Please make sure you don't have any bent pins on the switch that isn't working & that the "broken" key isn't one like a layer change key that **wouldn't** show up in a key tester.
+
+- [Tailor's Stabilizer Mod: Long Tran's Original Video](https://youtu.be/2S61CynOwOc) - Using nylon thread to tighten stabilizer tolerances.
+
+- [Tailor's Stabilizer Mod: Condensed Guide](https://youtu.be/OjXrTX9shRY) - The 5 minute version of Long Tran's video.
+
+- [Tempest Mod (aka Tape Mod)](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Tempest%20Mod%20(Tape%20Mod).md)
+
 - [The Keyboard Matrix ](http://blog.komar.be/how-to-make-a-keyboard-the-matrix/) - How a keyboard matrix work, explained in depth.
+
 - [The Keyboard Matrix 2](https://www.dribin.org/dave/keyboard/one_html/) - Another explanation how a keyboard matrix work and why it needs diodes.
+
 - [Windows UWP](https://github.com/MicrosoftDocs/windows-uwp/blob/docs/windows-apps-src/gaming/arcade-stick.md) - How to program Xbox One arcade sticks.
+
+- [Wire Jumping How to, Bridging Lifted Pads, MX Repair](https://www.youtube.com/watch?v=F5ihjaRzvPU)
+
+- Diode Icon Explanations and Positioning:
+   ![Diode Icon Explanations and Positioning](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/schematic-diode-polarity.png?raw=true)
+
+- How to Holee Mod:
+   ![holee mod gif](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/how%20to%20holee%20mod.gif?raw=true)
+
+- Mounting Styles:
+   ![mounting styles quick guide](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/mounting-styles.png?raw=true)
+
+- North Facing vs South Facing Switches:
+   Most north facing switches have interference with cherry-profile keycaps, which can cause a bad sound and feel. Most cheap keyboards have north facing switches, but its always good to look for south-facing switches if you ever plan to use cherry-profile keycaps like GMK or HK gaming. Backlit keycaps work better with north facing switches.
+
+   ![north vs south facing switches](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/north-vs-south-facing.png?raw=true)
+   
+- Soldering Quick Guide:
+
+  ![Perfect Soldering Steps](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/Solderingguide.png?raw=true)
+
+  
+
+## Lube Volume Guide
+
+| Size | Product Weight (approximately) | Switch Coverage |
+| ---- | ------------------------------ | --------------- |
+| 3mL  | 5.7g                           | 240             |
+| 5mL  | 9.5g                           | 400             |
+| 10mL | 19g                            | 800             |
+| 20mL | 38g                            | 1600            |
+| 40mL | 76g                            | 3200            |
+
+
+
 
 ## Build-Guide Videos
 
@@ -613,6 +717,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 # Miscellaneous
 
 - [Chimera-Battery-Mod](https://github.com/wizarddata/Chimera-Battery-Mod) - This is a mod designed to add a convenient battery holder and power switch to the Chimera family of wireless keyboards.
+- [Conor's Sound Test Database](https://drive.google.com/drive/folders/160La4zcx-9T8PLhpaglf_07LgrEIzM5x)
 - [Keyrigami](https://github.com/geckopfote/keyrigami) - Keycaps made from paper.
 - [KiCad Parts by Ai03](https://github.com/ai03-2725/MX_Alps_Hybrid.pretty) - KiCad Library of custom MX-Alps footprints.
 - [KiCad Parts by Daprice](https://github.com/daprice/keyswitches.pretty) - KiCAD footprint library for kailh choc and MX-style mechanical switches.
@@ -625,8 +730,6 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 - [RGBKB Keyboard-files](https://github.com/RGBKB/Keyboard-files) - Open sourced files for RGBKB's boards.
 - [SKUF - Silicone Keyboard Universalised Feet](https://github.com/Zambumon/SKUF) - An attempt to standardize the rubber feet used for custom mechanical keyboard projects.
 - [Unified Daughterboard Project](https://github.com/Gondolindrim/Unified-Daughterboard) - A compact daughterboard for converting USB-C to internal-facing JST-SR connection.
-
-*
 
 ## 3D Print
 
@@ -652,8 +755,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 | [Pointer Nub Thing](https://www.thingiverse.com/thing:766637) - A replacement cap for your [TrackPoint ™ style pointing device](https://xkcd.com/243/). | ![nipple mouse replacement](https://cdn.thingiverse.com/renders/9b/c4/29/e2/3f/Prosthetic_Nip_preview_featured.jpg) |
 | [Rhombicuboctahedron Mechanical Keyboard Switch Tester](https://www.thingiverse.com/thing:3090229) | <img src='https://cdn.thingiverse.com/renders/2e/af/9f/a7/52/6d0a1a56853bf66ed6b5bb52424feeff_preview_featured.jpg' width='200px' /> |
 | [OpenSCAD Mechanical Keyboard Cases](https://github.com/Lenbok/scad-keyboard-cases) - is a OpenSCAD script to make 3D-printable split keyboard cases. | <img src='https://github.com/Lenbok/scad-keyboard-cases/raw/master/images/corne-exploded.png' width='200px' /> |
-| [Z-Butt-1U: Artisan Keycap creation platform](https://www.thingiverse.com/thing:3146222) | <img src='https://cdn.thingiverse.com/renders/bf/89/94/7e/d6/16c33dea760a31d7371a4a9bacbfdcc2_preview_featured.jpg' width='200px' /> |
-
+| [Z-Butt-1U: Artisan Keycap creation platform](https://github.com/imyownyear/Z-Butt) | ![z-butt](https://github.com/imyownyear/Z-Butt/raw/master/img/Zbutt-Family.png?raw=true) |
 
 ## Keycap 3D Models
 
@@ -680,3 +782,60 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 - [Typing Game](https://hsgw.github.io/typing_game/) - for keyboard exhibition. ranking and dictionary data is stored in local pc. you can use offline. [Github](https://github.com/hsgw/typing_game)
 - [Typings](https://typings.gg/) - is a sleek and modern typing test website. it supports many custom themes. [Github](https://github.com/briano1905/typings)
 - [Typefast.io](https://typefast.io) - minimalistic type-test sites with 16 different languages and custom word list. [(Github)](https://github.com/CasperVerswijvelt/TypeFast)
+
+# FAQ[^FAQ]
+
+**Q: What keyboard should I get?** 
+
+A: You should be more specific. First determine your layout (60%, tkl, full size, etc) and then your preferences. 
+
+**Q: What is the best switch?** 
+
+A: Like choosing your keyboards, you have to determine what you are looking for in a switch. Tactility? Smoothness? Looking to mod? Etc.  
+
+**Q: Which switch is optimal for gaming?** 
+
+A: Whichever one you like best. Don’t fall for the “x is for gaming” bullshit. If you like a switch and not one for “gaming” then don’t get the one for “gaming”.  
+
+**Q: What keycaps should I get?** 
+
+A: Please refer to the keycap guide to see what you would like first, then determine your budget and requirements.  
+
+**Q: I am wanting to build my first board, which one should I get?** 
+
+A: Depending on your experience there may be some stuff more suitable for you. In most cases, it is recommended you go for hotswap first so you are not limited to one switch.  
+
+**Q: What’s with all this RGB hate?** 
+
+A: RGB can be very gaudy to many, especially in the enthusiast community. 
+
+**Q: Why is everything out of stock?** 
+
+A: The mechanical keyboard hobby is still fairly small and most stuff is manufactured in group buys ran by people in the community. There isn’t enough demand to justify mass producing everything for the enthusiast grade products.  
+
+**Q: Why are these keyboards so expensive?** 
+
+A: Because the hobby is small, many boards are projects of community members and can be expensive to produce for new tooling.  
+
+**Q: So where can I buy the stuff that is out of stock? I really want (fill in the blank) keyset!** 
+
+A: You can wait for a round 2 group buy or check the aftermarket (Ebay, r/mm, etc). Beware of scalpers!
+
+**Q: How do I know if my keycaps are compatible with my keyboard?** 
+
+A: Look at your layout and see if your set has the special keys required.  
+
+**Q: What is the difference between hotswap and soldered?**
+
+A: 
+**Hotswap**: 
+Hotswap keyboards allow you to put in switches without desoldering. You are going to be required to use a plate if you go this route and also be aware that the hotswap sockets will wear over time. You can also solder sockets onto a pcb to make a pcb hotswap as well. If you have kailh/gateron hotswap sockets and want to make a pcb hotswappable, you need to make sure that the pcb had pads to support them.   
+**Soldered**: 
+Soldering switches means that you have a stronger bond from your switch to your pcb. Unfortunately, it is harder to change your switches because you would have to desolder, which is a time consuming process. Soldering is also required for a plateless build in order to keep the switches stable.
+
+---
+
+# Footnotes
+
+[^FAQ]:Shoutout to @Bassett for doing the original FAQ, edited by EanNewton on Nov 21, 2021
+
