@@ -2,14 +2,12 @@
 
 ---
 
-A collection of awesome keyboards and things.[^origin]
+A collection of awesome mechanical keyboards, doo-dads, and thingy-mcbobbers.[^origin]
 
 ---
 
 # Table of Contents
 
-- [Awesome-Keebs](#awesome-keebs)
-- [Table of Contents](#table-of-contents)
 - [BUY ME A COFFEE](#buy-me-a-coffee)
 - [Keyboards](#keyboards)
   * [Ortholinear Keyboards](#ortholinear-keyboards)
@@ -812,6 +810,10 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 # FAQ
 
 Credit: [^FAQ]
+
+**Q: Why the heck did you spend so much time making this?!**
+
+A: I love makers. I love those beautiful, crazy people who make things that bring people joy. This is my way of giving back and helping the community as a whole learn and grow. If you appreciate what I have done here please consider [buying me a coffee](#buy-me-a-coffee).
 
 **Q: What keyboard should I get?** 
 
