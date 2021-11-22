@@ -1,10 +1,8 @@
 # RGB Troubleshooting Tips
 
+## because I'm not explaining this anymore ![:kek:](https://cdn.discordapp.com/emojis/618959795713605645.png?size=80)
 
-
-## because I'm not explaining this anymore
-
- ![:kek:](https://cdn.discordapp.com/emojis/618959795713605645.png?size=80)
+### Authored by waffle#0007 on Feb 20, 2021 in the [MechKeys Discord](https://discord.gg/mechkeys).
 
 ---
 
