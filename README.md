@@ -2,9 +2,7 @@
 
 ---
 
-A collection of awesome keyboards and things.
-
-Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include more boards and projects, including some open sourced and some closed source / retail products at my random, personal choosing.
+A collection of awesome keyboards and things.[^origin]
 
 ---
 
@@ -677,19 +675,19 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 - [Wire Jumping How to, Bridging Lifted Pads, MX Repair](https://www.youtube.com/watch?v=F5ihjaRzvPU)
 
 - Diode Icon Explanations and Positioning:
-   ![Diode Icon Explanations and Positioning](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/schematic-diode-polarity.png?raw=true)
+  ![Diode Icon Explanations and Positioning](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/schematic-diode-polarity.png?raw=true)
 
 - How to Holee Mod:
-   ![holee mod gif](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/how%20to%20holee%20mod.gif?raw=true)
+  ![holee mod gif](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/how%20to%20holee%20mod.gif?raw=true)
 
 - Mounting Styles:
-   ![mounting styles quick guide](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/mounting-styles.png?raw=true)
+  ![mounting styles quick guide](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/mounting-styles.png?raw=true)
 
 - North Facing vs South Facing Switches:
-   Most north facing switches have interference with cherry-profile keycaps, which can cause a bad sound and feel. Most cheap keyboards have north facing switches, but its always good to look for south-facing switches if you ever plan to use cherry-profile keycaps like GMK or HK gaming. Backlit keycaps work better with north facing switches.
+  Most north facing switches have interference with cherry-profile keycaps, which can cause a bad sound and feel. Most cheap keyboards have north facing switches, but its always good to look for south-facing switches if you ever plan to use cherry-profile keycaps like GMK or HK gaming. Backlit keycaps work better with north facing switches.
 
-   ![north vs south facing switches](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/north-vs-south-facing.png?raw=true)
-   
+  ![north vs south facing switches](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/north-vs-south-facing.png?raw=true)
+
 - Soldering Quick Guide:
 
   ![Perfect Soldering Steps](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/Solderingguide.png?raw=true)
@@ -840,5 +838,6 @@ Soldering switches means that you have a stronger bond from your switch to your 
 
 # Footnotes
 
-[^FAQ]:Shoutout to @Bassett for doing the original FAQ, edited by EanNewton on Nov 21, 2021
+[^origin]: Forked from https://github.com/BenRoe/awesome-mechanical-keyboard to include more boards and projects, including some open sourced and some closed source / retail products at my random, personal choosing.
+[^FAQ]: Shoutout to @Bassett for doing the original FAQ, edited by EanNewton on Nov 21, 2021
 
