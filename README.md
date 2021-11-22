@@ -8,6 +8,8 @@ A collection of awesome mechanical keyboards, doo-dads, and thingy-mcbobbers.[^o
 
 # Table of Contents
 
+- [Awesome-Keebs](#awesome-keebs)
+- [Table of Contents](#table-of-contents)
 - [BUY ME A COFFEE](#buy-me-a-coffee)
 - [Keyboards](#keyboards)
   * [Ortholinear Keyboards](#ortholinear-keyboards)
@@ -30,17 +32,30 @@ A collection of awesome mechanical keyboards, doo-dads, and thingy-mcbobbers.[^o
   * [QMK](#qmk)
   * [TMK](#tmk)
 - [Software Tools](#software-tools)
+    + [EAGLE Part Libraries and Tools](#eagle-part-libraries-and-tools)
+    + [KiCAD Part Libraries and Tools](#kicad-part-libraries-and-tools)
 - [Hardware Tools](#hardware-tools)
-- [Suppliers](#suppliers)
-- [Keyboard Vendor Lists](#keyboard-vendor-lists)
+- [Stores](#stores)
+  * [Custom Keyboard Stores](#custom-keyboard-stores)
+  * [Keycaps](#keycaps)
+  * [Custom Keyboard Parts](#custom-keyboard-parts)
+  * [Custom Cables](#custom-cables)
+  * [Bits-and-Bobs Suppliers](#bits-and-bobs-suppliers)
+  * [Other Lists of Keyboard Vendors](#other-lists-of-keyboard-vendors)
 - [Tutorials](#tutorials)
+  * [Visual Guides](#visual-guides)
   * [Lube Volume Guide](#lube-volume-guide)
   * [Build-Guide Videos](#build-guide-videos)
 - [Miscellaneous](#miscellaneous)
-  * [3D Print](#3d-print)
+  * [3D Design Tools](#3d-design-tools)
+  * [3D Prints](#3d-prints)
   * [Keycap 3D Models](#keycap-3d-models)
-  * [Keyboard Controller](#keyboard-controller)
+  * [Data Sheets](#data-sheets)
   * [Games](#games)
+- [Community](#community)
+  * [Chat](#chat)
+  * [Forums](#forums)
+  * [Reddit](#reddit)
 - [FAQ](#faq)
 - [Footnotes](#footnotes)
 
@@ -262,28 +277,34 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 ## Drop-in replacement PCB & Microcontrollers
 
-| Name                                                         | Open Source |                             Tags                             |                            Image                             |
-| ------------------------------------------------------------ | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| [AEK II USB](https://github.com/kb-elmo/aek2_usb)            |      ✔️      |         Apple Extended Keyboard II (QMK compatible)          |                                                              |
-| [ATmega32A](https://www.microchip.com/en-us/product/ATMEGA32A) |             |  low-power, high-performance Microchip 8-bit AVR RISC-based  | ![ATmega32A](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/pdip/40-lead-s2x/ATmega32A-S2X-Regular.jpg) |
-| [ATmega32U4](https://www.microchip.com/en-us/product/ATmega32U4) |             |           low-power Microchip 8-bit AVR RISC-based           | ![](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/vqfn/44-lead-swb/ATmega32U4-SWB-Regular.jpg) |
-| [Bit-C](https://nullbits.co/bit-c/)                          |             |                    pro micro, USB-C, QMK                     | ![bit-c white](https://nullbits.co/static/img/bitc2-horizontal.jpg) |
-| [E80-1800](https://github.com/ebastler/E80-1800)             |      ✔️      |               Cherry G80-1800 (QMK compatible)               |                                                              |
-| [Elite-C v4](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4) |             |                      ATmega32u4, USB-C                       | ![built elite-c](https://cdn.shopify.com/s/files/1/1851/5125/products/image_27a7a45e-0844-42ac-a54c-269afc9e162f_860x.jpg?v=1593119167) |
-| [GH80 Series](https://github.com/evyd13/gh80-series)         |      ✔️      |               GH80-1800, GH80-3003, GH80-3700                |                                                              |
-| [M0110a USB](https://github.com/kb-elmo/m0110a_usb)          |      ✔️      |                Apple M0110a (QMK compatible)                 |                                                              |
-| [M0116 USB](https://github.com/kb-elmo/m0116_usb)            |      ✔️      |            Apple M0116 (QMK compatible, Mini-USB)            |                                                              |
-| [Model M Type C](https://github.com/ashpil/Model-M-Type-C)   |      ✔️      |                     IBM Model M keyboard                     |                                                              |
-| [MX-5160](https://github.com/evyd13/mx-5160)                 |      ✔️      |                        Chicony 5160c                         |                                                              |
-| [nice!nano](https://nicekeyboards.com/nice-nano/)            |             |                Pro Micro drop-in replacement                 |                                                              |
-| [NT-Series](https://github.com/evyd13/nt-series)             |      ✔️      |              Leopold FC660m, FC750r and FC980m               |                                                              |
-| [Proton C](https://qmk.fm/proton-c/)                         |             | The Proton C is an Arm STM32F303xC based drop-in replacement for the Pro Micro. |     ![qmk arm drop in](https://i.imgur.com/GdsN1Rd.jpg)      |
-| [Pro Micro](https://www.sparkfun.com/products/12640)         |             |                                                              | ![Pro Micro - 5V/16MHz](https://cdn.sparkfun.com//assets/parts/9/3/2/6/12640-01a.jpg) |
-| [QF XT Ghost Squit](https://1upkeyboards.com/shop/controllers/qf-xt-ghost-squid-controller-2/) |             |                    CM Storm QuickFire XT                     | ![QF XT Ghost Squid Controller-0](https://1upkeyboards.com/wp-content/uploads/2016/12/dsc_0388.jpeg) |
-| [Rosewill Black Petal](https://1upkeyboards.com/shop/controllers/rosewill-black-petal-controller/) |             |                       Rosewill RK-9000                       | ![Rosewill Black Petal Controller-0](https://1upkeyboards.com/wp-content/uploads/2016/12/dsc_0393.jpeg) |
-| [Teensy](https://www.pjrc.com/teensy/index.html)             |             |                                                              |       ![img](https://www.pjrc.com/teensy/teensy40.jpg)       |
-| [The Unloved Bastard Controller](https://1upkeyboards.com/shop/controllers/unloved-bastard-controller/) |             |                       CM Masterkeys S                        | ![The Unloved Bastard Controller](https://1upkeyboards.com/wp-content/uploads/2017/12/controller-unloved-bastard-front.jpg) |
-| [WY-60 USB](https://github.com/kb-elmo/wy60_usb)             |      ✔️      |        Wyse ASCII WY-60QMK (QMK compatible, Mini-USB)        |                                                              |
+| Name                                                         | Open Source | Description                                                  |                          Tags                           |                            Image                             |
+| ------------------------------------------------------------ | :---------: | ------------------------------------------------------------ | :-----------------------------------------------------: | :----------------------------------------------------------: |
+| [AEK II USB](https://github.com/kb-elmo/aek2_usb)            |      ✔️      |                                                              |       Apple Extended Keyboard II (QMK compatible)       |                                                              |
+| [Adafruit Feather 32u4 Bluefruit LE](https://github.com/adafruit/Adafruit-Feather-32u4-Bluefruit-LE-PCB) |             | BLE controller with full QMK support                         |  atmega32u4, nRF51822, micro usb, bluetooth, eaglecad   | <img src="https://github.com/adafruit/Adafruit-Feather-32u4-Bluefruit-LE-PCB/raw/master/assets/image.jpg?raw=true" width="200px"> |
+| [ATmega32A](https://www.microchip.com/en-us/product/ATMEGA32A) |             | low-power, high-performance Microchip 8-bit AVR RISC-based   |                                                         | ![ATmega32A](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/pdip/40-lead-s2x/ATmega32A-S2X-Regular.jpg) |
+| [ATmega32U4](https://www.microchip.com/en-us/product/ATmega32U4) |             | low-power Microchip 8-bit AVR RISC-based                     |                                                         | ![](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/vqfn/44-lead-swb/ATmega32U4-SWB-Regular.jpg) |
+| [Bit-C](https://nullbits.co/bit-c/)                          |             |                                                              |                  pro micro, USB-C, QMK                  | ![bit-c white](https://nullbits.co/static/img/bitc2-horizontal.jpg) |
+| [BLE Micro Pro](https://github.com/sekigon-gonnoc/BLE-Micro-Pro) |             | Breakout board of BL654(nrf52840 module) which is almost compatible with Pro Micro. This board is designed for wireless split DIY keyboards. |                   nrf52840, bluetooth                   | <img src="https://github.com/sekigon-gonnoc/BLE-Micro-Pro/raw/master/pin%20assign.jpg" width="200px"> |
+| [Bonsai-C](https://github.com/customMK/Bonsai-C)             |      ✔️      |                                                              |            pro micro, proton c, STM32F303CC,            | ![bonsai c from JLCPCB](https://user-images.githubusercontent.com/8145762/135368388-da9367da-9e1b-4b06-abdc-4d8d9658e27e.jpg) |
+| [E80-1800](https://github.com/ebastler/E80-1800)             |      ✔️      |                                                              |            Cherry G80-1800 (QMK compatible)             |                                                              |
+| [Elite-C v4](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4) |             |                                                              |                    ATmega32u4, USB-C                    | ![built elite-c](https://cdn.shopify.com/s/files/1/1851/5125/products/image_27a7a45e-0844-42ac-a54c-269afc9e162f_860x.jpg?v=1593119167) |
+| [GH80 Series](https://github.com/evyd13/gh80-series)         |      ✔️      |                                                              |             GH80-1800, GH80-3003, GH80-3700             |                                                              |
+| [Goldfish](https://github.com/Dr-Derivative/Goldfish)        |             | A thin, USB-C, Pro Micro/Elite-C compatible microcontroller  |           pro micro, atmega32u4, usb-c, kicad           |                                                              |
+| [M0110a USB](https://github.com/kb-elmo/m0110a_usb)          |      ✔️      |                                                              |              Apple M0110a (QMK compatible)              |                                                              |
+| [M0116 USB](https://github.com/kb-elmo/m0116_usb)            |      ✔️      |                                                              |         Apple M0116 (QMK compatible, Mini-USB)          |                                                              |
+| [Model M Type C](https://github.com/ashpil/Model-M-Type-C)   |      ✔️      |                                                              |                  IBM Model M keyboard                   |                                                              |
+| [MX-5160](https://github.com/evyd13/mx-5160)                 |      ✔️      |                                                              |                      Chicony 5160c                      |                                                              |
+| [nice!nano](https://nicekeyboards.com/nice-nano/)            |             |                                                              |              Pro Micro drop-in replacement              |                                                              |
+| [Nrfmicro](https://github.com/joric/nrfmicro)                |             | Arduino Pro Micro-sized breakout board for E73-2G4M08S1C (nRF52840) modules | pro micro, nrf52840, usb-c, micro usb, kicad, bluetooth | <img src="https://i.imgur.com/0YXNbpJ.jpg" width="200px" />  |
+| [NT-Series](https://github.com/evyd13/nt-series)             |      ✔️      |                                                              |            Leopold FC660m, FC750r and FC980m            |                                                              |
+| [Proton C](https://qmk.fm/proton-c/)                         |             | The Proton C is an Arm STM32F303xC based drop-in replacement for the Pro Micro. |                                                         |     ![qmk arm drop in](https://i.imgur.com/GdsN1Rd.jpg)      |
+| [Pro Micro](https://www.sparkfun.com/products/12640)         |             |                                                              |                                                         | ![Pro Micro - 5V/16MHz](https://cdn.sparkfun.com//assets/parts/9/3/2/6/12640-01a.jpg) |
+| [QF XT Ghost Squit](https://1upkeyboards.com/shop/controllers/qf-xt-ghost-squid-controller-2/) |             |                                                              |                  CM Storm QuickFire XT                  | ![QF XT Ghost Squid Controller-0](https://1upkeyboards.com/wp-content/uploads/2016/12/dsc_0388.jpeg) |
+| [Rosewill Black Petal](https://1upkeyboards.com/shop/controllers/rosewill-black-petal-controller/) |             |                                                              |                    Rosewill RK-9000                     | ![Rosewill Black Petal Controller-0](https://1upkeyboards.com/wp-content/uploads/2016/12/dsc_0393.jpeg) |
+| [ShiroMicro](https://github.com/elfmimi/MMCProMicro)         |             | ProMicro clone with Mid-Mount USB Type-C connector           |                 pro micro, usb-c, kicad                 |                                                              |
+| [Teensy](https://www.pjrc.com/teensy/index.html)             |             |                                                              |                                                         |       ![img](https://www.pjrc.com/teensy/teensy40.jpg)       |
+| [The Unloved Bastard Controller](https://1upkeyboards.com/shop/controllers/unloved-bastard-controller/) |             |                                                              |                     CM Masterkeys S                     | ![The Unloved Bastard Controller](https://1upkeyboards.com/wp-content/uploads/2017/12/controller-unloved-bastard-front.jpg) |
+| [WY-60 USB](https://github.com/kb-elmo/wy60_usb)             |      ✔️      |                                                              |     Wyse ASCII WY-60QMK (QMK compatible, Mini-USB)      |                                                              |
 
 ## Handwired
 
@@ -330,37 +351,39 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 | [Bento](https://github.com/Dwin17/bento)                     | pcb                 |      ✔️      |                    5 key, 2x2 + 1, rotary                    | ![bento macropad](https://camo.githubusercontent.com/d3dab8e65d304ce8a59952d7d18a45c10bffddac182295dfbe4d59c4595c5f96/68747470733a2f2f692e696d6775722e636f6d2f727a67766b634e2e6a7067) |
 | [bigKNOB](https://github.com/LeafCutterLabs/bigKNOB)         | pcb, case           |      ✔️      |               5x1, 4 key, 1 rotary, rgb, USB-C               | ![Thinkpad multicolor](https://github.com/LeafCutterLabs/bigKNOB/raw/master/Media/thinkpad.jpg) |
 | [Butter Stick](https://www.gboards.ca/product/butter-stick-limited-edition) |                     |             |                             2x10                             | ![disassembled](https://assets.bigcartel.com/product_images/241501619/IMG_20190710_0746424-01.jpeg?auto=format&fit=max&w=1120) |
-| [Cherry Macro Fighter](https://github.com/mbajobue/cherry_macro_fighter) | pcb, case           |      ✔️      | 3x3, arcade buttons, qmk, 3d print, arduino pro micro, thin profile | ![arcade button box](https://camo.githubusercontent.com/05b6c2b54d21ce2fd9b6c7899b36d957265c10a2c496de50568c7c03e064d0b6/68747470733a2f2f6d616e75656c62616a6f2e636f6d2f66696c65732f696d616765732f6368657272795f6d6163726f5f666967687465722e6a7067) |
 | [Cherry-Mx-Bitboard-Re](https://github.com/ogatatsu/Cherry-Mx-Bitboard-Re) | pcb                 |      ✔️      |              single-switch, handwiring, hotswap              | <img src="https://github.com/ogatatsu/Cherry-Mx-Bitboard-Re/raw/master/Images/a.jpeg" width="200px" /> |
 | [Cherry MX Keypad](http://syncchannel.blogspot.com/2016/06/cherry-mx-keypad.html?m=1) | pcb                 |      ✔️      |                           1x4, led                           | <img src="https://1.bp.blogspot.com/-Mur6fIsKDwU/V1NmGd7T4QI/AAAAAAAAAyU/Fh40F8Zl41YVosa03zkJl2WPSQ7sGS_AwCLcB/s280/CherryMXkeypad1.jpg" width="200px" /> |
 | [CHOCO](https://github.com/hsgw/choco)                       | pcb, case           |      ✔️      |             4x7, choc, usb-c, STM32F072C8T6, smd             | <img src="https://camo.githubusercontent.com/0f5e76c4bb7ab1fb4afcdd0db4985aaa1d235843/68747470733a2f2f692e696d6775722e636f6d2f6e32553952484f2e6a7067" width="200px" /> |
 | [Cookpad Pad](https://github.com/cookpad/cookpad-pad)        | pcb, case           |      ✔️      |              2x3, pro micro, ws2812b, underglow              | <img src="https://github.com/cookpad/cookpad-pad/raw/master/docs/images/cookpad-pad.jpg" width="200px" /> |
+| [Deej](https://github.com/omriharel/deej)                    | firmware, case      |      ✔️      | windows, linux, go, arduino nano, arduino uno, pro micro, sliders, 3d print | ![deej github](https://github.com/omriharel/deej/raw/master/assets/build-3d-annotated.png) |
 | [Discipad](https://github.com/coseyfannitutti/discipad)      | pcb, case           |      ✔️      |                  4x5, through hole, usb-c,                   | <img src="https://images.squarespace-cdn.com/content/v1/5c533d33348cd92b886e544d/1569605273813-X4W1ZK24U81C0U381LW7/ke17ZwdGBToddI8pDm48kK60W-ob1oA2Fm-j4E_9NQB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0kD6Ec8Uq9YczfrzwR7e2Mh5VMMOxnTbph8FXiclivDQnof69TlCeE0rAhj6HUpXkw/discipad-white.jpeg?format=750w" width="200px" /> |
-| [Drink Me](https://github.com/yatara-cc/drink-me)            | pcb, case           |      ✔️      |                         4%, VIA, QMK                         |                                                              |
+| [Drink Me](https://github.com/yatara-cc/drink-me)            | pcb, case           |      ✔️      |                    4%, VIA, QMK, 3d print                    |    ![drink me in blue](https://i.imgur.com/Rqi6n4M.jpeg)     |
 | [duckyPad](https://github.com/dekuNukem/duckyPad)            | pcb, case           |      ✔️      |                   5x3, oled, rgb, sd-card                    | <img src="https://github.com/dekuNukem/duckyPad/raw/master/resources/pics/title.png" width="200px" /> |
 | [Dumbpad](https://github.com/imchipwood/dumbpad)             | pcb                 |      ✔️      |               pcb, atmega32u4, rotary encoder                | <img src="https://i.imgur.com/sS3fq1Z.jpg" width="200px" />  |
 | [Env-MCRO](https://github.com/Envious-Data/Env-MCRO)         | pcb                 |      ✔️      |                        pcb, rpi-pico                         | <img src="https://github.com/Envious-Data/Env-MCRO/blob/main/EnvMCRO.png?raw=true" width="200px" /> |
 | [Env-NPD](https://github.com/Envious-Data/Env-NPD)           | pcb                 |      ✔️      |                    pcb, numpad, rpi-pico                     | <img src="https://github.com/Envious-Data/Env-NPD/blob/main/env-npd.png?raw=true" width="200px" /> |
 | [FaunchPad](https://www.gboards.ca/product/faunchpad)        |                     |             |                             2x4                              | ![](https://assets.bigcartel.com/product_images/247416671/IMG_20191025_1322045-01.jpeg?auto=format&fit=max&w=1120) |
 | [FreeDeck](https://github.com/FreeYourStream/freedeck-hardware) | pcb, case           |      ✔️      |            2x3, oled, stream deck, pro micro, sd             | ![github banner](https://camo.githubusercontent.com/e1d0940e1aaca74ae34875678cc74f5d72e546328c1ab8759e0d814924e4b765/687474703a2f2f69332e7974696d672e636f6d2f76692f5f54636c696955324b34382f6d617872657364656661756c742e6a7067) |
-| [~~Game cart macropad~~](https://www.thingiverse.com/thing:3029578) | pcb, case           |      ✔️      |                        4x4, 3d print                         |                 <img src="" width="200px" />                 |
+| [FreeDeck Deej Combo](https://github.com/FKlugmann/FreeDeck-deej-combo) | pcb, case           |      ✔️      |     2x3, oled, stream deck, pro micro, sliders, 3d print     | ![wood freedeej](https://media.discordapp.net/attachments/830525874343510037/909870276257402890/FreeDeckWood2.jpg?width=1224&height=616) |
+| [Game cart macropad](https://github.com/EanNewton/Awesome-Keebs/tree/main/pcb%20files/Gamecart) | pcb, case           |      ✔️      |                        4x4, 3d print                         | ![assembled pokemon red](https://github.com/EanNewton/Awesome-Keebs/blob/main/pcb%20files/Gamecart/game-cart-macropad.jpg?raw=true) |
 | [GeekPad](https://git.bthlabs.pl/tomekwojcik/geekpad/)       | pcb, case           |      ✔️      |                        3x3, 3d print                         | <img src="https://i.imgur.com/FEzO81l.jpg" width="200px" />  |
 | [GK21S](https://epomaker.com/collections/diy-parts/products/epomaker-gk21s-kit) |                     |             |                    numpad, bluetooth, rgb                    | ![space grey](https://cdn.shopify.com/s/files/1/0280/3931/5529/products/GK21-21S_3_4ebd2830-cd2f-4a29-abe7-78836095ec5d_1024x1024.jpg?v=1596010785) |
 | [Gowla Macro Boards](https://github.com/SamGowland/Gowla-Macro-Boards) |                     |             |                                                              | ![assorted parts](https://github.com/SamGowland/Gowla-Macro-Boards/raw/master/Images/boards.JPG) |
 | [Hub16](https://github.com/joshajohnson/Hub16)               | pcb, case           |      ✔️      |   4x4, rotary encoder, usb hub, hotswap, underglow, ws2812   | <img src="https://github.com/joshajohnson/Hub16/raw/master/Documents/imgs/header-img.JPG" width="200px" /> |
 | [IsoPad](https://github.com/keyboard-magpie/isopad)          | pcb, case           |      ✔️      |                     1x1, iso enter, VIA                      | ![assembled with standoffs](https://i.imgur.com/5RTtlly.jpeg) |
 | [Jack](https://www.reddit.com/r/MechanicalKeyboards/comments/qr27dn/keep_typing_and_modular_synth_rmk_jack_macropad_w/) |                     |             | modular synth, up to 12 modular rotary encoders, 5x4, 20 keys, mill max |    ![jack macropad](https://i.redd.it/w5dbar5blty71.jpg)     |
-| [KBDPAD MKII](https://kbdfans.com/collections/pcb/products/kbdpad-mkii-pcb) |                     |             |                                                              |                                                              |
+| [KBDPAD MKII](https://kbdfans.com/collections/pcb/products/kbdpad-mkii-pcb) |                     |             |           VIA, rgb underglow, USB-C, numpad layout           | ![kbdpad rgb](https://cdn.shopifycdn.net/s/files/1/1473/3902/files/kbdpad.jpg?v=1603351740) |
 | [Keybow](https://shop.pimoroni.com/products/keybow?variant=21246333419603) |                     |             |                rgb, raspberry pi, 12 key, 3x4                | ![rgb pcb kit](https://cdn.shopify.com/s/files/1/0174/1800/products/keybow-lifestyle-square-1_1024x1024.jpg?v=1545079764) |
+| [Leaf Cutter Labs MIDI Fader](https://www.tindie.com/products/leafcutter/rgb-8x-slider-mixer-fader-for-midi/) |                     |             |                         sliders, rgb                         | ![midi rgb sliders](https://cdn.tindiemedia.com/images/resize/E-xQRdDFY0blJsI-xDBUDAJcIyQ=/p/fit-in/653x435/filters:fill(fff)/i/79197/products/2018-06-29T20%3A36%3A44.836Z-IMG_20180627_192400598.jpg?1606306133) |
 | [LFK17](https://github.com/lfkeyboards/lfk17)                | pcb                 |      ✔️      |                  5x4, numpad, hotswap, rgb                   | <img src="https://i.imgur.com/N4x5wXp.jpg" width="200px" />  |
 | [Lysergic 25](https://github.com/Gtrx0/lysergic25)           | pcb, plate          |      ✔️      |    5x5, pro micro, plate, underglow, ws2812b, esd, usb-c     | <img src="https://raw.githubusercontent.com/Gtrx0/lysergic25/master/Renders/Backside_populated.png" width="200px" /> |
 | [Meishi2](https://github.com/Biacco42/meishi2)               | pcb                 |      ✔️      |                        1x4, pro micro                        | <img src="https://i.imgur.com/2SQqVlZ.png" width="200px" />  |
 | [miciMACRO5](https://github.com/LeafCutterLabs/miniMACRO5)   |                     |             |                   1x5, up to 5 rotary, rgb                   | ![various rotary](https://github.com/LeafCutterLabs/miniMACRO5/raw/master/photos/miscconfigs.jpg) |
 | [miniMACRO6c](https://github.com/LeafCutterLabs/minimacro6c) |                     |      ✔️      |                    2x3, oled, QMK, USB-C                     | ![](https://github.com/LeafCutterLabs/minimacro6c/raw/master/media/case.jpg) |
-| [MMPad](https://github.com/mangkoran/mmpad)                  |                     |      ✔️      |                            9 key                             |                                                              |
+| [MMPad](https://github.com/mangkoran/mmpad)                  | plates              |      ✔️      |                    3x4, pro micro, USB-C                     |                                                              |
 | [Mulletpad](https://github.com/coseyfannitutti/mulletpad)    | pcb, case           |      ✔️      |                numpad, usb-c, atmega32u4, smd                | <img src="https://camo.githubusercontent.com/a57afd3b24b297f74daf1b31e864845fbd1f31cc/68747470733a2f2f692e696d6775722e636f6d2f3676374a764c4e2e706e67" width="200px" /> |
 | [OneKeyboard](https://techkeys.us/collections/accessories/products/onekeyboard) |                     |             |                             1x1                              | ![dark assembled](https://cdn.shopify.com/s/files/1/0218/4886/products/OneKeyBoard2_1024x1024.jpg?v=1586533670) |
-| [openGRID](https://github.com/LeafCutterLabs/openGRID)       | pcb, case           |      ✔️      |                           4x4, rgb                           |                                                              |
+| [openGRID](https://github.com/LeafCutterLabs/openGRID)       | pcb, case           |      ✔️      |                           4x4, rgb                           | ![opengrid](https://cdn.tindiemedia.com/images/resize/-RP9Bo_c_ZVC3UKZ3vCChUelBag=/p/fit-in/653x435/filters:fill(fff)/i/79197/products/2018-06-23T13%3A20%3A43.005Z-IMG_20180623_060745.jpg?1606306133) |
 | [Pedal Pi](https://www.electrosmash.com/pedal-pi)            |                     |      ✔️      |                                                              | ![diagram of parts](https://www.electrosmash.com/images/tech/pedal-pi/pedal-pi-intro-small.png) |
 | [Plaid Pad](https://github.com/Keycapsss/Plaid-Pad)          | pcb, case           |      ✔️      |             4x4, 4 rotary, oled, QMK, VIAL, VIA              | ![four rotary](https://camo.githubusercontent.com/a76d4a0b95860bd6d34ed52e759944d665fe9658cbad729ff15cb14b32d9abda/68747470733a2f2f692e696d6775722e636f6d2f4b4850496433472e6a7067) |
 | [Pix](https://github.com/sendz/pix)                          | pcb, case           |      ✔️      | pro micro, 1x4, rotary encoder, oled, desk mounted, monitor mounted | <img src="https://i.imgur.com/ZcuDN6z.jpg" width="200px" />  |
@@ -384,11 +407,12 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 ## Arcade
 
-| Name                                                         | Available Files    | Open Source |                  Tags                   |                            Image                             |
-| ------------------------------------------------------------ | ------------------ | :---------: | :-------------------------------------: | :----------------------------------------------------------: |
-| [BLE Arcade Stick](https://github.com/execuc/ble-arcade-stick) | pcb, firmware, cad |      ✔️      | bluetooth, joystick, arcade button, 2x3 | ![](https://github.com/execuc/ble-arcade-stick/raw/master/images/arcade_stick_final.jpg) |
-| [Jaycar Joystick](https://github.com/Jaycar-Electronics/Arcade-Joystick) | bom, code          |      ✔️      |                                         | ![](https://github.com/Jaycar-Electronics/Arcade-Joystick/raw/master/images/NPI00012b.jpg) |
-|                                                              |                    |             |                                         |                                                              |
+| Name                                                         | Available Files    | Open Source |                             Tags                             |                            Image                             |
+| ------------------------------------------------------------ | ------------------ | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| [BLE Arcade Stick](https://github.com/execuc/ble-arcade-stick) | pcb, firmware, cad |      ✔️      |           bluetooth, joystick, arcade button, 2x3            | ![](https://github.com/execuc/ble-arcade-stick/raw/master/images/arcade_stick_final.jpg) |
+| [Cherry Macro Fighter](https://github.com/mbajobue/cherry_macro_fighter) | pcb, case          |      ✔️      | 3x3, arcade buttons, qmk, 3d print, arduino pro micro, thin profile | ![arcade button box](https://camo.githubusercontent.com/05b6c2b54d21ce2fd9b6c7899b36d957265c10a2c496de50568c7c03e064d0b6/68747470733a2f2f6d616e75656c62616a6f2e636f6d2f66696c65732f696d616765732f6368657272795f6d6163726f5f666967687465722e6a7067) |
+| [Jaycar Joystick](https://github.com/Jaycar-Electronics/Arcade-Joystick) | bom, code          |      ✔️      |                                                              | ![](https://github.com/Jaycar-Electronics/Arcade-Joystick/raw/master/images/NPI00012b.jpg) |
+| [Joystick Controller](https://www.tindie.com/products/leafcutter/arcade-joystick-controller/) |                    |             |                          pro micro                           | ![controller with pro micro](https://cdn.tindiemedia.com/images/resize/XnmLG9QbW-EH2aCygAUE3cTnGYg=/p/fit-in/653x435/filters:fill(fff)/i/79197/products/2017-06-26T03%3A20%3A35.667Z-IMG_7024.jpg?1606306133) |
 
 ## Chorded / Steno
 
@@ -540,6 +564,8 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 - [Keyboard Firmware Builder](https://kbfirmware.com) - Online QMK Firmware Builder (2+ years behind QMK firmware master)
 - [Q2K](https://github.com/2hwk/Q2K) - A python based utility for parsing QMK Firmware keymaps to various outputs
 - [QMK Configurator](https://config.qmk.fm/) - An open source configurator for QMK Firmware
+- [QMK Docs](https://docs.qmk.fm/)
+- [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)
 - [qmk_emote_macro_generator](https://github.com/klardotsh/qmk_emote_macro_generator) - Easily generate QMK macro/leader sequences for arbitrary unicode sequences.
 
 ## TMK
@@ -561,24 +587,107 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 - [kbpcb](http://kbpcb.mrkeebs.com/) - Create KiCad PCB files from [KLE](http://www.keyboard-layout-editor.com) json files [Github page](https://github.com/fcoury/kbpcb)
 - [keyboard-layout-editor](http://www.keyboard-layout-editor.com/) - Is a web application that enables the editing of keyboard-layouts, i.e., the position and appearance of each physical key. [GitHub Site](https://github.com/ijprest/keyboard-layout-editor)
 - [Keyboard Layout 3D Viewer](https://github.com/eswai/KL3V) - 3D render keyboard-layout-editor.com layouts
+- [Keyswitch Datasheets](https://github.com/keyboardio/keyswitch_documentation) - Keyboard datasheets maintained by [Keyboardio](https://shop.keyboard.io/)
 - [KiCad](https://kicad.org/) - A Cross Platform and Open Source Electronics Design Automation Suite
 - [kle_render](https://github.com/CQCumbers/kle_render) - Get prettier images of Keyboard Layout Editor designs
 - [Macro Deck](https://github.com/SuchByte/Macro-Deck) - Turn any phone, tablet, or other device with a browser into a remote macro pad.
 - [Online GitHub ToC Generator](https://ecotrust-canada.github.io/markdown-toc/) - Used by this repo!
 - [Parametric Mechanical Keycap Library](https://github.com/rsheldiii/KeyV2) - Is a keycap and keyset construction library for mechanical keyboards, written in openSCAD.
 - [Plate & Case Builder](http://builder.swillkb.com) - Keyboard top plate CAD files generator, for keyboard-layout-editor generated layouts
+- [pykeeb](https://github.com/raycewest/pykeeb) - Python wrappers for OpenSCAD for parametrically generating 3d-printable MX or ALPS keyboard plates.
 - [QMK Configurator](https://config.qmk.fm/#/test)
 - [QMK Heatmap Generator](https://precondition.github.io/qmk-heatmap)
 - [qmkJsonConverter](https://github.com/jhelvy/qmkJsonConverter) - converts the .json file exported from the [QMK configurator](https://config.qmk.fm/) into the code for the keymap.c file in your QMK settings.
+- [skullY's Plate Builder](https://github.com/skullydazed/kb_builder) - CLI version of swill's original plate builder with enhancements
 - [splitKbCompare](https://jhelvy.shinyapps.io/splitkbcompare/) - an interactive tool for comparing layouts of different split mechanical keyboards [Github page](https://github.com/jhelvy/splitKbCompare).
 - [Svg2Shenzhen](https://github.com/badgeek/svg2shenzhen) - Inkscape extension for exporting drawing into Kicad PCB.
+- [swillkb](https://builder.swillkb.com/) - The original plate and case builder
+
+### EAGLE Part Libraries and Tools
+
+* [clueboard_eagle](https://github.com/skullydazed/clueboard_eagle) - Clueboard's EAGLE part libraries
+* [EAGLE Proton C](https://github.com/qmk/qmk_hardware/tree/master/eagle) - EAGLE footprint for the [Proton C](https://qmk.fm/proton-c)
+* [Kalerator](https://kalerator.clueboard.co/) - Turns [KLE layouts](http://www.keyboard-layout-editor.com/) into EAGLE PCB's
+
+### KiCAD Part Libraries and Tools
+
+* [Choc and MX Switches](https://github.com/daprice/keyswitches.pretty)
+* [Cole Markham's Keyboard Parts](https://github.com/colemarkham/keyboard_parts.pretty)
+* [kbpcb](http://kbpcb.mrkeebs.com/) - Turns [KLE layouts](http://www.keyboard-layout-editor.com/) into KiCAD PCB's
+* [Keebio Keyboard Parts](https://github.com/keebio/Keebio-Parts.pretty)
+* [MX Alps Hybrid](https://github.com/ai03-2725/MX_Alps_Hybrid.pretty)
+* [Proton C](https://github.com/qmk/qmk_hardware/tree/master/kicad/proton_c) footprint
+* [USB-C Footprints](https://github.com/ai03-2725/Type-C.pretty)
+* [WS2812B Footprints](
 
 # Hardware Tools
 
 - [KSGER T12 Soldering Station](https://www.aliexpress.com/item/32945257770.html) - Sub $50 USD fully capable soldering iron.
 - [Hakko FR-301 Desoldering Iron](https://www.amazon.com/Hakko-FR-301-Desoldering-Tool/dp/B07BKSLLG9) - Pricey but if you need to do repetitive desoldering it is very nice to have.
 
-# Suppliers
+# Stores
+
+Places to buy keyboards, parts, and other paraphernalia.
+
+## Custom Keyboard Stores
+
+To be listed here a store must sell a fully programmable keyboard (kit or assembled) and accept and fulfill orders on an ongoing basis.
+
+* [1Up Keyboards](https://www.1upkeyboards.com/)
+* [Atreus](http://atreus.technomancy.us/)
+* [Clueboard](https://clueboard.co/)
+* [Keebio](https://keeb.io/)
+* [KeebWeeb.us](KeebWeeb.us) - Hey! That's me! Specializing in bespoke, one-off builds. *Note: The website is not live yet as I am awaiting paperwork from the government, I expect it to go live within the next month.*
+* [Keyboardio](https://shop.keyboard.io/)
+* [MechanicalKeyboards.com](https://mechanicalkeyboards.com/)
+* [MechKeyAlpha](https://meckeyalpha.com/)
+* [Kono](https://kono.store/)
+* [LFKeyboards](https://www.lfkeyboards.com/)
+* [Massdrop](https://massdrop.com)
+* [OLKB](https://olkb.com)
+* [Profet Keyboards](https://shop.profetkeyboards.com/)
+* [Zeal PC](https://zealpc.net/)
+
+## Keycaps
+
+To be listed here a store must accept and fulfill orders on an ongoing basis.
+
+* [Candy Keys](https://candykeys.com/)
+* [Caps Unlocked](https://caps-unlocked.com/)
+* [Kono](https://kono.store/)
+* [Massdrop](https://massdrop.com/)
+* [Max Keyboard](http://www.maxkeyboard.com/)
+* [MyKeyboard.eu](https://mykeyboard.eu/)
+* [Originative](https://www.originativeco.com/)
+* [Pimp My Keyboard](https://pimpmykeyboard.com)
+* [Tai-Hao](https://shop.tai-hao.com/)
+* [UK Keycaps](http://ukkeycaps.bigcartel.com/)
+* [WASD Keyboards](http://www.wasdkeyboards.com/index.php/products/keycap-set.html)
+
+## Custom Keyboard Parts
+
+To be listed here a store must accept and fulfill orders on an ongoing basis.
+
+* [Clueboard](https://clueboard.co/)
+* [Doyu Studios](https://shopkey.doyustudio.com/)
+* [Green Door Geeks](https://greendoorgeeks.com/) - Laser cut case foam and POM plates.
+* [Keebio](https://keeb.io/)
+* [MechanicalKeyboards.com](https://mechanicalkeyboards.com/)
+* [MechKeyAlpha](https://meckeyalpha.com/)
+* [NovelKeys](https://novelkeys.xyz/)
+* [SpaceCat](https://spacecat.design/)
+* [SwitchMOD](https://www.switchmod.net/)
+* [SwitchTop](https://www.switchtop.com/products)
+* [Zeal PC](https://zealpc.net/)
+
+## Custom Cables
+
+To be listed here a store must accept and fulfill orders on an ongoing basis.
+
+* [Tez Cables](tezcables.com/)
+* [Zap Cables](https://zapcables.com/)
+
+## Bits-and-Bobs Suppliers
 
 * [Green Door Geeks](https://greendoorgeeks.com/) - Custom laser cut foam and POM plates.
 * [McMaster-Carr](https://www.mcmaster.com/) - Nuts and bolts, etc.
@@ -587,7 +696,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 * [JLC PCB](https://jlcpcb.com/) - Custom PCB's, minimum order of 5
 * [YMDK](https://ymdkey.com/) - Assorted keyboard parts.
 
-# Keyboard Vendor Lists
+## Other Lists of Keyboard Vendors
 
 * [Alex's Vendor List](https://www.alexotos.com/keyboard-vendor-list/)
 * [AliExpress Store Recommendations](https://docs.google.com/spreadsheets/d/14C4A-t8rszaENO6elhA9pIrgtSqodaqpdyRbWrGG83I/edit#gid=0)
@@ -602,88 +711,51 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 # Tutorials
 
 - [A modern handwiring guide](https://geekhack.org/index.php?topic=87689.0)
-
 - [ABS vs PBT Comparison](https://youtu.be/IiIvbTeZfUM)
-
 - [ai03 PCB Designer Guide](https://wiki.ai03.me/books/pcb-design) - Learn how to make mech keyboard PCBs.
-
 - [Anatomy of a Mechanical Keyboard](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Anatomy%20of%20a%20Mechanical%20Keyboard.md) - YouTube video is linked in the title.
-
 - [Are GMK Keycaps Really Worth the Price?](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Are%20GMK%20Keycaps%20Really%20Worth%20the%20Price.md)
-
 - [Basic Soldering Lesson 1 - "Solder & Flux"](https://www.youtube.com/watch?v=vIT4ra6Mo0s)
-
 - Blog post about ["search of the best custom keyboard layout"](https://josef-adamcik.cz/electronics/in-search-of-the-best-custom-keyboard-layout.html).
-
 - [Epomaker Custom Lighting Effects](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Epomaker%20Custom%20Lighting%20Effects%20Guide%20-%20a%20detailed%20Epomaker%20fan%20guide.md) - A detailed Epomaker fan guide
-
 - [Fixing Hotswap Sockets](https://youtu.be/S3wuA8uEVhM) - 20 second long troubleshooting video by KBDFans
-
 - [Fixing North Facing Cherry Profile Interference](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Fixing%20North%20Facing%20Cherry%20Profile%20Interference.md)
-
 - [Generating Gerber Files](https://www.youtube.com/watch?v=ENmDnoKs2hM)
-
 - [Guide to Lubricants](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Guide%20to%20Lubricants.md)
-
 - [Hand wiring a let's split](https://johannes-jansson.github.io/projects/2018/07/23/hand-wiring-lets-split.html) (pro micro)
-
 - [How to integrate a trackpoint in a mechanical keyboard (TMK, Teensy)](https://github.com/alonswartz/trackpoint)
-
+- [How to make a keyboard - the matrix](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/How%20to%20make%20a%20keyboard%20-%20the%20matrix.md) - Covers digital I/O and keyboard matrices.
 - [Keeb How To: Custom Silicone Rubber Fill](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Keeb%20How%20To%20Custom%20Silicone%20Rubber%20Fill.md)
-
+- [Keyboard Matrix Help](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Keyboard%20Matrix%20Help.md) - Attempts to explain how a keyboard matrix works, what "ghosting" and "masking" are, and how to prevent them.      
 - [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide/blob/master/README.md)
-
 - [lets-split-guide](https://github.com/nicinabox/lets-split-guide) - This guide covers building a Let's Split v2.
-
 - [Lubing: Bag Lubing Springs](https://www.youtube.com/watch?v=lkMxroMs32Y) - If bag lubing does not work to get rid of spring crunch, consider hand lubing with a thicker grease. *Note: bag lube springs only with oils. Do not use grease as it is wasteful*    
-
 - [Lubing: Good lubing vs Over lubing](https://youtu.be/K6C981gJK8c) [^overlubing]
-
 - [Lubing: How to Lube without Desoldering in 5 Easy Steps](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/How%20to%20Lube%20Stabilizers%20Without%20Desoldering%20in%205%20Easy%20Steps.md)
-
 - [Lubing Switches: Where to Lube](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Lubing%20Switches%20Where%20to%20Lube.md)
-
 - [Mill-Max Hotswap Switch Compatibility (0305 and 7305)](https://docs.google.com/spreadsheets/d/1NhrXy6k88eY9bBqVuPWTAGW2q3GzszJ1JH-zuuGQ-iU/edit#gid=0)
-
 - [Need a USB cable? Build one!](https://josef-adamcik.cz/electronics/need-a-usb-cable-build-on.html) - How to build a custom USB cable with aviation connectors and coils.
-
 - [Northfacing Interference Based on Manufacturer](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Interference%20Based%20on%20Manufacturer.md)
-
 - [PCB Troubleshooting](https://docs.cannonkeys.com/troubleshooting/)
-
 - [Plate Material Comparison](https://www.youtube.com/watch?v=ZoaqGhaU-RE)
-
 - [Plumber's Mod for Stabilizers](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Plumbers%20Mod%20for%20Stabilizer.md)
-
 - [Repairing Broken Traces on a Circuit Board](https://www.youtube.com/watch?v=ref9JHUf-uw)
-
 - [RGB Troubleshooting Tips](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/RGB%20Troubleshooting%20Tips.md)
-
 - [Soldering Tools Guide](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Soldering%20Tools%20Guide.md)
-
 - [Some Hand Wiring Guides and Information](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Some%20Hand%20Wiring%20Guides%20and%20Information.md)
-
 - [Stabilizer Assembly, Installation, and Common Mistakes](https://youtu.be/6Yz-UzTY8_I) - Includes: Stabilizer's insert installed in the wrong orientation. PCB mounted stabilizer's hook not in correctly. PCB clip in screw in stabilizers installation to PCB. Plate mounted stabilizers installation to plate. Band aid or electrical tape on plate to squeeze plate mounted stabilizer's housing tight and wiggle free, and where to put it, cons of each location as I see it. Razer and Anne Pro's plate mounted stabilizers with open bottom insert, and how to press them back in (just press hard). Good luck, and have fun.
-
 - [Stabilizer Guide](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Stabilizer%20Guide.md)
-
 - [Switch Bridge Tutorial](https://www.youtube.com/watch?v=N5IivDkrp6U) \- Please make sure you don't have any bent pins on the switch that isn't working & that the "broken" key isn't one like a layer change key that **wouldn't** show up in a key tester.
-
 - [Tailor's Stabilizer Mod: Long Tran's Original Video](https://youtu.be/2S61CynOwOc) - Using nylon thread to tighten stabilizer tolerances.
-
 - [Tailor's Stabilizer Mod: Condensed Guide](https://youtu.be/OjXrTX9shRY) - The 5 minute version of Long Tran's video.
-
 - [Tempest Mod (aka Tape Mod)](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Tempest%20Mod%20(Tape%20Mod).md)
-
 - [The Keyboard Matrix ](http://blog.komar.be/how-to-make-a-keyboard-the-matrix/) - How a keyboard matrix work, explained in depth.
-
 - [The Keyboard Matrix 2](https://www.dribin.org/dave/keyboard/one_html/) - Another explanation how a keyboard matrix work and why it needs diodes.
-
 - [Will it Fit? How to Find Keycaps That Fit](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Will%20it%20Fit%20How%20to%20Find%20Keycaps%20That%20Fit.md)
-
 - [Windows UWP](https://github.com/MicrosoftDocs/windows-uwp/blob/docs/windows-apps-src/gaming/arcade-stick.md) - How to program Xbox One arcade sticks.
-
 - [Wire Jumping How to, Bridging Lifted Pads, MX Repair](https://www.youtube.com/watch?v=F5ihjaRzvPU)
+
+## Visual Guides
 
 - Diode Icon Explanations and Positioning:
    ![Diode Icon Explanations and Positioning](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/schematic-diode-polarity.png?raw=true)
@@ -759,7 +831,15 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 - [SKUF - Silicone Keyboard Universalised Feet](https://github.com/Zambumon/SKUF) - An attempt to standardize the rubber feet used for custom mechanical keyboard projects.
 - [Unified Daughterboard Project](https://github.com/Gondolindrim/Unified-Daughterboard) - A compact daughterboard for converting USB-C to internal-facing JST-SR connection.
 
-## 3D Print
+## 3D Design Tools
+
+* [Cherry Keycaps](https://github.com/Rozakiin/CherryMX) - 3D models for legened and unlegended Cherry profile caps
+* [KeyV2](https://github.com/rsheldiii/KeyV2) - 3D Parametric Mechanical Keycap Library
+* [MX Switches](https://github.com/ConstantinoSchillebeeckx/cherry-mx-switch) - 3D models for Cherry MX switches
+* [XDA Keycaps](https://github.com/spooknik/XDA-Keycaps) - 3D models for unlegended XDA caps
+* [Kailh Sockets](https://github.com/qmk/qmk_hardware/tree/master/components) - 3D models for Kailh MX and Choc hotswap sockets
+
+## 3D Prints
 
 | Name                                                         |                            Image                             |
 | ------------------------------------------------------------ | :----------------------------------------------------------: |
@@ -795,21 +875,45 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 - [SA Keycap](https://github.com/getclacking/SA-profile-keys-3D-models) - 3D models of SA keycaps.
 - [XDA Keycap](https://github.com/spooknik/XDA-Keycaps) - 3D models of XDA keycaps.
 
-## Keyboard Controller
+## Data Sheets
 
-| Name                                                         | Description                                                  |                          Tags                           |                            Image                             |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | :-----------------------------------------------------: | :----------------------------------------------------------: |
-| [Adafruit Feather 32u4 Bluefruit LE](https://github.com/adafruit/Adafruit-Feather-32u4-Bluefruit-LE-PCB) | BLE controller with full QMK support                         |  atmega32u4, nRF51822, micro usb, bluetooth, eaglecad   | <img src="https://github.com/adafruit/Adafruit-Feather-32u4-Bluefruit-LE-PCB/raw/master/assets/image.jpg?raw=true" width="200px"> |
-| [BLE Micro Pro](https://github.com/sekigon-gonnoc/BLE-Micro-Pro) | Breakout board of BL654(nrf52840 module) which is almost compatible with Pro Micro. This board is designed for wireless split DIY keyboards. |                   nrf52840, bluetooth                   | <img src="https://github.com/sekigon-gonnoc/BLE-Micro-Pro/raw/master/pin%20assign.jpg" width="200px"> |
-| [Goldfish](https://github.com/Dr-Derivative/Goldfish)        | A thin, USB-C, Pro Micro/Elite-C compatible microcontroller  |           pro micro, atmega32u4, usb-c, kicad           |                                                              |
-| [Nrfmicro](https://github.com/joric/nrfmicro)                | Arduino Pro Micro-sized breakout board for E73-2G4M08S1C (nRF52840) modules | pro micro, nrf52840, usb-c, micro usb, kicad, bluetooth | <img src="https://i.imgur.com/0YXNbpJ.jpg" width="200px" />  |
-| [ShiroMicro](https://github.com/elfmimi/MMCProMicro)         | ProMicro clone with Mid-Mount USB Type-C connector           |                 pro micro, usb-c, kicad                 |                                                              |
+* [ATmega16U4 / ATmega32U4](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf)
 
 ## Games
 
 - [Typing Game](https://hsgw.github.io/typing_game/) - for keyboard exhibition. ranking and dictionary data is stored in local pc. you can use offline. [Github](https://github.com/hsgw/typing_game)
 - [Typings](https://typings.gg/) - is a sleek and modern typing test website. it supports many custom themes. [Github](https://github.com/briano1905/typings)
 - [Typefast.io](https://typefast.io) - minimalistic type-test sites with 16 different languages and custom word list. [(Github)](https://github.com/CasperVerswijvelt/TypeFast)
+
+# Community
+
+Forums, realtime chat, social media, and other ways to participate in the keyboard community.
+
+## Chat
+
+* [#mechboards IRC](http://webchat.freenode.net/?channels=%23mechboards) - #mechboards on [Freenode](http://freenode.net/)
+* [Deej Discord](https://discord.gg/jG6DSwEk)
+* [Epomaker Discord](https://discord.gg/Km2HyRb2)
+* [FreeDeck Discord](https://discord.gg/ChTKQmCp)
+* [KeebWeeb.us Discord](https://discord.gg/4ZP4XPtz)
+* [Nullbits Discord](https://discord.gg/RQnPjEcn)
+* [MechKeys Discord](https://discordapp.com/invite/mechkeys)
+* [QMK Discord](https://discord.gg/Uq7gcHh)
+* [ZealPC Discord](https://discord.gg/Y82u2Bcg)
+
+## Forums
+
+* [GeekHack](https://geekhack.net/)
+* [KeebTalk](http://keebtalk.com/)
+
+## Reddit
+
+* [/r/CatsOnKeyboards](https://www.reddit.com/r/CatsOnKeyboards/)
+* [/r/Clueboard](https://www.reddit.com/r/Clueboard/)
+* [/r/MechanicalHeadPens](https://www.reddit.com/r/mechanicalheadpens/)
+* [/r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/)
+* [/r/MechanicalKeyboardsUK](https://www.reddit.com/r/MechanicalKeyboardsUK/)
+* [/r/OLKB](https://www.reddit.com/r/OLKB/) - Official QMK Subreddit
 
 # FAQ
 
