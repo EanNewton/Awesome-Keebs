@@ -1,4 +1,4 @@
-# [A modern handwiring guide - stronger, cleaner, easier](https://geekhack.org/index.php?topic=87689.msg2364043#msg2364043) {#subject_2364043}
+# [A modern handwiring guide - stronger, cleaner, easier](https://geekhack.org/index.php?topic=87689.msg2364043#msg2364043)
 
 ## « **on:** Wed, 15 February 2017, 19:41:31 »
 
