@@ -1050,8 +1050,8 @@ Soldering switches means that you have a stronger bond from your switch to your 
 
 [^FAQ]:Shoutout to @Bassett for doing the original FAQ, edited by EanNewton on Nov 21, 2021.
 
-[^ 3v5]: Credit to KanyeGrande#7566 on Dec 03, 2020 on MechKeys Discord.
+[^3v5]: Credit to KanyeGrande#7566 on Dec 03, 2020 on MechKeys Discord.
 
-[^ overlubing]: Credit to Powwu#0001 on Oct 25, 2020 on MechKeys Discord.
+[^overlubing]: Credit to Powwu#0001 on Oct 25, 2020 on MechKeys Discord.
 
-[^ scurve]: Credit to logo4poop#0788 on Oct 09, 2020 on MechKeys Discord.
+[^scurve]: Credit to logo4poop#0788 on Oct 09, 2020 on MechKeys Discord.
