@@ -656,6 +656,8 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 
 - [KSGER T12 Soldering Station](https://www.aliexpress.com/item/32945257770.html) - Sub $50 USD fully capable soldering iron.
 - [Hakko FR-301 Desoldering Iron](https://www.amazon.com/Hakko-FR-301-Desoldering-Tool/dp/B07BKSLLG9) - Pricey but if you need to do repetitive desoldering it is very nice to have.
+- [Huntron Trackers](https://huntron.com/products/trackers.htm) - Pricey but if you need to repair IC's this is what you want.
+- [XTC-3D Epoxy Coating for 3D Prints](https://www.amazon.com/dp/B00PFXK4JY)
 
 # Stores
 
@@ -663,19 +665,17 @@ Places to buy keyboards, parts, and other paraphernalia.
 
 ## AVOID THESE
 
-Vendors that I have had multiple repeated negative experiences with, personally refuse to go anywhere near, and advise everyone to steer clear of.
+Vendors that I have had multiple negative experiences with and personally steer clear of. Your Mileage May Vary.
 
 * KBD Fans 
 
 ## Custom Keyboard Stores
 
-To be listed here a store must sell a fully programmable keyboard (kit or assembled) and accept and fulfill orders on an ongoing basis.
-
 * [1Up Keyboards](https://www.1upkeyboards.com/)
 * [Atreus](http://atreus.technomancy.us/)
 * [Clueboard](https://clueboard.co/)
 * [Keebio](https://keeb.io/)
-* [KeebWeeb.us](KeebWeeb.us) - Hey! That's me! Specializing in bespoke, one-off builds. *Note: The website is not live yet as I am awaiting paperwork from the government, I expect it to go live within the next month.*
+* [KeebWeeb.us](KeebWeeb.us) - Hey! That's me! Specializing in bespoke, one-off builds. **
 * [Keyboardio](https://shop.keyboard.io/)
 * [MechanicalKeyboards.com](https://mechanicalkeyboards.com/)
 * [MechKeyAlpha](https://meckeyalpha.com/)
@@ -687,8 +687,6 @@ To be listed here a store must sell a fully programmable keyboard (kit or assemb
 * [Zeal PC](https://zealpc.net/)
 
 ## Keycaps
-
-To be listed here a store must accept and fulfill orders on an ongoing basis.
 
 * [Candy Keys](https://candykeys.com/)
 * [Caps Unlocked](https://caps-unlocked.com/)
@@ -705,8 +703,6 @@ To be listed here a store must accept and fulfill orders on an ongoing basis.
 
 ## Custom Keyboard Parts
 
-To be listed here a store must accept and fulfill orders on an ongoing basis.
-
 * [Clueboard](https://clueboard.co/)
 * [Doyu Studios](https://shopkey.doyustudio.com/)
 * [Green Door Geeks](https://greendoorgeeks.com/) - Laser cut case foam and POM plates.
@@ -720,8 +716,6 @@ To be listed here a store must accept and fulfill orders on an ongoing basis.
 * [Zeal PC](https://zealpc.net/)
 
 ## Custom Cables
-
-To be listed here a store must accept and fulfill orders on an ongoing basis.
 
 * [Clark Kable](https://clarkkable.com)
 * [Cool Cable](https://coolcable.co.uk)
@@ -768,10 +762,12 @@ To be listed here a store must accept and fulfill orders on an ongoing basis.
 - [Basic Soldering Lesson 1 - "Solder & Flux"](https://www.youtube.com/watch?v=vIT4ra6Mo0s)
 - Blog post about ["search of the best custom keyboard layout"](https://josef-adamcik.cz/electronics/in-search-of-the-best-custom-keyboard-layout.html).
 - [Comparing Mechanical, Membrane and Scissor-Switch Membrane Keyboards - Ergonomic Considerations](https://www.ergopedia.ca/ergonomic_concepts/Mechanical_Keyswitches_Membrane_Keyswitches_and_Scissor_Switch_Membrane_Keyswitches_Ergonomic_Considerations.html)
+- [Custom Hydrographic Design for 3D Printing](https://www.instructables.com/Custom-hydrographic-design-for-3D-printing/)
 - [DreymaR's Big Bag of Tricks for USB-2-USB & TMK](https://github.com/DreymaR/BigBagKbdTrixTMK)
 - [Epomaker Custom Lighting Effects](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Epomaker%20Custom%20Lighting%20Effects%20Guide%20-%20a%20detailed%20Epomaker%20fan%20guide.md) - A detailed Epomaker fan guide
 - [Fixing Hotswap Sockets](https://youtu.be/S3wuA8uEVhM) - 20 second long troubleshooting video by KBDFans
 - [Fixing North Facing Cherry Profile Interference](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Fixing%20North%20Facing%20Cherry%20Profile%20Interference.md)
+- [Full Color Patterns with Computational Hydrographics](https://formlabs.com/blog/full-color-pattern-3d-prints-computational-hydrographics/)
 - [GeekBoards-RU Guide to Mechanical Switches](https://geekboards-ru.translate.goog/page/mechanical_switches_v2?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=nui)
 - [Generating Gerber Files](https://www.youtube.com/watch?v=ENmDnoKs2hM)
 - [Getting PCB's](https://github.com/nicinabox/lets-split-guide/blob/master/getting-pcbs.md)
@@ -779,6 +775,7 @@ To be listed here a store must accept and fulfill orders on an ongoing basis.
 - [Hand wiring a let's split](https://johannes-jansson.github.io/projects/2018/07/23/hand-wiring-lets-split.html) (pro micro)
 - [How to integrate a trackpoint in a mechanical keyboard (TMK, Teensy)](https://github.com/alonswartz/trackpoint)
 - [How to make a keyboard - the matrix](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/How%20to%20make%20a%20keyboard%20-%20the%20matrix.md) - Covers digital I/O and keyboard matrices.
+- [How to Use Hydro Dipping and Hydrographics on your 3D Prints](https://all3dp.com/1/hydro-dipping-hydrographics-3d-printing/)
 - [Introduction to Kailh Switches](https://www.keyboardco.com/blog/index.php/2017/11/an-introduction-to-kailh-switches-including-speed-box/)
 - [Keeb How To: Custom Silicone Rubber Fill](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Keeb%20How%20To%20Custom%20Silicone%20Rubber%20Fill.md)
 - [Keyboard Matrix Help](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Keyboard%20Matrix%20Help.md) - Attempts to explain how a keyboard matrix works, what "ghosting" and "masking" are, and how to prevent them.      
@@ -799,6 +796,7 @@ To be listed here a store must accept and fulfill orders on an ongoing basis.
 - [Repairing Broken Traces on a Circuit Board](https://www.youtube.com/watch?v=ref9JHUf-uw)
 - [RGB Troubleshooting Tips](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/RGB%20Troubleshooting%20Tips.md)
 - [RoHS Guide](https://www.rohsguide.com/)
+- [Surface Preparation for Epoxy](https://www.westsystem.com/instruction-2/epoxy-basics/surface-preparation/)
 - [Survey of Research on Keyboard Ergonomics](http://xahlee.info/kbd/i2/split_keyboard__david_Rempel_2008_HF.pdf) - June 2008 by David Rempel at the University of California, Berkeley
 - [Sockets](https://www.40percent.club/2018/03/sockets.html)
 - [Socketing a Pro Micro](https://www.40percent.club/p/socketing-pro-micro.html)
