@@ -30,26 +30,26 @@ Here I used a 1.5mm steel plate from Lasergist.
 
 Depending on what material and thickness your plate is you may have to glue your switches in. A 1.5mm plate should have the switches snapping into place and be relatively difficult to pop out once in. As you put in each switch press it a few times to make sure nothing is wrong with it. If you have the time you can also take a multimeter and test that the switch properly actuates, but it's very rare to find a faulty switch.
 
-![](http://i.imgur.com/MPYJnpi.jpg){.highslide}
+![](http://i.imgur.com/MPYJnpi.jpg)
 
-![](http://i.imgur.com/v0OIgSP.jpg){.highslide}
+![](http://i.imgur.com/v0OIgSP.jpg)
 
 ## **Diodes** 
 
 Diodes are required to make sure that multiple keys pressed at once send the correct keycode. The first thing to do is to attach a diode to each switch. 1N4148 diodes are your best bet and are super cheap. To make the strongest solder joint you want to have the wire of the diode forming a loop around the pin of the switch. This loop concept will come up for every joint we make. I start the loop by bending a bunch of diodes at the same time over the edge of a box, so that they all have their loop at the same spot and as close to the diode as possible. For each individual diode, I start by wrapping the wire around the end of needle nosed pliers, then placing it over the pin and tightening the loop, pulling it off the pin to pinch the loop shut with the pliers before finally clipping the excess wire at the loop. The tighter the loop the cleaner your joint will look, while the pinch flattens the loop into a circle and makes it easier to solder. Done properly this is enough to make the electrical connections even without solder, though of course we still solder.
 
-![](http://i.imgur.com/VSGo1Wt.jpg){.highslide}
+![](http://i.imgur.com/VSGo1Wt.jpg)
 
-![](http://i.imgur.com/lMJNtav.jpg){.highslide}
+![](http://i.imgur.com/lMJNtav.jpg)
 
-![](http://i.imgur.com/XfTNR7A.jpg){.highslide}
+![](http://i.imgur.com/XfTNR7A.jpg)
 
 ## **Soldering**
-The reason these loops are super useful is that solder has surface tension. You'll see this in action as soon as you start soldering.  For cleanliness you'll want the loop to be at the base of the pin - you should be able to use the excess wire on the far side of the diode to allow the loop to rest there. Hold the iron to the pin and loop for a couple of seconds, then touch some solder to the tip of the iron. It will quickly flow into the loop. Make sure to put just enough that the entire inside of the loop is covered, then remove the iron and solder wire.
+The reason these loops are super useful is that solder has surface tension. You'll see this in action as soon as you start soldering.  For cleanliness you'll want the loop to be at the base of the pin - you should be able to use the excess wire on the far side of the diode to allow the loop to rest there. Hold the iron to the pin and loop for a couple of seconds, then touch some solder to the tip of the iron. It will quickly flow into the loop. Make sure to put just enough that the entire inside of the loop is covered, then remove the iron and solder wire.
 
-![](http://i.imgur.com/zRBVKdK.jpg){.highslide}
+![](http://i.imgur.com/zRBVKdK.jpg)
 
-![](http://i.imgur.com/gm9Edbf.jpg){.highslide}
+![](http://i.imgur.com/gm9Edbf.jpg)
 
 ## **Vise grip**
 
@@ -61,29 +61,29 @@ Keep in mind that using a vise grip is much easier with solid core wire than str
 
 The little knob on the head of the vise grip can adjust how thick of wire you\'re stripping. If it\'s not stripping easily or is cutting the wire rather than stripping try adjusting this knob.
 
-![](http://i.imgur.com/ldlvWZ9.jpg){.highslide}
+![](http://i.imgur.com/ldlvWZ9.jpg)
 
-![](http://i.imgur.com/ZYuoFcW.jpg){.highslide}
+![](http://i.imgur.com/ZYuoFcW.jpg)
 
-![](http://i.imgur.com/Ed4bhpi.jpg){.highslide}
+![](http://i.imgur.com/Ed4bhpi.jpg)
 
 ## **Rows**
 
 The next thing to add is the rows. Your ideal wire for rows is solid core. It doesn't matter too much, but for safety's sake you may want slightly thicker insulation as mistakes in the columns can affect the rows. The pictures here aren't quite as useful as I'd like since I actually realized some better techniques to this after I had already finished. First, you'll want to vise strip the insulation along a length of wire into the right sized gaps for your layout. What I did was to immediately put the wire along the row with the diode wires underneath it, then bend the diode wires over the row wire to hold the row in place before soldering each joint. This isn't bad, but there's a better way. Lay the row wire over the diode wires but only bend over one diode wire, on the edge (remember to not trim the outside edge of the wire until after soldering), and then feed the diode wire back under the row wire to form a loop. Solder this joint. Push the first piece of insulation against the joint, and create a loop with the next diode wire. Push the remaining insulation pieces to the side and out of the way, then solder this new joint. Push the next insulation piece against the joint and repeat this process all the way down the row. This allows for you to more easily create direct solder joints between the loop and the row wire without damaging the insulation.
 
-![](http://i.imgur.com/l4iaMhV.jpg){.highslide}
+![](http://i.imgur.com/l4iaMhV.jpg)
 
-![](http://i.imgur.com/sQVZqQP.jpg){.highslide}
+![](http://i.imgur.com/sQVZqQP.jpg)
 
 The important thing to focus on while creating the loops of the diode wire around the row wire is keeping the row wire snug against the column of the switch. This can reduce the chance of damage in the future and makes it look cleaner.
 
 ^(Note for the picture below - do the below to tighten the row wire, then also route the diode wire back under the row wire to complete a loop)^
 
-![](http://i.imgur.com/9JYhfHv.jpg){.highslide}
+![](http://i.imgur.com/9JYhfHv.jpg)
 
-![](http://i.imgur.com/YdVhVSF.jpg){.highslide}
+![](http://i.imgur.com/YdVhVSF.jpg)
 
-![](http://i.imgur.com/EblMOo4.jpg){.highslide}
+![](http://i.imgur.com/EblMOo4.jpg)
 
 ## **Columns**
 
@@ -91,21 +91,21 @@ After doing diodes and rows you can probably guess what I\'m going to say for th
 
 Good column wire is solid core but you can have as thin of insulation as you want. I've found that the individual strands of wire inside networking cables like ethernet are excellent for this. I personally used strands from a scrap telecom cable since it was wonderfully colorful.
 
-![](http://i.imgur.com/gFnpuTN.jpg){.highslide}
+![](http://i.imgur.com/gFnpuTN.jpg)
 
-![](http://i.imgur.com/pUtz4yn.jpg){.highslide}
+![](http://i.imgur.com/pUtz4yn.jpg)
 
-![](http://i.imgur.com/nNTTeuL.jpg){.highslide}
+![](http://i.imgur.com/nNTTeuL.jpg)
 
-![](http://i.imgur.com/RvC4Evo.jpg){.highslide}
+![](http://i.imgur.com/RvC4Evo.jpg)
 
-![](http://i.imgur.com/cuN7t5q.jpg){.highslide}
+![](http://i.imgur.com/cuN7t5q.jpg)
 
-![](http://i.imgur.com/xlL0Kmy.jpg){.highslide}
+![](http://i.imgur.com/xlL0Kmy.jpg)
 
-![](http://i.imgur.com/7iX5A29.jpg){.highslide}
+![](http://i.imgur.com/7iX5A29.jpg)
 
-![](http://i.imgur.com/ArShuKP.jpg){.highslide}
+![](http://i.imgur.com/ArShuKP.jpg)
 
 ## **Controller**
 
@@ -115,17 +115,17 @@ Keep in mind these pictures just show how I chose to do the controller placement
 
 **IMPORTANT: Pins D6, GND and VCC on a Teensy are to be avoided.**
 
-![](http://i.imgur.com/Cpi4Qcc.jpg){.highslide}
+![](http://i.imgur.com/Cpi4Qcc.jpg)
 
-![](http://i.imgur.com/tS8C1Hi.jpg){.highslide}
+![](http://i.imgur.com/tS8C1Hi.jpg)
 
-![](http://i.imgur.com/0HCfUXo.jpg){.highslide}
+![](http://i.imgur.com/0HCfUXo.jpg)
 
-![](http://i.imgur.com/KARRntm.jpg){.highslide}
+![](http://i.imgur.com/KARRntm.jpg)
 
 If you use the fancy ribbon cable it's got a full 40 pins, while your build likely only needs at most 25 pins (remember, you need 1 pin per row and 1 per column so total pins is rows + cols). I like to use a bandsaw to chop it into one side of 18 pins and one of 20 (killing one pair of pins) since this perfectly fits a Teensy onto it. If you need more than that you can either cut your ribbon into a piece of more than half (making the smaller piece scrap) or use normal wires to connect the back edge pins to rows/cols close to the controller, as I did in the picture.
 
-![](http://i.imgur.com/C2Q4wIx.jpg){.highslide}
+![](http://i.imgur.com/C2Q4wIx.jpg)
 
 ## **Clean up**
 
@@ -139,12 +139,12 @@ Inspect every solder joint. Make sure that the solder goes all the way around ea
 
 ## **Finishing up**
 
-![](http://i.imgur.com/CiWYmaZ.jpg){.highslide}
+![](http://i.imgur.com/CiWYmaZ.jpg)
 
 Decide on a case - I personally run without a case since the joints are strong enough to allow that. Layered acrylic or sandwich standoffs are common. I like to be able to show off my work of art.
 
 All that's left now is putting on caps and figuring out your firmware! <http://qmk.sized.io/> is obviously helpful. A multimeter is invaluable in determining your pins if you used the ribbon cable. Congrats! You've handwired a keyboard!
 
-![](http://i.imgur.com/rJWrExu.jpg){.highslide}
+![](http://i.imgur.com/rJWrExu.jpg)
 
-![](http://i.imgur.com/kmoubtQ.jpg){.highslide}
+![](http://i.imgur.com/kmoubtQ.jpg)
