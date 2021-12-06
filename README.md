@@ -90,6 +90,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 | ------------------------------------------------------------ | --------------- | :---------: | :----------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | [_33-Keyboard](https://github.com/tominabox1/_33-Keyboard)   | pcb, case       |      ✔️      |                                                              |                       gerber-only, stl                       | <img src="https://camo.githubusercontent.com/d722817b92b9dc25fba6a236ac0a128f76339854/68747470733a2f2f692e696d6775722e636f6d2f305775663861542e706e67" width="200px" /> |
 | [00Key](https://github.com/jefjef/00Key)                     | pcb, case       |      ✔️      |                                                              |     75%, teensy, ssd1306, oled, backlight, through hole      | <img src="https://github.com/jefjef/00Key/blob/master/images/build/DSCF2616.JPG?raw=true" width="200px" /> |
+| [AEK II USB](https://github.com/kb-elmo/aek2_usb)            | pcb             |      ✔️      |                                                              | QMK compatible drop-in replacement PCB for the Apple Extended Keyboard II | ![aek2 pcb](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/aek2.png?raw=true) |
 | [AKKO 3068](https://epomaker.com/collections/mini-64/products/akko-3068-9009-retro) |                 |             |                                                              |                             60%                              |                                                              |
 | [ANHEDRAL](https://github.com/eswai/anhedral)                | pcb, case       |      ✔️      |                                                              |                          pro micro                           | <img src="https://github.com/eswai/anhedral/raw/master/anhedral1-1.jpeg" width="200px" /> |
 | ~~Akihabara~~                                                | pcb, case       |             |                                                              |                        40%, 3d print                         |                 <img src="" width="200px" />                 |
@@ -221,10 +222,11 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 | [36keys](https://github.com/davidphilipbarr/36keys)          | pcb                                                          |      ✔️      |  4x5, vertically staggered, thumb keys, caseless, pro micro  | <img src="https://raw.githubusercontent.com/davidphilipbarr/36keys/master/34Keys/Cradio%20F/34.png" width="200px" /> |
 | [5plit](https://github.com/larrbo/odd-rocket/tree/master/5plit%20-kailh) | pcb, case                                                    |      ✔️      |              4x5, plate, pro micro, kailh choc               | <img src="https://2.bp.blogspot.com/-bmGeoE6LDsY/WuntJ_vPaJI/AAAAAAAABPs/hSzlyzQB9x0DCwZeqpAm8_qTjESYyPDIACLcBGAs/s400/yijoz5ywkzg01.jpg" width="200px" /> |
 | [Apoptosis](https://github.com/pseudoku/Apoptosis)           | pcb                                                          |      ✔️      |            3x6, vertically staggered, thumb keys             | <img src="https://raw.githubusercontent.com/pseudoku/Apoptosis/master/Apoptosis_PCB.jpg" width="200px" /> |
+| [Architeuthis dux](https://github.com/tapioki/cephalopoda/tree/main/Architeuthis%20dux) | pcb                                                          |      ✔️      |                    34 key, staggered, zmk                    | ![](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/architeuthis_dux.png?raw=true) |
 | [BFO-9000](https://keeb.io/products/bfo-9000-keyboard-customizable-full-size-split-ortholinear) |                                                              |             |                                                              |                                                              |
 | [Chimera Ortho](https://github.com/GlenPickle/Chimera)       | pcb                                                          |      ✔️      |                       split, wireless                        | <img src="https://i.imgur.com/WqYzK5J.jpg" width="200px" />  |
 | [Chimera Ergo/Ergo Mini/Ergo 42](https://github.com/GlenPickle/Chimera) | pcb                                                          |      ✔️      |            split, wireless, vertically staggered             | <img src="https://i.imgur.com/AA6ycMQ.jpg" width="200px"> <img src="https://i.imgur.com/LAny3ue.jpg" width="200px" /> <img src="https://i.imgur.com/wfTsIKV.jpg" width="200px" /> |
-| [Colosseum](https://github.com/swanmatch/colosseum60)        |                                                              |      ✔️      |                                                              |                                                              |
+| [Colosseum](https://github.com/swanmatch/colosseum60)        |                                                              |      ✔️      |                                                              | ![](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/colosseum60.jpg?raw=true) |
 | [Comet46](https://github.com/satt99/comet46-hardware)        | pcb, case                                                    |      ✔️      | split, wireless, 40%, column-staggered, atmega32u4, nrf51822 | <img src="https://user-images.githubusercontent.com/39004890/50396817-a1660600-07af-11e9-8611-3156c635db43.jpg" width="200px" /> |
 | [Crkbd](https://github.com/foostan/crkbd)                    | pcb, case                                                    |      ✔️      | split, oled, 3x6, vertically staggered, thumb keys, kailh choc | <img src="https://user-images.githubusercontent.com/736191/40575636-6fba63a4-6123-11e8-9ca0-3f990f1f9f4c.jpg" width="200px" /> |
 | [Crkbd x jian](https://github.com/kluelesskk/crkbd)          | pcb, case                                                    |      ✔️      | split, oled, 3x6, vertically staggered, thumb keys, kailh choc | <img src="https://i.imgur.com/QqnAWvG.jpg" width="200px" />  |
@@ -234,6 +236,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 | [Disconnect72](https://www.reddit.com/r/MechanicalKeyboards/comments/qrm3i1/disconnect72_wireless_hotswappable_split_keyboard/) | firmware, pcb + case coming soon                             |             |         oled, 2x rotary encoder, trackpad, bluetooth         | ![disconnect on dark wood desk](https://i.redd.it/4qau353i4zy71.jpg) |
 | [Djinn](https://github.com/tzarc/djinn)                      | pcb, case                                                    |      ✔️      |            4x7, split, rotary encoder, underglow             | <img src="https://camo.githubusercontent.com/662433910ee7010207ec21f736a1d2841608ebab/68747470733a2f2f692e696d6775722e636f6d2f695a6d454732652e6a7067" width="200px" /> |
 | [DMOTE](https://github.com/veikman/dactyl-keyboard)          | case                                                         |      ✔️      |             concave, thumb keys, split, alps, mx             | <img src="https://camo.githubusercontent.com/85b0066d64467a10e0d0bcbdde26e6726eb95fde/687474703a2f2f76696b746f722e65696b6d616e2e73652f696d6167652f646d6f74652d322d746f702d646f776e2d766965772f646973706c6179" width="200px" /> |
+| [Dosidicus gigas](https://github.com/tapioki/cephalopoda/tree/main/Dosidicus%20gigas) | pcb                                                          |      ✔️      |                           32 keys                            | ![](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/dosidicus_gigas.png?raw=true) |
 | [DouBallz](https://www.reddit.com/r/ErgoMechKeyboards/comments/po837t/douballz_dual_tractyl_build/) |                                                              |      ✔️      |       ortho, concave, rotary encoder, oled, trackball        |                                                              |
 | [DracuLad](https://github.com/MangoIV/dracuLad)              | pcb, case                                                    |      ✔️      |        3x5, 36keys, split, rotary encoder, underglow         | <img src="https://raw.githubusercontent.com/mangoiv/draculad/master/pictures/rev2/fr4_glamour2.jpeg" width="200px" /> |
 | [Dumang DK6](http://www.beyondq.com/)                        |                                                              |             |                           modular                            |                                                              |
@@ -257,6 +260,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 | [Gergo](https://www.gboards.ca/)                             |                                                              |             |                                                              |                                                              |
 | [GergoPlex Heavy](https://www.gboards.ca/product/gergoplex-heavy) |                                                              |             |                                                              | ![](https://assets.bigcartel.com/product_images/253971863/IMG_20200212_1526475-01.jpg?auto=format&fit=max&w=1120) |
 | [Helix](https://www.gboards.ca/)                             | pcb, case, firmware                                          |      ✔️      |                            ortho                             |                                                              |
+| [Idiosepius thailandicus](https://github.com/tapioki/cephalopoda/tree/main/Idiosepius%20thailandicus/choc) | pcb                                                          |      ✔️      |              ARTSEY, ASTENIOP, Blue Micro, Choc              | ![](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/idiosepius_thailandicus_choc.png?raw=true) |
 | [Jiran](https://github.com/Ladniy/jiran-breakoff)            | pcb, case                                                    |      ✔️      |            split, pro micro, thumb keys, hotswap             | <img src="https://camo.githubusercontent.com/7097bb276026ce3e9a1ae02c34cc7b094c1c6d54/68747470733a2f2f692e696d6775722e636f6d2f486e41324f6e632e706e67" width="200px" /> |
 | [Jorne](https://github.com/joric/jorne)                      | pcb, case                                                    |      ✔️      |        split, pro micro, thumb keys, oled, underglow         | <img src="https://camo.githubusercontent.com/b78430a5f5b8c28401e374afc1fa30fb7ef74041/68747470733a2f2f692e696d6775722e636f6d2f36706f775a31482e6a7067" width="200px" /> |
 | [KeySeeBee](https://github.com/TeXitoi/keyseebee)            | pcb                                                          |      ✔️      |               split, STM32F072CBT6, smd, choc                | <img src="https://github.com/TeXitoi/keyseebee/blob/master/images/keyseebee.jpg?raw=true" width="200px" /> |
@@ -283,6 +287,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 | [Pinky2](https://github.com/tamanishi/Pinky2) [Pinky3](https://github.com/tamanishi/Pinky3) [Pinky4](https://github.com/tamanishi/Pinky4) | pcb, case                                                    |      ✔️      | 2x5 / 3x7 / 4x7, vertically staggered, thumb keys, split, through hole | <img src="https://raw.githubusercontent.com/tamanishi/Pinky3/master/product.jpg" width="200px" /> |
 | [Pteron36](https://github.com/harshitgoel96/pteron36-split-keyboard) | pcb, case                                                    |      ✔️      | 3x5, split, oled, rotary encoder, pro micro, through hole, vertically staggered, thumb keys | <img src="https://github.com/harshitgoel96/pteron36-split-keyboard/blob/main/images/built.jpeg?raw=true" width="200px" /> |
 | [Redox](https://github.com/mattdibi/redox-keyboard)          | case                                                         |      ✔️      |            split, thumb keys, opensCad, 3d print             | <img src="https://cdn.thingiverse.com/renders/62/c5/d6/91/6f/f23021b44a5e59a6838fc8b440fb8b56_preview_featured.jpg" width="200px" /> |
+| [Sepia officinalis](https://github.com/tapioki/cephalopoda/tree/main/Sepia%20officinalis) | pcb                                                          |      ✔️      |                           34 keys                            | ![](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/sepia_officinalis.png?raw=true) |
 | [Science](https://github.com/peej/for-science-keyboard)      | pcb                                                          |      ✔️      |                     split, arduino, 5x5                      | <img src="https://camo.githubusercontent.com/fecf6f7bca9ec8b93e4031caa1ca3442cfb5a5f1/68747470733a2f2f692e696d6775722e636f6d2f666a6e546b42312e6a7067" width="200px" /> |
 | [ScyllaBallz](https://old.reddit.com/r/ErgoMechKeyboards/comments/qkd9xe/scyllaballz_a_tractyl_manuform_with_oleds_roller/) |                                                              |      ✔️      |    concave, split, ortho, rotary encoder, oled, trackball    |                                                              |
 | [Sector](https://github.com/omkbd/Sector)                    | pcb, case                                                    |      ✔️      |               split, arduino, pro micro, oled                | <img src="https://raw.githubusercontent.com/omkbd/Sector/master/Picture/SectorC.jpg" width="200px" /> |
@@ -290,6 +295,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 | [Sol](https://www.rgbkb.net/collections/sol-2)               |                                                              |             |                             rgb                              |                                                              |
 | [Space_ginny](https://github.com/MangoIV/space_ginny)        | pcb, case                                                    |      ✔️      |           asetniop, ssd1306, oledsplit, pro micro            | <img src="https://github.com/MangoIV/space_ginny/blob/main/pictures/space_ginny_04.jpg?raw=true" width="200px" /> |
 | [Split Infinitive](https://github.com/peej/for-split-keyboard/blob/master/README.md) | pcb                                                          |      ✔️      |                    split, 5x6, pro micro                     | <img src="https://github.com/peej/for-split-keyboard/raw/master/pcb.png" width="200px" /> |
+| [Todarodes pacificus](https://github.com/tapioki/cephalopoda/tree/main/Todarodes%20pacificus) | pcb                                                          |      ✔️      |                     30 keys, Hummingbird                     | ![](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/sepia_officinalis.png?raw=true) |
 | [Torn](https://github.com/rtitmuss/torn)                     | pcb, case                                                    |      ✔️      | split, rotary-encoder, oled, 3x6, vertically staggered, thumb keys, atmega328p, through hole | <img src="https://raw.githubusercontent.com/rtitmuss/torn/master/doc/img/torn.jpg" width="200px" /> |
 | [Ultimate Hacking Keyboard](https://github.com/UltimateHackingKeyboard/electronics) | pcb                                                          |      ✔️      |                   split, display, 31FL3731                   | <img src="https://ultimatehackingkeyboard.com/wordpress/wp-content/uploads/2018/07/uhk-split-palm-rest-1920.jpg" width="200px" /> |
 | [Uncokeeb](https://www.reddit.com/r/ErgoMechKeyboards/comments/r433xn/introducing_the_uncokeeb_a_new_perfinger_chorded/) |                                                              |      ✔️      |                       split, clustered                       | ![uncokeeb reddit prototype](https://github.com/EanNewton/Awesome-Keebs/blob/main/images/uncokeeb.jpg?raw=true) |
@@ -482,7 +488,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 | [Adafruit Feather 32u4 Bluefruit LE](https://github.com/adafruit/Adafruit-Feather-32u4-Bluefruit-LE-PCB) |             | BLE controller with full QMK support                         |  atmega32u4, nRF51822, micro usb, bluetooth, eaglecad   | <img src="https://github.com/adafruit/Adafruit-Feather-32u4-Bluefruit-LE-PCB/raw/master/assets/image.jpg?raw=true" width="200px"> |
 | [ATmega32A](https://www.microchip.com/en-us/product/ATMEGA32A) |             | low-power, high-performance Microchip 8-bit AVR RISC-based   |                                                         | ![ATmega32A](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/pdip/40-lead-s2x/ATmega32A-S2X-Regular.jpg) |
 | [ATmega32U4](https://www.microchip.com/en-us/product/ATmega32U4) |             | low-power Microchip 8-bit AVR RISC-based                     |                                                         | ![](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/vqfn/44-lead-swb/ATmega32U4-SWB-Regular.jpg) |
-| [Bit-C](https://nullbits.co/bit-c/)                          |             |                                                              |                  pro micro, USB-C, QMK                  | ![bit-c white](https://nullbits.co/static/img/bitc2-horizontal.jpg) |
+| [Bit-C](https://nullbits.co/bit-c/)                          |             | ATmega32U4, Pro micro drop in                                |                  pro micro, USB-C, QMK                  | ![bit-c white](https://nullbits.co/static/img/bitc2-horizontal.jpg) |
 | [BLE Micro Pro](https://github.com/sekigon-gonnoc/BLE-Micro-Pro) |             | Breakout board of BL654(nrf52840 module) which is almost compatible with Pro Micro. This board is designed for wireless split DIY keyboards. |                   nrf52840, bluetooth                   | <img src="https://github.com/sekigon-gonnoc/BLE-Micro-Pro/raw/master/pin%20assign.jpg" width="200px"> |
 | [BluePill Plus](https://github.com/WeActTC/BluePill-Plus)    |      ✔️      | https://deskthority.net/wiki/Blue_Pill                       |                          USB-C                          |                                                              |
 | [Bonsai-C](https://github.com/customMK/Bonsai-C)             |      ✔️      |                                                              |            pro micro, proton c, STM32F303CC,            | ![bonsai c from JLCPCB](https://user-images.githubusercontent.com/8145762/135368388-da9367da-9e1b-4b06-abdc-4d8d9658e27e.jpg) |
@@ -708,6 +714,7 @@ Vendors that I have had multiple negative experiences with and personally steer 
 * [UK Keycaps](http://ukkeycaps.bigcartel.com/)
 * [WASD Keyboards](http://www.wasdkeyboards.com/index.php/products/keycap-set.html)
 * [X-Keys](https://xkeys.com/xkeys/accessories/keys/keycaps.html)
+* [zFrontier](https://en.zfrontier.com)
 
 ## Keyboard Parts
 
@@ -721,6 +728,7 @@ Vendors that I have had multiple negative experiences with and personally steer 
 * [SpaceCat](https://spacecat.design/)
 * [SwitchMOD](https://www.switchmod.net/)
 * [SwitchTop](https://www.switchtop.com/products)
+* [Tai-Hao](https://shop.tai-hao.com)
 * [YMDK](https://ymdkey.com/) - Assorted keyboard parts.
 * [Zeal PC](https://zealpc.net/)
 
@@ -776,6 +784,7 @@ Vendors that I have had multiple negative experiences with and personally steer 
 - [Comparing Mechanical, Membrane and Scissor-Switch Membrane Keyboards - Ergonomic Considerations](https://www.ergopedia.ca/ergonomic_concepts/Mechanical_Keyswitches_Membrane_Keyswitches_and_Scissor_Switch_Membrane_Keyswitches_Ergonomic_Considerations.html)
 - [Custom Hydrographic Design for 3D Printing](https://www.instructables.com/Custom-hydrographic-design-for-3D-printing/)
 - [DreymaR's Big Bag of Tricks for USB-2-USB & TMK](https://github.com/DreymaR/BigBagKbdTrixTMK)
+- [Electroplating Copper and Silver Onto 3D Prints](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Electroplating%20Copper%20And%20Silver%20Onto%203D%20Prints.md)
 - [Epomaker Custom Lighting Effects](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Epomaker%20Custom%20Lighting%20Effects%20Guide%20-%20a%20detailed%20Epomaker%20fan%20guide.md) - A detailed Epomaker fan guide
 - [Fixing Hotswap Sockets](https://youtu.be/S3wuA8uEVhM) - 20 second long troubleshooting video by KBDFans
 - [Fixing North Facing Cherry Profile Interference](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Fixing%20North%20Facing%20Cherry%20Profile%20Interference.md)
@@ -787,12 +796,14 @@ Vendors that I have had multiple negative experiences with and personally steer 
 - [Hand wiring a let's split](https://johannes-jansson.github.io/projects/2018/07/23/hand-wiring-lets-split.html) (pro micro)
 - [How to integrate a trackpoint in a mechanical keyboard (TMK, Teensy)](https://github.com/alonswartz/trackpoint)
 - [How to make a keyboard - the matrix](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/How%20to%20make%20a%20keyboard%20-%20the%20matrix.md) - Covers digital I/O and keyboard matrices.
+- [How to Resin Keycaps](https://mihi-mini.studio/tutorials/how-to-make-resin-artisan-keycaps-getting-started/)
 - [How to Use Hydro Dipping and Hydrographics on your 3D Prints](https://all3dp.com/1/hydro-dipping-hydrographics-3d-printing/)
 - [Introduction to Kailh Switches](https://www.keyboardco.com/blog/index.php/2017/11/an-introduction-to-kailh-switches-including-speed-box/)
 - [Keeb How To: Custom Silicone Rubber Fill](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Keeb%20How%20To%20Custom%20Silicone%20Rubber%20Fill.md)
 - [Keyboard Matrix Help](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Keyboard%20Matrix%20Help.md) - Attempts to explain how a keyboard matrix works, what "ghosting" and "masking" are, and how to prevent them.      
 - [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide/blob/master/README.md)
 - [Keyboard Terminology](https://deskthority.net/wiki/Keyboard_terminology)
+- [Korean 900iq Stabilizer Mod](https://docs.google.com/document/d/1rt247MZ5Iudf2ZX4iNxzy2KubGbxfjVeINageeH7p5A/edit?usp=sharing)
 - [lets-split-guide](https://github.com/nicinabox/lets-split-guide) - This guide covers building a Let's Split v2.
 - [Lubing: Bag Lubing Springs](https://www.youtube.com/watch?v=lkMxroMs32Y) - If bag lubing does not work to get rid of spring crunch, consider hand lubing with a thicker grease. *Note: bag lube springs only with oils. Do not use grease as it is wasteful*    
 - [Lubing: Good lubing vs Over lubing](https://youtu.be/K6C981gJK8c) [^overlubing]
@@ -816,6 +827,7 @@ Vendors that I have had multiple negative experiences with and personally steer 
 - [Soldering Diodes](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/soldering-diodes.md)
 - [Soldering Kailh Hot Swap Sockets](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/soldering-kailh-hot-swap-sockets.md)
 - [Soldering Tools Guide](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Soldering%20Tools%20Guide.md)
+- [Soldering a USB Type-C port to a PCB using a $6 soldering iron](https://youtu.be/e6TMxctCcxU)
 - [Some Hand Wiring Guides and Information](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Some%20Hand%20Wiring%20Guides%20and%20Information.md)
 - [Stabilizer Assembly, Installation, and Common Mistakes](https://youtu.be/6Yz-UzTY8_I) - Includes: Stabilizer's insert installed in the wrong orientation. PCB mounted stabilizer's hook not in correctly. PCB clip in screw in stabilizers installation to PCB. Plate mounted stabilizers installation to plate. Band aid or electrical tape on plate to squeeze plate mounted stabilizer's housing tight and wiggle free, and where to put it, cons of each location as I see it. Razer and Anne Pro's plate mounted stabilizers with open bottom insert, and how to press them back in (just press hard). Good luck, and have fun.
 - [Stabilizer Guide](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Stabilizer%20Guide.md)
@@ -923,6 +935,7 @@ Vendors that I have had multiple negative experiences with and personally steer 
 | ------------------------------------------------------------ | :----------------------------------------------------------: |
 | [Alps Switch Opener](https://www.thingiverse.com/thing:3275433) | <img src='https://cdn.thingiverse.com/renders/44/82/2b/d6/84/d7be60104081aa3786fd974dca4bee0a_preview_featured.jpg' width='200px' /> |
 | [ALPS Switch Top Remover](https://www.thingiverse.com/thing:2916061) | <img src='https://cdn.thingiverse.com/assets/f5/66/a6/7c/9e/featured_preview_Capture.PNG' width='200px' /> |
+| [Architeuthis Dux Tent Case](https://github.com/jdart/adux-tent) | <img src="https://github.com/EanNewton/Awesome-Keebs/blob/main/images/architeuthis_dux_tent_case.png?raw=true" style="zoom: 25%;" /> |
 | [Big Switch Case](https://www.thingiverse.com/thing:3834939) | <img src='https://cdn.thingiverse.com/assets/36/fa/77/4e/83/featured_preview_BigSwitch_Case_Back.jpg' width='200px' /> |
 | [Big Switch SA R1 Keycap](https://www.thingiverse.com/thing:3830612) | <img src='https://cdn.thingiverse.com/assets/6b/85/83/d1/4d/featured_preview_image0.jpg' width='200px' /> |
 | [Cherry MX alignment guide](https://www.thingiverse.com/thing:4139923) | <img src='https://cdn.thingiverse.com/assets/04/2a/fa/67/a7/featured_preview_gPxsRp3_-_Imgur.png' width='200px' /> |
@@ -1007,6 +1020,10 @@ Forums, realtime chat, social media, and other ways to participate in the keyboa
 * [GeekHack](https://geekhack.net/)
 * [KeebTalk](http://keebtalk.com/)
 
+## Newsletters
+
+* [KBD.news aka Keyboard Builder's Digest](https://kbd.news/) - KBD.news is a blog and weekly newsletter from Tamas Dovenyi about custom keyboard projects, tips, tools, vintage keyboard spottings and  community news.
+
 ## Reddit
 
 * [/r/CatsOnKeyboards](https://www.reddit.com/r/CatsOnKeyboards/)
@@ -1016,7 +1033,7 @@ Forums, realtime chat, social media, and other ways to participate in the keyboa
 * [/r/MechanicalKeyboardsUK](https://www.reddit.com/r/MechanicalKeyboardsUK/)
 * [/r/OLKB](https://www.reddit.com/r/OLKB/) - Official QMK Subreddit
 
-### Wiki
+## Wiki
 
 - [Deskthority Wiki](https://deskthority.net/wiki)
 - [GeekHack Wiki](https://wiki.geekhack.org)
