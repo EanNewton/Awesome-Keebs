@@ -782,6 +782,7 @@ Vendors that I have had multiple negative experiences with and personally steer 
 - [Basic Soldering Lesson 1 - "Solder & Flux"](https://www.youtube.com/watch?v=vIT4ra6Mo0s)
 - Blog post about ["search of the best custom keyboard layout"](https://josef-adamcik.cz/electronics/in-search-of-the-best-custom-keyboard-layout.html).
 - [Comparing Mechanical, Membrane and Scissor-Switch Membrane Keyboards - Ergonomic Considerations](https://www.ergopedia.ca/ergonomic_concepts/Mechanical_Keyswitches_Membrane_Keyswitches_and_Scissor_Switch_Membrane_Keyswitches_Ergonomic_Considerations.html)
+- [Converting Microsoft Sculpt from Wireless to Wired](https://chadaustin.me/2021/02/wired-sculpt/)
 - [Custom Hydrographic Design for 3D Printing](https://www.instructables.com/Custom-hydrographic-design-for-3D-printing/)
 - [DreymaR's Big Bag of Tricks for USB-2-USB & TMK](https://github.com/DreymaR/BigBagKbdTrixTMK)
 - [Electroplating Copper and Silver Onto 3D Prints](https://github.com/EanNewton/Awesome-Keebs/blob/main/tutorials/Electroplating%20Copper%20And%20Silver%20Onto%203D%20Prints.md)
