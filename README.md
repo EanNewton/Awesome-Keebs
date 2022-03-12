@@ -682,6 +682,7 @@ Places to buy keyboards, parts, and other paraphernalia.
 Vendors that I have had multiple negative experiences with and personally steer clear of. Your Mileage May Vary.
 
 * KBD Fans 
+* Drop
 
 ## Custom Keyboard Stores
 
