@@ -1114,3 +1114,4 @@ Soldering switches means that you have a stronger bond from your switch to your 
 [^scurve]: Credit to logo4poop#0788 on Oct 09, 2020 on MechKeys Discord.
 
 [^ community ]: I have only listed English speaking communities here as I cannot personally verify the content of other languages. Deskthority offers a list of some non-English communities here: https://deskthority.net/wiki/Keyboard_communities
+- [KeyboardTester.click](https://keyboardtester.click) - Free open-source browser keyboard tester: chatter detection, NKRO, polling rate Hz, switch sound analyzer.
