@@ -700,6 +700,8 @@ Vendors that I have had multiple negative experiences with and personally steer 
 * [OLKB](https://olkb.com)
 * [Profet Keyboards](https://shop.profetkeyboards.com/)
 * [Zeal PC](https://zealpc.net/)
+* [AllwinKey](https://allwinkey.com) — Custom keyboard OEM/ODM, PBT doubleshot & dye-sub keycaps. Low MOQ.
+* [Allwin Factory](https://allwinfactory.com) — Keyboard & keycap factory, 600+ products, ceramic keycaps.
 
 ## Keycaps
 
