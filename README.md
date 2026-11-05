@@ -705,6 +705,7 @@ Vendors that I have had multiple negative experiences with and personally steer 
 
 * [Candy Keys](https://candykeys.com/)
 * [Caps Unlocked](https://caps-unlocked.com/)
+* [KeycapsHub](https://keycapshub.com/collections/all)
 * [Kono](https://kono.store/)
 * [Massdrop](https://massdrop.com/)
 * [Max Keyboard](http://www.maxkeyboard.com/)
