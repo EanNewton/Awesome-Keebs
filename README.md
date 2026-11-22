@@ -636,6 +636,7 @@ Thank you! May you be rich as Crassus and happy as Buddha! :)
 - [KiCad](https://kicad.org/) - A Cross Platform and Open Source Electronics Design Automation Suite
 - [kle_render](https://github.com/CQCumbers/kle_render) - Get prettier images of Keyboard Layout Editor designs
 - [Macro Deck](https://github.com/SuchByte/Macro-Deck) - Turn any phone, tablet, or other device with a browser into a remote macro pad.
+- [Maestro](https://maestro-eight-sigma.vercel.app) - Switch database with normalized specs and price/stock comparison across shops (537 switches, JA/EN/ZH/KO).
 - [Online GitHub ToC Generator](https://ecotrust-canada.github.io/markdown-toc/) - Used by this repo!
 - [Parametric Mechanical Keycap Library](https://github.com/rsheldiii/KeyV2) - Is a keycap and keyset construction library for mechanical keyboards, written in openSCAD.
 - [Plate & Case Builder](http://builder.swillkb.com) - Keyboard top plate CAD files generator, for keyboard-layout-editor generated layouts
